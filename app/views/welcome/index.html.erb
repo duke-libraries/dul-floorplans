@@ -1,0 +1,50 @@
+<div class="row">
+	<h2>Naming Opportunities</h2>
+	<p>
+	The Perkins Project began with the construction of Bostock Library and the von der Heyden Pavilion, 
+	followed by the renovation of Perkins Library. Now we begin the final phase with the renovation of the 
+	David M. Rubenstein Rare Book &amp; Manuscript Library, where the University's unique and distinctive 
+	collections reside.</p>
+	<p>
+		We invite you to join us. Make a gift to the Perkins Project, name one of the Libraries' signature spaces, 
+		and participate in the transformation of Duke and its Libraries. For more information, contact Tom Hadzor, Director of Development.	
+	</p>
+</div>
+<div class="row">
+	<div class="small bg-info" style="padding: 1em; margin-bottom: 1em;">
+		To view the floorplan for a library building, choose a floor link from the list to the right of each 
+		building (as you move your mouse over each link, you can see the corresponding floor area in the images).
+	</div>
+</div>
+<div class="row">
+	<% @buildings.each do |building| %>
+	<div class="panel panel-primary">
+		<div class="panel-heading libraryprofile"><h4><%= building.label %></h4></div>
+		<div class="panel-body">
+			<div class="row">
+				<% if building.floorplans.size > 0 %>
+				<div class="pull-right col-sm-4">
+					<ul class="list-unstyled">
+					<% building.floorplans.each do |floorplan| %>
+						<li>
+							<strong><%= floorplan.label %></strong>
+							<% if !floorplan.sublabel.nil? && !floorplan.sublabel.empty? %>
+							<br /><small><%= floorplan.sublabel %></small>
+							<% end %>
+						</li>
+					<% end %>
+					</ul>
+				</div>
+				<% end %>
+				<div class="libraryprofilegraphic col-sm-8">
+					<img src="http://placehold.it/<%= building.image_width %>x<%= building.image_height %>" 
+							 class="img-thumbnail img-responsive" 
+							 width="<%= building.image_width %>" 
+							 height="<%= building.image_height %>" 
+							 alt="Profile of the <%= building.label %>"/>
+				</div>
+			</div>
+		</div>
+	</div>
+	<% end %>
+</div>

@@ -1,0 +1,138 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+rubenstein_floor1_floorplan:
+  id: 1
+  name: rubenstein_floor1_floorplan
+  label: Floor 1
+  sublabel: 
+  building_id: 4
+  floorplan_map_id: 21
+
+bostock_floor1_floorplan:
+  id: 2
+  name: bostock_floor1_floorplan
+  label: Floor 1 - The/Edge
+  sublabel: The Ruppert Commons for Research + Technology + Collaboration
+  building_id: 2
+  floorplan_map_id: 241
+
+perkins_floor1_floorplan:
+  id: 3
+  name: perkins_floor1_floorplan
+  label: Floor 1
+  sublabel: 
+  building_id: 1
+  floorplan_map_id: 181
+
+lilly_floor1_floorplan:
+  id: 31
+  name: lilly_floor1_floorplan
+  label: Floor 1
+  sublabel: 
+  building_id: 3
+  floorplan_map_id: 301
+
+rubenstein_floor2_floorplan:
+  id: 4
+  name: rubenstein_floor2_floorplan
+  label: Floor 2
+  sublabel: 
+  building_id: 4
+  floorplan_map_id: 81
+
+bostock_floor2_floorplan:
+  id: 5
+  name: bostock_floor2_floorplan
+  label: Floor 2
+  sublabel: 
+  building_id: 2
+  floorplan_map_id: 251
+
+perkins_floor2_floorplan:
+  id: 6
+  name: perkins_floor2_floorplan
+  label: Floor 2
+  sublabel: 
+  building_id: 1
+  floorplan_map_id: 191
+
+lilly_floor2_floorplan:
+  id: 41
+  name: lilly_floor2_floorplan
+  label: Floor 2
+  sublabel: 
+  building_id: 3
+  floorplan_map_id: 311
+
+rubenstein_floor3_floorplan:
+  id: 7
+  name: rubenstein_floor3_floorplan
+  label: Floor 3
+  sublabel: 
+  building_id: 4
+  floorplan_map_id: 141
+
+bostock_floor3_floorplan:
+  id: 8
+  name: bostock_floor3_floorplan
+  label: Floor 3
+  sublabel: 
+  building_id: 2
+  floorplan_map_id: 261
+
+perkins_floor3_floorplan:
+  id: 9
+  name: perkins_floor3_floorplan
+  label: Floor 3
+  sublabel: 
+  building_id: 1
+  floorplan_map_id: 201
+
+bostock_floor4_floorplan:
+  id: 10
+  name: bostock_floor4_floorplan
+  label: Floor 4
+  sublabel: 
+  building_id: 2
+  floorplan_map_id: 271
+
+perkins_floor4_floorplan:
+  id: 11
+  name: perkins_floor4_floorplan
+  label: Floor 4
+  sublabel: 
+  building_id: 1
+  floorplan_map_id: 211
+
+bostock_lowerlevel1_floorplan:
+  id: 12
+  name: bostock_lowerlevel1_floorplan
+  label: Lower Level 1
+  sublabel: 
+  building_id: 2
+  floorplan_map_id: 281
+
+lilly_lowerlevel1_floorplan:
+  id: 21
+  name: lilly_lowerlevel1_floorplan
+  label: Lower Level 1
+  sublabel: 
+  building_id: 3
+  floorplan_map_id: 291
+
+perkins_lowerlevel1_floorplan:
+  id: 13
+  name: perkins_lowerlevel1_floorplan
+  label: Lower Level 1 -- The Link
+  sublabel: 
+  building_id: 1
+  floorplan_map_id: 221
+
+perkins_lowerlevel2_floorplan:
+  id: 14
+  name: perkins_lowerlevel2_floorplan
+  label: Lower Stacks (LL2)
+  sublabel: 
+  building_id: 1
+  floorplan_map_id: 231
+

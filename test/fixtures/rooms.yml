@@ -1,0 +1,4802 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+rubenstein_fl01_biddle_foyer:
+  id: 1000
+  name: rubenstein_fl01_biddle_foyer
+  room_number: 
+  label: Biddle Foyer
+  floorplan_id: 1
+  naming_opportunity: 0
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl01_biddle_rare_book_room:
+  id: 1001
+  name: rubenstein_fl01_biddle_rare_book_room
+  room_number: 
+  label: Mary Duke Biddle Rare Book Room
+  floorplan_id: 1
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_brandaleone_center:
+  id: 14451
+  name: bostock_fl01_brandaleone_center
+  room_number: 
+  label: Brandaleone Lab for Data and Visualization Services
+  floorplan_id: 2
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl01_chappell_gallery:
+  id: 1002
+  name: rubenstein_fl01_chappell_gallery
+  room_number: 
+  label: Jerry and Bruce Chappell Family Gallery
+  floorplan_id: 1
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl01_ferriero_study_room:
+  id: 3001
+  name: perkins_fl01_ferriero_study_room
+  room_number: 
+  label: David S. Ferriero Study Room
+  floorplan_id: 3
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl01_study_room:
+  id: 3002
+  name: perkins_fl01_study_room
+  room_number: 
+  label: Group Study Room
+  floorplan_id: 3
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_fischer_zernin_checkin_station:
+  id: 14291
+  name: bostock_fl01_fischer_zernin_checkin_station
+  room_number: 
+  label: Fischer-Zernin Family Help Desk
+  floorplan_id: 2
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_staff_space_02:
+  id: 14629
+  name: bostock_fl01_staff_space_02
+  room_number: 
+  label: Staff + Consultation
+  floorplan_id: 2
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 150000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl01_fish_stairwell:
+  id: 14601
+  name: perkins_fl01_fish_stairwell
+  room_number: 
+  label: Gretchen and Edward Fish Family Grand Stairway
+  floorplan_id: 3
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl01_holsti_anderson_room:
+  id: 1003
+  name: rubenstein_fl01_holsti_anderson_room
+  room_number: 
+  label: Holsti-Anderson Family Assembly Room
+  floorplan_id: 1
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl01_levene_reference_reading_area:
+  id: 14461
+  name: perkins_fl01_levene_reference_reading_area
+  room_number: 
+  label: Levene Reference Reading Area
+  floorplan_id: 3
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl01_morris_reading_area:
+  id: 3003
+  name: perkins_fl01_morris_reading_area
+  room_number: 
+  label: Martha Hamilton and I. Wistar Morris III Reading Area
+  floorplan_id: 3
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl01_silver_reference_desk:
+  id: 3004
+  name: perkins_fl01_silver_reference_desk
+  room_number: 
+  label: Melba Silver Reference Desk
+  floorplan_id: 3
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_lobby_west:
+  id: 2003
+  name: bostock_fl01_lobby_west
+  room_number: 
+  label: Michael J. Swotes T'85 and Lisa Burge Swotes T'85 Lobby
+  floorplan_id: 2
+  naming_opportunity: 0
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl01_lobby_west:
+  id: 14611
+  name: perkins_fl01_lobby_west
+  room_number: 
+  label: Michael J. Swotes T'85 and Lisa Burge Swotes T'85 Lobby
+  floorplan_id: 3
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl01_odell_conference_room:
+  id: 3005
+  name: perkins_fl01_odell_conference_room
+  room_number: 
+  label: Monique C. and Robert Odell Conference room
+  floorplan_id: 3
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl01_b_korman_study_room:
+  id: 3006
+  name: perkins_fl01_b_korman_study_room
+  room_number: 
+  label: Pamela and Bradley Korman Study Room
+  floorplan_id: 3
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl01_harper_study_room:
+  id: 1004
+  name: rubenstein_fl01_harper_study_room
+  room_number: 
+  label: Robert T. Harper Consultation Room
+  floorplan_id: 1
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl01_brandaleone_reference_reading_area:
+  id: 3000
+  name: perkins_fl01_brandaleone_reference_reading_area
+  room_number: 
+  label: Sara and Bruce Brandaleone Reference Reading Area
+  floorplan_id: 3
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_diamond_lobby:
+  id: 2005
+  name: bostock_fl01_diamond_lobby
+  room_number: 
+  label: Saul and Catherine Perlmutter Lobby
+  floorplan_id: 2
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl01_smith_ferracone_reception_area:
+  id: 1005
+  name: rubenstein_fl01_smith_ferracone_reception_area
+  room_number: 
+  label: Smith Ferracone Reception Area
+  floorplan_id: 1
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl01_sperling_lobby:
+  id: 1006
+  name: rubenstein_fl01_sperling_lobby
+  room_number: 
+  label: Sperling Family Lobby
+  floorplan_id: 1
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl01_smith_ferracone_circulation_area:
+  id: 3007
+  name: perkins_fl01_smith_ferracone_circulation_area
+  room_number: 
+  label: Stewart R. Smith and Robin A. Ferracone Circulation Area
+  floorplan_id: 3
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_storage_01:
+  id: 14111
+  name: bostock_fl01_storage_01
+  room_number: 
+  label: Storage Room
+  floorplan_id: 2
+  naming_opportunity: 0
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_storage_02:
+  id: 14071
+  name: bostock_fl01_storage_02
+  room_number: 
+  label: Storage Room
+  floorplan_id: 2
+  naming_opportunity: 0
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl01_orr_study_room:
+  id: 3008
+  name: perkins_fl01_orr_study_room
+  room_number: 
+  label: Teresa Dow, Anne-Marie Bryan, and Linda Orr Study Room
+  floorplan_id: 3
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl01_trent_room_01:
+  id: 1007
+  name: rubenstein_fl01_trent_room_01
+  room_number: 
+  label: Josiah Charles Trent History of Medicine Room
+  floorplan_id: 1
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl01_waters_courtyard:
+  id: 3009
+  name: perkins_fl01_waters_courtyard
+  room_number: 
+  label: Victoria Bostock and Daniel E. Waters Courtyard
+  floorplan_id: 3
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl01_barber_writing_center:
+  id: 3010
+  name: perkins_fl01_barber_writing_center
+  room_number: 
+  label: Virginia Price and Edwin Ford Barber Writing Center
+  floorplan_id: 3
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl01_von_der_heyden_pavilion:
+  id: 3011
+  name: perkins_fl01_von_der_heyden_pavilion
+  room_number: 
+  label: Von der Heyden Pavilion
+  floorplan_id: 3
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_osserman_team_room:
+  id: 14211
+  name: bostock_fl01_osserman_team_room
+  room_number: 
+  label: Eric Osserman Meet-Up
+  floorplan_id: 2
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 25000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_hoy_team_room:
+  id: 14191
+  name: bostock_fl01_hoy_team_room
+  room_number: 
+  label: Franklin and Margaret Hoy Meet-Up
+  floorplan_id: 2
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 25000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_hively_team_room:
+  id: 14221
+  name: bostock_fl01_hively_team_room
+  room_number: 
+  label: Steven and Marsha Hively Meet-Up
+  floorplan_id: 2
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 25000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl01_lg_study_room:
+  id: 1012
+  name: rubenstein_fl01_lg_study_room
+  room_number: 
+  label: Faith Perlmutter Diamond Consultation Room
+  floorplan_id: 1
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl01_rare_book_library_classroom:
+  id: 1008
+  name: rubenstein_fl01_rare_book_library_classroom
+  room_number: 
+  label: Doug and Elise Beckstett Rare Book Library Classroom
+  floorplan_id: 1
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 100000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl01_seminar_room:
+  id: 1009
+  name: rubenstein_fl01_seminar_room
+  room_number: 
+  label: Harry H. Harkins Seminar Room
+  floorplan_id: 1
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 100000
+  pending_sale: 0
+  carrel: 0
+
+lilly_fl01_carpenter_reading_room:
+  id: 14411
+  name: lilly_fl01_carpenter_reading_room
+  room_number: 
+  label: Carpenter Reading Room
+  floorplan_id: 31
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 500000
+  pending_sale: 0
+  carrel: 0
+
+lilly_fl01_few_reading_room:
+  id: 14421
+  name: lilly_fl01_few_reading_room
+  room_number: 
+  label: Few Reading Room
+  floorplan_id: 31
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 500000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_jones_open_lab:
+  id: 14181
+  name: bostock_fl01_jones_open_lab
+  room_number: 
+  label: Richard and Patricia Jones Open Lab
+  floorplan_id: 2
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 500000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl01_amoeba_workstation:
+  id: 3012
+  name: perkins_fl01_amoeba_workstation
+  room_number: 
+  label: Jan Tore Hall Amoeba Workstation
+  floorplan_id: 3
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 10000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_small_project_room_05:
+  id: 14631
+  name: bostock_fl01_small_project_room_05
+  room_number: 
+  label: Small Project Room
+  floorplan_id: 2
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl01_study_room:
+  id: 1011
+  name: rubenstein_fl01_study_room
+  room_number: 
+  label: Wakil Family Consultation Room
+  floorplan_id: 1
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 25000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl01_head_of_circulation_office:
+  id: 3013
+  name: perkins_fl01_head_of_circulation_office
+  room_number: 
+  label: Access and Delivery Services Head Office
+  floorplan_id: 3
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl01_consultation_room:
+  id: 3014
+  name: perkins_fl01_consultation_room
+  room_number: 
+  label: Consultation Room
+  floorplan_id: 3
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_staff_space:
+  id: 14011
+  name: bostock_fl01_staff_space
+  room_number: 
+  label: Staff + Consultation
+  floorplan_id: 2
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 150000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_small_project_room_04:
+  id: 14231
+  name: bostock_fl01_small_project_room_04
+  room_number: 
+  label: Small Project Room
+  floorplan_id: 2
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_small_project_room_01:
+  id: 14041
+  name: bostock_fl01_small_project_room_01
+  room_number: 
+  label: Small Project Room
+  floorplan_id: 2
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_small_project_room_02:
+  id: 14051
+  name: bostock_fl01_small_project_room_02
+  room_number: 
+  label: Small Project Room
+  floorplan_id: 2
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_small_project_room_03:
+  id: 14061
+  name: bostock_fl01_small_project_room_03
+  room_number: 
+  label: Small Project Room
+  floorplan_id: 2
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_large_project_room_03:
+  id: 14141
+  name: bostock_fl01_large_project_room_03
+  room_number: 
+  label: Large Project Room
+  floorplan_id: 2
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 100000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_digital_sandbox:
+  id: 14627
+  name: bostock_fl01_digital_sandbox
+  room_number: 
+  label: Harsha Murthy Digital Studio  
+  floorplan_id: 2
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 250000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_large_project_room_01:
+  id: 14161
+  name: bostock_fl01_large_project_room_01
+  room_number: 
+  label: Dan and Vickie Waters Large Project Room
+  floorplan_id: 2
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 100000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_large_project_room_02:
+  id: 14171
+  name: bostock_fl01_large_project_room_02
+  room_number: 
+  label: Mitch Petrick Large Project Room
+  floorplan_id: 2
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 100000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl01_papyrology_and_paleography:
+  id: 1013
+  name: rubenstein_fl01_papyrology_and_paleography
+  room_number: 
+  label: Papyrology & Paleography
+  floorplan_id: 1
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 150000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl01_reference_reading_area:
+  id: 3015
+  name: perkins_fl01_reference_reading_area
+  room_number: 
+  label: Reference Reading Area
+  floorplan_id: 3
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 150000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl03_alex_duff_group_study_room:
+  id: 14635
+  name: perkins_fl03_alex_duff_group_study_room
+  room_number: 
+  label: Alex Duff Group Study Room
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 25000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl01_reference_room:
+  id: 1010
+  name: rubenstein_fl01_reference_room
+  room_number: 
+  label: Reference Room
+  floorplan_id: 1
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 200000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_project_open_workroom:
+  id: 14261
+  name: bostock_fl01_project_open_workroom
+  room_number: 
+  label: Workshop
+  floorplan_id: 2
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 350000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_small_project_room_06:
+  id: 14633
+  name: bostock_fl01_small_project_room_06
+  room_number: 
+  label: Robert and Fida Ghanem Small Project Room  
+  floorplan_id: 2
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl01_access_delivery_services_office_area:
+  id: 3016
+  name: perkins_fl01_access_delivery_services_office_area
+  room_number: 
+  label: Access and Delivery Services Office Area
+  floorplan_id: 3
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 500000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_faculty_grad_social_space:
+  id: 14271
+  name: bostock_fl01_faculty_grad_social_space
+  room_number: 
+  label: Lounge
+  floorplan_id: 2
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 500000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_tower_reading_room_classroom:
+  id: 2010
+  name: bostock_fl01_tower_reading_room_classroom
+  room_number: 
+  label: Tower Reading Room Classroom
+  floorplan_id: 2
+  naming_opportunity: 0
+  nameable: 1
+  dollar_amount: 500000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl01_tower_reading_room_classroom:
+  id: 14621
+  name: perkins_fl01_tower_reading_room_classroom
+  room_number: 
+  label: Tower Reading Room Classroom
+  floorplan_id: 3
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 500000
+  pending_sale: 0
+  carrel: 0
+
+lilly_fl01_cafe_space:
+  id: 14441
+  name: lilly_fl01_cafe_space
+  room_number: 
+  label: Cafe
+  floorplan_id: 31
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 1000000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl01_west_quad_stair_tower:
+  id: 1014
+  name: rubenstein_fl01_west_quad_stair_tower
+  room_number: 
+  label: West Quad Stair Tower
+  floorplan_id: 1
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 750000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl01_exhibition_gallery:
+  id: 1015
+  name: rubenstein_fl01_exhibition_gallery
+  room_number: 
+  label: Photography Gallery
+  floorplan_id: 1
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 1000000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_gateway_terrace:
+  id: 2011
+  name: bostock_fl01_gateway_terrace
+  room_number: 
+  label: Gateway Terrace
+  floorplan_id: 2
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 1000000
+  pending_sale: 0
+  carrel: 0
+
+lilly_fl01_learning_commons:
+  id: 14431
+  name: lilly_fl01_learning_commons
+  room_number: 
+  label: Learning Commons
+  floorplan_id: 31
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 1000000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl01_treasure_room:
+  id: 1016
+  name: rubenstein_fl01_treasure_room
+  room_number: 
+  label: Michael and Karen Stone Family Gallery
+  floorplan_id: 1
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 1000000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl01_research_room:
+  id: 1017
+  name: rubenstein_fl01_research_room
+  room_number: 
+  label: Reading Room
+  floorplan_id: 1
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 2000000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl02_beckstett_connector:
+  id: 5000
+  name: bostock_fl02_beckstett_connector
+  room_number: 
+  label: Beckstett Family Bridge
+  floorplan_id: 5
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl02_study_carrel_01:
+  id: 6006
+  name: perkins_fl02_study_carrel_01
+  room_number: 
+  label: Bill and Kristi Geary Study Carrel (224)
+  floorplan_id: 6
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl02_brandaleone_gis_data_suite:
+  id: 6000
+  name: perkins_fl02_brandaleone_gis_data_suite
+  room_number: 
+  label: Graduate Research and Writing Room
+  floorplan_id: 6
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 200000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl02_fish_stairwell:
+  id: 14501
+  name: perkins_fl02_fish_stairwell
+  room_number: 
+  label: Gretchen and Edward Fish Family Grand Stairway
+  floorplan_id: 6
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl02_fish_stairwell:
+  id: 5001
+  name: bostock_fl02_fish_stairwell
+  room_number: 
+  label: Gretchen and Edward Fish Family Grand Stairway
+  floorplan_id: 5
+  naming_opportunity: 0
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl02_nicholas_reading_room:
+  id: 5002
+  name: bostock_fl02_nicholas_reading_room
+  room_number: 
+  label: Nicholas Family International Reading Room
+  floorplan_id: 5
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl02_riess_reading_room:
+  id: 6001
+  name: perkins_fl02_riess_reading_room
+  room_number: 
+  label: Richard and Nancy Riess Reading Room
+  floorplan_id: 6
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl02_harper_conference_room:
+  id: 5003
+  name: bostock_fl02_harper_conference_room
+  room_number: 
+  label: Robert and Susan Harper Group Study Room
+  floorplan_id: 5
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl02_shaughnessy_study_area:
+  id: 6002
+  name: perkins_fl02_shaughnessy_study_area
+  room_number: 
+  label: Shaughnessy Family Reading Area
+  floorplan_id: 6
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl02_tarasoff_tower_reading_room:
+  id: 5004
+  name: bostock_fl02_tarasoff_tower_reading_room
+  room_number: 
+  label: Tarasoff Family Reading Room
+  floorplan_id: 5
+  naming_opportunity: 0
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl02_tarasoff_reading_room:
+  id: 14521
+  name: perkins_fl02_tarasoff_reading_room
+  room_number: 
+  label: Tarasoff Family Reading Room
+  floorplan_id: 6
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+lilly_fl02_thomas_room:
+  id: 14481
+  name: lilly_fl02_thomas_room
+  room_number: 
+  label: Thomas Room
+  floorplan_id: 41
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl02_seminar_room:
+  id: 5010
+  name: bostock_fl02_seminar_room
+  room_number: 
+  label: Beckstett-Bideaux Seminar Room
+  floorplan_id: 5
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl02_study_room:
+  id: 5009
+  name: bostock_fl02_study_room
+  room_number: 
+  label: Giguere Reading Area
+  floorplan_id: 5
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl02_univ_librarian_office:
+  id: 4000
+  name: rubenstein_fl02_univ_librarian_office
+  room_number: 
+  label: Geoff Freeman University Librarian Office
+  floorplan_id: 4
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 250000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl02_gothic_lounge:
+  id: 4001
+  name: rubenstein_fl02_gothic_lounge
+  room_number: 
+  label: Gothic Lounge
+  floorplan_id: 4
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 500000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl02_carpenter_board_room:
+  id: 4002
+  name: rubenstein_fl02_carpenter_board_room
+  room_number: 
+  label: E. Rhodes and Leona B. Carpenter Conference Room
+  floorplan_id: 4
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 1000000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl02_future_study_carrels:
+  id: 5005
+  name: bostock_fl02_future_study_carrels
+  room_number: 
+  label: Future Study Carrels
+  floorplan_id: 5
+  naming_opportunity: 0
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl02_study_carrel_04:
+  id: 6003
+  name: perkins_fl02_study_carrel_04
+  room_number: 
+  label: Study Carrel (221)
+  floorplan_id: 6
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl02_study_carrel_03:
+  id: 6004
+  name: perkins_fl02_study_carrel_03
+  room_number: 
+  label: Study Carrel (222)
+  floorplan_id: 6
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl02_study_carrel_02:
+  id: 6005
+  name: perkins_fl02_study_carrel_02
+  room_number: 
+  label: Traci Weaver Study Carrel (223)
+  floorplan_id: 6
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl02_consultation_room:
+  id: 6007
+  name: perkins_fl02_consultation_room
+  room_number: 
+  label: Consultation Room
+  floorplan_id: 6
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+lilly_fl02_group_study_02:
+  id: 14381
+  name: lilly_fl02_group_study_02
+  room_number: 
+  label: Bob Laughlin Group Study 
+  floorplan_id: 41
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+lilly_fl02_group_study_03:
+  id: 14391
+  name: lilly_fl02_group_study_03
+  room_number: 
+  label: Ann Curry Group Study 
+  floorplan_id: 41
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+lilly_fl02_group_study_04:
+  id: 14401
+  name: lilly_fl02_group_study_04
+  room_number: 
+  label: Group Study
+  floorplan_id: 41
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+lilly_fl02_group_study_01:
+  id: 14371
+  name: lilly_fl02_group_study_01
+  room_number: 
+  label: Group Study
+  floorplan_id: 41
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl02_study_room:
+  id: 6008
+  name: perkins_fl02_study_room
+  room_number: 
+  label: Group Study Room
+  floorplan_id: 6
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl02_ias_office:
+  id: 5006
+  name: bostock_fl02_ias_office
+  room_number: 
+  label: IAS Office
+  floorplan_id: 5
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl02_lobby_east:
+  id: 5007
+  name: bostock_fl02_lobby_east
+  room_number: 
+  label: Lobby (East End)
+  floorplan_id: 5
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl02_lobby_west:
+  id: 5008
+  name: bostock_fl02_lobby_west
+  room_number: 
+  label: Lobby (West End)
+  floorplan_id: 5
+  naming_opportunity: 0
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl02_lobby_west_end:
+  id: 14511
+  name: perkins_fl02_lobby_west_end
+  room_number: 
+  label: Lobby (West End)
+  floorplan_id: 6
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl02_research_services_sm_conference_room:
+  id: 6009
+  name: perkins_fl02_research_services_sm_conference_room
+  room_number: 
+  label: Research Services Conference Room
+  floorplan_id: 6
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl02_research_services_office:
+  id: 6010
+  name: perkins_fl02_research_services_office
+  room_number: 
+  label: Research Services Office
+  floorplan_id: 6
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl02_research_services_lg_conference_room:
+  id: 6011
+  name: perkins_fl02_research_services_lg_conference_room
+  room_number: 
+  label: Research Services Conference Room
+  floorplan_id: 6
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 75000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl02_catering_kitchen:
+  id: 4003
+  name: rubenstein_fl02_catering_kitchen
+  room_number: 
+  label: Catering Kitchen
+  floorplan_id: 4
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 100000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl02_staff_lounge:
+  id: 6012
+  name: perkins_fl02_staff_lounge
+  room_number: 
+  label: Staff Lounge
+  floorplan_id: 6
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 100000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl02_reception:
+  id: 4004
+  name: rubenstein_fl02_reception
+  room_number: 
+  label: Reception 
+  floorplan_id: 4
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 200000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl02_assembly_room:
+  id: 6013
+  name: perkins_fl02_assembly_room
+  room_number: 
+  label: Assembly Room
+  floorplan_id: 6
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 250000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl02_ias_work_area:
+  id: 5011
+  name: bostock_fl02_ias_work_area
+  room_number: 
+  label: IAS Work Area
+  floorplan_id: 5
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 250000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl02_east_asia_reading_room:
+  id: 5012
+  name: bostock_fl02_east_asia_reading_room
+  room_number: 
+  label: East Asia Tower Reading Room
+  floorplan_id: 5
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 500000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl02_library_admin:
+  id: 4005
+  name: rubenstein_fl02_library_admin
+  room_number: 
+  label: Library Administration
+  floorplan_id: 4
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 500000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl02_research_services_suite:
+  id: 6014
+  name: perkins_fl02_research_services_suite
+  room_number: 
+  label: Research Services and Collection Development Suite
+  floorplan_id: 6
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 500000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl02_gothic_reading_room:
+  id: 4006
+  name: rubenstein_fl02_gothic_reading_room
+  room_number: 
+  label: Gothic Reading Room
+  floorplan_id: 4
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl03_boylston_study_room:
+  id: 9000
+  name: perkins_fl03_boylston_study_room
+  room_number: 
+  label: Benjamin Boylston Study Room
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl03_carpenter_reading_room:
+  id: 8000
+  name: bostock_fl03_carpenter_reading_room
+  room_number: 
+  label: E. Rhodes and Leona B. Carpenter Reading Room
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl03_locke_connector:
+  id: 8001
+  name: bostock_fl03_locke_connector
+  room_number: 
+  label: Elizabeth H. Locke Reading Room
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl03_study_carrel_24:
+  id: 8002
+  name: bostock_fl03_study_carrel_24
+  room_number: 
+  label: Graeme M. Dierks Study Carrel (326D)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_fish_stairwell:
+  id: 8003
+  name: bostock_fl03_fish_stairwell
+  room_number: 
+  label: Gretchen and Edward Fish Family Grand Stairway
+  floorplan_id: 8
+  naming_opportunity: 0
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl03_fish_stairwell:
+  id: 14531
+  name: perkins_fl03_fish_stairwell
+  room_number: 
+  label: Gretchen and Edward Fish Family Grand Stairway 
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl03_study_carrel_27:
+  id: 8004
+  name: bostock_fl03_study_carrel_27
+  room_number: 
+  label: Henning L. Dierks Study Carrel (326A)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_carrel_26:
+  id: 8005
+  name: bostock_fl03_study_carrel_26
+  room_number: 
+  label: Kaya Holly Dierks Study Carrel (326B)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_carrel_25:
+  id: 8006
+  name: bostock_fl03_study_carrel_25
+  room_number: 
+  label: Kian H. Dierks Study Carrel (326C)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_neast_25:
+  id: 9001
+  name: perkins_fl03_study_carrel_neast_25
+  room_number: 
+  label: Lowell and Eileen Aptman Study Carrel (318D)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_dierks_study_room:
+  id: 8007
+  name: bostock_fl03_dierks_study_room
+  room_number: 
+  label: Marie E. Dierks and Family Group Study Room
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl03_study_carrel_neast_19:
+  id: 9002
+  name: perkins_fl03_study_carrel_neast_19
+  room_number: 
+  label: Mary Dunn and James N. Siedow Study Carrel (318J)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_carrel_21:
+  id: 8008
+  name: bostock_fl03_study_carrel_21
+  room_number: 
+  label: Miriam Cater and Willis Borders Glover Study Carrel (326G)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_horowitz_study_room:
+  id: 8009
+  name: bostock_fl03_horowitz_study_room
+  room_number: 
+  label: Siegfried B. Horowitz Reading Room
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl03_simpson_study_room:
+  id: 8010
+  name: bostock_fl03_simpson_study_room
+  room_number: 
+  label: Susan Eckhardt and James Simpson Group Study Room
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl03_study_carrel_neast_23:
+  id: 9010
+  name: perkins_fl03_study_carrel_neast_23
+  room_number: 
+  label: Ann Elsner Study Carrel (318F)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_carrel_23:
+  id: 8011
+  name: bostock_fl03_study_carrel_23
+  room_number: 
+  label: Kevin Smith Study Carrel (326E)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_carrel_17:
+  id: 8012
+  name: bostock_fl03_study_carrel_17
+  room_number: 
+  label: Michael Hutchings Study Carrel (326K)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_05:
+  id: 9047
+  name: perkins_fl03_study_carrel_west_05
+  room_number: 
+  label: Nancy Pleasants (321FF)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_01:
+  id: 9003
+  name: perkins_fl03_study_carrel_west_01
+  room_number: 
+  label: Randy Garcia (321JJ)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_carrel_20:
+  id: 8013
+  name: bostock_fl03_study_carrel_20
+  room_number: 
+  label: Susan Fraysse Study Carrel (326H)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_03:
+  id: 9051
+  name: perkins_fl03_study_carrel_west_03
+  room_number: 
+  label: Timothy and Karen Slevin (321HH)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_room:
+  id: 8014
+  name: bostock_fl03_study_room
+  room_number: 
+  label: The Swotes Family Reading Area
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl03_seminar_room:
+  id: 7000
+  name: rubenstein_fl03_seminar_room
+  room_number: 
+  label: Claude and Ann Gravatt Seminar Room
+  floorplan_id: 7
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 100000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl03_study_carrel_neast_28:
+  id: 9004
+  name: perkins_fl03_study_carrel_neast_28
+  room_number: 
+  label: Study Carrel (318A)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_neast_02:
+  id: 9005
+  name: perkins_fl03_study_carrel_neast_02
+  room_number: 
+  label: Study Carrel (318AA)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_neast_27:
+  id: 9006
+  name: perkins_fl03_study_carrel_neast_27
+  room_number: 
+  label: Study Carrel (318B)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_neast_01:
+  id: 9007
+  name: perkins_fl03_study_carrel_neast_01
+  room_number: 
+  label: Study Carrel (318BB)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_neast_26:
+  id: 9008
+  name: perkins_fl03_study_carrel_neast_26
+  room_number: 
+  label: Study Carrel (318C)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_neast_24:
+  id: 9009
+  name: perkins_fl03_study_carrel_neast_24
+  room_number: 
+  label: Study Carrel (318E)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_neast_22:
+  id: 9011
+  name: perkins_fl03_study_carrel_neast_22
+  room_number: 
+  label: Pela and Gary Gereffi Study Carrel (318G)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_neast_21:
+  id: 9012
+  name: perkins_fl03_study_carrel_neast_21
+  room_number: 
+  label: Study Carrel (318H)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_neast_20:
+  id: 9013
+  name: perkins_fl03_study_carrel_neast_20
+  room_number: 
+  label: Study Carrel (318I)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_neast_18:
+  id: 9014
+  name: perkins_fl03_study_carrel_neast_18
+  room_number: 
+  label: Study Carrel (318K)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_neast_17:
+  id: 9015
+  name: perkins_fl03_study_carrel_neast_17
+  room_number: 
+  label: Study Carrel (318L)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_neast_16:
+  id: 9016
+  name: perkins_fl03_study_carrel_neast_16
+  room_number: 
+  label: Study Carrel (318M)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_neast_15:
+  id: 9017
+  name: perkins_fl03_study_carrel_neast_15
+  room_number: 
+  label: Study Carrel (318N)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_neast_14:
+  id: 9018
+  name: perkins_fl03_study_carrel_neast_14
+  room_number: 
+  label: Study Carrel (318O)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_neast_13:
+  id: 9019
+  name: perkins_fl03_study_carrel_neast_13
+  room_number: 
+  label: Study Carrel (318P)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_neast_12:
+  id: 9020
+  name: perkins_fl03_study_carrel_neast_12
+  room_number: 
+  label: Study Carrel (318Q)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_neast_11:
+  id: 9021
+  name: perkins_fl03_study_carrel_neast_11
+  room_number: 
+  label: David Murphree Study Carrel (318R)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_neast_10:
+  id: 9022
+  name: perkins_fl03_study_carrel_neast_10
+  room_number: 
+  label: Elizabeth Berry Study Carrel (318S)  
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_neast_09:
+  id: 9023
+  name: perkins_fl03_study_carrel_neast_09
+  room_number: 
+  label: Study Carrel (318T)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_neast_08:
+  id: 9024
+  name: perkins_fl03_study_carrel_neast_08
+  room_number: 
+  label: Study Carrel (318U)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_neast_07:
+  id: 9025
+  name: perkins_fl03_study_carrel_neast_07
+  room_number: 
+  label: Study Carrel (318V)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_neast_06:
+  id: 9026
+  name: perkins_fl03_study_carrel_neast_06
+  room_number: 
+  label: Study Carrel (318W)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_neast_05:
+  id: 9027
+  name: perkins_fl03_study_carrel_neast_05
+  room_number: 
+  label: Study Carrel (318X)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_neast_04:
+  id: 9028
+  name: perkins_fl03_study_carrel_neast_04
+  room_number: 
+  label: Study Carrel (318Y)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_neast_03:
+  id: 9029
+  name: perkins_fl03_study_carrel_neast_03
+  room_number: 
+  label: Study Carrel (318Z)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_ctr_01:
+  id: 9030
+  name: perkins_fl03_study_carrel_ctr_01
+  room_number: 
+  label: Study Carrel (320A)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_ctr_02:
+  id: 9031
+  name: perkins_fl03_study_carrel_ctr_02
+  room_number: 
+  label: Study Carrel (320B)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_ctr_03:
+  id: 9032
+  name: perkins_fl03_study_carrel_ctr_03
+  room_number: 
+  label: Study Carrel (320C)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_ctr_04:
+  id: 9033
+  name: perkins_fl03_study_carrel_ctr_04
+  room_number: 
+  label: Study Carrel (320D)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_ctr_05:
+  id: 9034
+  name: perkins_fl03_study_carrel_ctr_05
+  room_number: 
+  label: Study Carrel (320E)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_ctr_06:
+  id: 9035
+  name: perkins_fl03_study_carrel_ctr_06
+  room_number: 
+  label: Study Carrel (320F)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_36:
+  id: 9036
+  name: perkins_fl03_study_carrel_west_36
+  room_number: 
+  label: Study Carrel (321A)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_10:
+  id: 9037
+  name: perkins_fl03_study_carrel_west_10
+  room_number: 
+  label: Study Carrel (321AA)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_35:
+  id: 9038
+  name: perkins_fl03_study_carrel_west_35
+  room_number: 
+  label: Study Carrel (321B)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_09:
+  id: 9039
+  name: perkins_fl03_study_carrel_west_09
+  room_number: 
+  label: Study Carrel (321BB)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_34:
+  id: 9040
+  name: perkins_fl03_study_carrel_west_34
+  room_number: 
+  label: Study Carrel (321C)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_08:
+  id: 9041
+  name: perkins_fl03_study_carrel_west_08
+  room_number: 
+  label: Study Carrel (321CC)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_33:
+  id: 9042
+  name: perkins_fl03_study_carrel_west_33
+  room_number: 
+  label: Study Carrel (321D)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_07:
+  id: 9043
+  name: perkins_fl03_study_carrel_west_07
+  room_number: 
+  label: Study Carrel (321DD)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_32:
+  id: 9044
+  name: perkins_fl03_study_carrel_west_32
+  room_number: 
+  label: Study Carrel (321E)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_06:
+  id: 9045
+  name: perkins_fl03_study_carrel_west_06
+  room_number: 
+  label: Study Carrel (321EE)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_31:
+  id: 9046
+  name: perkins_fl03_study_carrel_west_31
+  room_number: 
+  label: Study Carrel (321F)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_30:
+  id: 9048
+  name: perkins_fl03_study_carrel_west_30
+  room_number: 
+  label: Study Carrel (321G)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_04:
+  id: 9049
+  name: perkins_fl03_study_carrel_west_04
+  room_number: 
+  label: Study Carrel (321GG)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_29:
+  id: 9050
+  name: perkins_fl03_study_carrel_west_29
+  room_number: 
+  label: Study Carrel (321H)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_28:
+  id: 9052
+  name: perkins_fl03_study_carrel_west_28
+  room_number: 
+  label: Study Carrel (321I)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_02:
+  id: 9053
+  name: perkins_fl03_study_carrel_west_02
+  room_number: 
+  label: Study Carrel (321II)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_27:
+  id: 9054
+  name: perkins_fl03_study_carrel_west_27
+  room_number: 
+  label: Study Carrel (321J)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_26:
+  id: 9055
+  name: perkins_fl03_study_carrel_west_26
+  room_number: 
+  label: Study Carrel (321K)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_25:
+  id: 9056
+  name: perkins_fl03_study_carrel_west_25
+  room_number: 
+  label: Study Carrel (321L)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_24:
+  id: 9057
+  name: perkins_fl03_study_carrel_west_24
+  room_number: 
+  label: Study Carrel (321M)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_23:
+  id: 9058
+  name: perkins_fl03_study_carrel_west_23
+  room_number: 
+  label: Study Carrel (321N)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_22:
+  id: 9059
+  name: perkins_fl03_study_carrel_west_22
+  room_number: 
+  label: Study Carrel (321O)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_21:
+  id: 9060
+  name: perkins_fl03_study_carrel_west_21
+  room_number: 
+  label: Study Carrel (321P)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_20:
+  id: 9061
+  name: perkins_fl03_study_carrel_west_20
+  room_number: 
+  label: Study Carrel (321Q)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_19:
+  id: 9062
+  name: perkins_fl03_study_carrel_west_19
+  room_number: 
+  label: Study Carrel (321R)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_18:
+  id: 9063
+  name: perkins_fl03_study_carrel_west_18
+  room_number: 
+  label: Study Carrel (321S)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_17:
+  id: 9064
+  name: perkins_fl03_study_carrel_west_17
+  room_number: 
+  label: Study Carrel (321T)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_16:
+  id: 9065
+  name: perkins_fl03_study_carrel_west_16
+  room_number: 
+  label: Study Carrel (321U)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_15:
+  id: 9066
+  name: perkins_fl03_study_carrel_west_15
+  room_number: 
+  label: Study Carrel (321V)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_14:
+  id: 9067
+  name: perkins_fl03_study_carrel_west_14
+  room_number: 
+  label: Study Carrel (321W)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_13:
+  id: 9068
+  name: perkins_fl03_study_carrel_west_13
+  room_number: 
+  label: Study Carrel (321X)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_12:
+  id: 9069
+  name: perkins_fl03_study_carrel_west_12
+  room_number: 
+  label: Study Carrel (321Y)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_study_carrel_west_11:
+  id: 9070
+  name: perkins_fl03_study_carrel_west_11
+  room_number: 
+  label: Study Carrel (321Z)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_carrel_14:
+  id: 8015
+  name: bostock_fl03_study_carrel_14
+  room_number: 
+  label: Study Carrel (326AA)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_carrel_22:
+  id: 8016
+  name: bostock_fl03_study_carrel_22
+  room_number: 
+  label: Study Carrel (326F)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_carrel_19:
+  id: 8017
+  name: bostock_fl03_study_carrel_19
+  room_number: 
+  label: Study Carrel (326I)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_carrel_18:
+  id: 8018
+  name: bostock_fl03_study_carrel_18
+  room_number: 
+  label: Study Carrel (326J)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_carrel_16:
+  id: 8019
+  name: bostock_fl03_study_carrel_16
+  room_number: 
+  label: Study Carrel (326L)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_carrel_15:
+  id: 8020
+  name: bostock_fl03_study_carrel_15
+  room_number: 
+  label: Study Carrel (326M)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_carrel_13:
+  id: 8021
+  name: bostock_fl03_study_carrel_13
+  room_number: 
+  label: Study Carrel (326N)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_carrel_12:
+  id: 8022
+  name: bostock_fl03_study_carrel_12
+  room_number: 
+  label: Study Carrel (326O)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_carrel_11:
+  id: 8023
+  name: bostock_fl03_study_carrel_11
+  room_number: 
+  label: Study Carrel (326P)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_carrel_10:
+  id: 8024
+  name: bostock_fl03_study_carrel_10
+  room_number: 
+  label: Study Carrel (326Q)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_carrel_07:
+  id: 8025
+  name: bostock_fl03_study_carrel_07
+  room_number: 
+  label: Study Carrel (326T)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_carrel_06:
+  id: 8026
+  name: bostock_fl03_study_carrel_06
+  room_number: 
+  label: Study Carrel (326U)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_carrel_05:
+  id: 8027
+  name: bostock_fl03_study_carrel_05
+  room_number: 
+  label: Study Carrel (326V)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_carrel_04:
+  id: 8028
+  name: bostock_fl03_study_carrel_04
+  room_number: 
+  label: Study Carrel (326W)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_carrel_03:
+  id: 8029
+  name: bostock_fl03_study_carrel_03
+  room_number: 
+  label: Study Carrel (326X)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_carrel_02:
+  id: 8030
+  name: bostock_fl03_study_carrel_02
+  room_number: 
+  label: Study Carrel (326Y)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_carrel_01:
+  id: 8031
+  name: bostock_fl03_study_carrel_01
+  room_number: 
+  label: Study Carrel (326Z)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_carrel_09:
+  id: 8032
+  name: bostock_fl03_study_carrel_09
+  room_number: 
+  label: Study Carrel (I-326R)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl03_study_carrel_08:
+  id: 8033
+  name: bostock_fl03_study_carrel_08
+  room_number: 
+  label: Study Carrel (I-326S)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl03_group_study_room:
+  id: 9071
+  name: perkins_fl03_group_study_room
+  room_number: 
+  label: Group Study Room
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 25000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl03_reading_area_01:
+  id: 14301
+  name: rubenstein_fl03_reading_area_01
+  room_number: 
+  label: Reading Area
+  floorplan_id: 7
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 25000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl03_reading_area_02:
+  id: 14311
+  name: rubenstein_fl03_reading_area_02
+  room_number: 
+  label: Reading Area
+  floorplan_id: 7
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 25000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl03_reading_area_03:
+  id: 14321
+  name: rubenstein_fl03_reading_area_03
+  room_number: 
+  label: Reading Area
+  floorplan_id: 7
+  naming_opportunity: 0
+  nameable: 1
+  dollar_amount: 25000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl03_reading_area_04:
+  id: 14331
+  name: rubenstein_fl03_reading_area_04
+  room_number: 
+  label: Reading Area
+  floorplan_id: 7
+  naming_opportunity: 0
+  nameable: 1
+  dollar_amount: 25000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl03_lobby_east:
+  id: 8034
+  name: bostock_fl03_lobby_east
+  room_number: 
+  label: Lobby (East End)
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl03_lobby_west:
+  id: 8035
+  name: bostock_fl03_lobby_west
+  room_number: 
+  label: Lobby (West End)
+  floorplan_id: 8
+  naming_opportunity: 0
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl03_lobby_west_end:
+  id: 14541
+  name: perkins_fl03_lobby_west_end
+  room_number: 
+  label: Lobby (West End)
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl03_study_space:
+  id: 8036
+  name: bostock_fl03_study_space
+  room_number: 
+  label: Reader Seating
+  floorplan_id: 8
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl03_study_space:
+  id: 9072
+  name: perkins_fl03_study_space
+  room_number: 
+  label: Study Space
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl03_collab_space:
+  id: 7001
+  name: rubenstein_fl03_collab_space
+  room_number: 
+  label: Collaboration Space
+  floorplan_id: 7
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 150000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl03_study_area:
+  id: 9073
+  name: perkins_fl03_study_area
+  room_number: 
+  label: Study Area
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 150000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl03_conference_room:
+  id: 7002
+  name: rubenstein_fl03_conference_room
+  room_number: 
+  label: Joseph Penn Breedlove Conference Room
+  floorplan_id: 7
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 200000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl03_tower_reading_room:
+  id: 8037
+  name: bostock_fl03_tower_reading_room
+  room_number: 
+  label: Tower Reading Room
+  floorplan_id: 8
+  naming_opportunity: 0
+  nameable: 1
+  dollar_amount: 500000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl03_tower_reading_room:
+  id: 9074
+  name: perkins_fl03_tower_reading_room
+  room_number: 
+  label: Tower Reading Room
+  floorplan_id: 9
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 500000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl04_laughlin_study_space:
+  id: 10000
+  name: bostock_fl04_laughlin_study_space
+  room_number: 
+  label: Adelaide and Newton Laughlin Reading Area
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl04_brod_study_area:
+  id: 11000
+  name: perkins_fl04_brod_study_area
+  room_number: 
+  label: Alan, Alice, Benjamin and Matthew Brod Reading Room 
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl04_study_carrel_24:
+  id: 10001
+  name: bostock_fl04_study_carrel_24
+  room_number: 
+  label: Alex and Elizabeth Roland Study Carrel (426D)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl04_study_carrel_10:
+  id: 10002
+  name: bostock_fl04_study_carrel_10
+  room_number: 
+  label: Carina Maria Podgorski Study Carrel (426Q)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_bradley_study_room:
+  id: 11001
+  name: perkins_fl04_bradley_study_room
+  room_number: 
+  label: Carol Lake and Floyd H. Bradley, Jr. Study Room
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl04_study_carrel_22:
+  id: 10003
+  name: bostock_fl04_study_carrel_22
+  room_number: 
+  label: Clayton Owens Study Carrel (426F)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl04_study_carrel_08:
+  id: 10004
+  name: bostock_fl04_study_carrel_08
+  room_number: 
+  label: David Edmond Miller Study Carrel (426S)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl04_study_carrel_20:
+  id: 10005
+  name: bostock_fl04_study_carrel_20
+  room_number: 
+  label: Dean R. Brenner and Robin L. Shaffert Study Carrel (426H)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl04_study_carrel_13:
+  id: 10006
+  name: bostock_fl04_study_carrel_13
+  room_number: 
+  label: Deborah Jakubs Study Carrel (426N)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl04_fischer_zernin_study_space:
+  id: 10007
+  name: bostock_fl04_fischer_zernin_study_space
+  room_number: 
+  label: Fischer-Zernin Family Reading Area 
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl04_study_carrel_11:
+  id: 10008
+  name: bostock_fl04_study_carrel_11
+  room_number: 
+  label: Floyd M. Riddick Study Carrel (426P)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl04_friends_of_libraries_study_room:
+  id: 10009
+  name: bostock_fl04_friends_of_libraries_study_room
+  room_number: 
+  label: Friends of the Duke University Libraries Group Study Room
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl04_study_carrel_23:
+  id: 10010
+  name: bostock_fl04_study_carrel_23
+  room_number: 
+  label: Gerald and Virginia Wilson Study Carrel (426E)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_fish_stairwell:
+  id: 14551
+  name: perkins_fl04_fish_stairwell
+  room_number: 
+  label: Gretchen and Edward Fish Family Grand Stairway
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl04_fish_stairwell:
+  id: 10011
+  name: bostock_fl04_fish_stairwell
+  room_number: 
+  label: Gretchen and Edward Fish Family Grand Stairway
+  floorplan_id: 10
+  naming_opportunity: 0
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl04_study_carrel_27:
+  id: 10012
+  name: bostock_fl04_study_carrel_27
+  room_number: 
+  label: Isabel Craven Drill Study Carrel (426A)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_drill_study_room:
+  id: 11002
+  name: perkins_fl04_drill_study_room
+  room_number: 
+  label: Isobel Craven Drill Study Room
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl04_study_carrel_12:
+  id: 10013
+  name: bostock_fl04_study_carrel_12
+  room_number: 
+  label: Joseph J. Arpad Study Carrel (426O)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl04_yoh_study_room:
+  id: 10014
+  name: bostock_fl04_yoh_study_room
+  room_number: 
+  label: Karen Bogart Yoh Group Study Room
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl04_study_carrel_18:
+  id: 10015
+  name: bostock_fl04_study_carrel_18
+  room_number: 
+  label: Katherine Kendall Guthrie Study Carrel (426J)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl04_study_carrel_16:
+  id: 10016
+  name: bostock_fl04_study_carrel_16
+  room_number: 
+  label: L. Gilbert Carroll Study Carrel (426L)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl04_sperling_study_room:
+  id: 10017
+  name: bostock_fl04_sperling_study_room
+  room_number: 
+  label: Laurene and Scott Sperling Reading Room
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl04_study_carrel_21:
+  id: 10018
+  name: bostock_fl04_study_carrel_21
+  room_number: 
+  label: Laurens Hull Fish Study Carrel (426G)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl04_study_carrel_09:
+  id: 10019
+  name: bostock_fl04_study_carrel_09
+  room_number: 
+  label: Lenetta G. and J. Raymond Klein Study Carrel (426R)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl04_study_carrel_19:
+  id: 10020
+  name: bostock_fl04_study_carrel_19
+  room_number: 
+  label: Leslie Graves and J. T. Fucigna Study Carrel (426I)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl04_study_carrel_17:
+  id: 10021
+  name: bostock_fl04_study_carrel_17
+  room_number: 
+  label: Mary Darden McLeod Study Carrel (426K)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl04_study_carrel_15:
+  id: 10022
+  name: bostock_fl04_study_carrel_15
+  room_number: 
+  label: Mary Ruth Miller Study Carrel (426M)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl04_study_carrel_14:
+  id: 10023
+  name: bostock_fl04_study_carrel_14
+  room_number: 
+  label: Mary Walter Study Carrel (426AA)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_02:
+  id: 11003
+  name: perkins_fl04_study_carrel_west_02
+  room_number: 
+  label: Maxine and Paul Hadzor Study Carrel (421FF)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_levene_study_room:
+  id: 11004
+  name: perkins_fl04_levene_study_room
+  room_number: 
+  label: Ralph and Rebecca Jaffe Study Room
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl04_study_carrel_25:
+  id: 10024
+  name: bostock_fl04_study_carrel_25
+  room_number: 
+  label: Sophie and Abert Rabil Study Carrel (426C)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl04_vaughan_connector:
+  id: 10025
+  name: bostock_fl04_vaughan_connector
+  room_number: 
+  label: The Texas Connection (Roswell and Blake Vaughan)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl04_study_carrel_07:
+  id: 10026
+  name: bostock_fl04_study_carrel_07
+  room_number: 
+  label: William Pettway Jones Peete Study Carrel (426T)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_03:
+  id: 11005
+  name: perkins_fl04_study_carrel_west_03
+  room_number: 
+  label: Ann, Ruth, Cal, Betty Ann, Sandra, Katie, Dorothy, and Leslie Study Carrel (421EE)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_11:
+  id: 11006
+  name: perkins_fl04_study_carrel_west_11
+  room_number: 
+  label: Bridges and Lucile Boylston Study Carrel (421W)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_10:
+  id: 11007
+  name: perkins_fl04_study_carrel_west_10
+  room_number: 
+  label: Elizabeth and Michael Schoenfeld Study Carrel (421X)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_12:
+  id: 11008
+  name: perkins_fl04_study_carrel_west_12
+  room_number: 
+  label: George N. Corey Study Carrel (421V)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl04_study_carrel_26:
+  id: 10027
+  name: bostock_fl04_study_carrel_26
+  room_number: 
+  label: John F. Oates Study Carrel (426B)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_07:
+  id: 11009
+  name: perkins_fl04_study_carrel_west_07
+  room_number: 
+  label: Marian and Jak Pressman Study Carrel (421AA)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_08:
+  id: 11010
+  name: perkins_fl04_study_carrel_west_08
+  room_number: 
+  label: Nick Hunter Roberts Study Carrel (421Z)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_05:
+  id: 11011
+  name: perkins_fl04_study_carrel_west_05
+  room_number: 
+  label: Roger Davis and Jeanne Williams Study Carrel (421CC)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_01:
+  id: 11012
+  name: perkins_fl04_study_carrel_west_01
+  room_number: 
+  label: Thomas B. Hadzor and Susan C. Ross Study Carrel (421GG)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_04:
+  id: 11013
+  name: perkins_fl04_study_carrel_west_04
+  room_number: 
+  label: William and Maureen Spears Study Carrel (421DD)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_east_08:
+  id: 11014
+  name: perkins_fl04_study_carrel_east_08
+  room_number: 
+  label: Maurice Parker Study Carrel (418A)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_neast_05:
+  id: 11015
+  name: perkins_fl04_study_carrel_neast_05
+  room_number: 
+  label: Study Carrel (418AA)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_east_07:
+  id: 11016
+  name: perkins_fl04_study_carrel_east_07
+  room_number: 
+  label: Study Carrel (418B)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_neast_04:
+  id: 11017
+  name: perkins_fl04_study_carrel_neast_04
+  room_number: 
+  label: Study Carrel (418BB)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_east_06:
+  id: 11018
+  name: perkins_fl04_study_carrel_east_06
+  room_number: 
+  label: Study Carrel (418C)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_neast_03:
+  id: 11019
+  name: perkins_fl04_study_carrel_neast_03
+  room_number: 
+  label: Study Carrel (418CC)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_east_05:
+  id: 11020
+  name: perkins_fl04_study_carrel_east_05
+  room_number: 
+  label: Study Carrel (418D)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_neast_02:
+  id: 11021
+  name: perkins_fl04_study_carrel_neast_02
+  room_number: 
+  label: Study Carrel (418DD)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_neast_23:
+  id: 11022
+  name: perkins_fl04_study_carrel_neast_23
+  room_number: 
+  label: Study Carrel (418E)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_neast_01:
+  id: 11023
+  name: perkins_fl04_study_carrel_neast_01
+  room_number: 
+  label: Study Carrel (418EE)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_neast_22:
+  id: 11024
+  name: perkins_fl04_study_carrel_neast_22
+  room_number: 
+  label: Study Carrel (418F)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_neast_21:
+  id: 11025
+  name: perkins_fl04_study_carrel_neast_21
+  room_number: 
+  label: Study Carrel (418G)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_neast_20:
+  id: 11026
+  name: perkins_fl04_study_carrel_neast_20
+  room_number: 
+  label: Study Carrel (418H)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_neast_19:
+  id: 11027
+  name: perkins_fl04_study_carrel_neast_19
+  room_number: 
+  label: Study Carrel (418I)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_neast_18:
+  id: 11028
+  name: perkins_fl04_study_carrel_neast_18
+  room_number: 
+  label: Study Carrel (418J)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_east_04:
+  id: 11029
+  name: perkins_fl04_study_carrel_east_04
+  room_number: 
+  label: Study Carrel (418K)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_east_03:
+  id: 11030
+  name: perkins_fl04_study_carrel_east_03
+  room_number: 
+  label: Study Carrel (418L)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_east_02:
+  id: 11031
+  name: perkins_fl04_study_carrel_east_02
+  room_number: 
+  label: Study Carrel (418M)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_east_01:
+  id: 11032
+  name: perkins_fl04_study_carrel_east_01
+  room_number: 
+  label: Study Carrel (418N)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_neast_17:
+  id: 11033
+  name: perkins_fl04_study_carrel_neast_17
+  room_number: 
+  label: Study Carrel (418O)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_neast_16:
+  id: 11034
+  name: perkins_fl04_study_carrel_neast_16
+  room_number: 
+  label: Study Carrel (418P)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_neast_15:
+  id: 11035
+  name: perkins_fl04_study_carrel_neast_15
+  room_number: 
+  label: Study Carrel (418Q)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_neast_14:
+  id: 11036
+  name: perkins_fl04_study_carrel_neast_14
+  room_number: 
+  label: Study Carrel (418R)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_neast_13:
+  id: 11037
+  name: perkins_fl04_study_carrel_neast_13
+  room_number: 
+  label: Study Carrel (418S)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_neast_12:
+  id: 11038
+  name: perkins_fl04_study_carrel_neast_12
+  room_number: 
+  label: Study Carrel (418T)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_neast_11:
+  id: 11039
+  name: perkins_fl04_study_carrel_neast_11
+  room_number: 
+  label: Study Carrel (418U)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_neast_10:
+  id: 11040
+  name: perkins_fl04_study_carrel_neast_10
+  room_number: 
+  label: Study Carrel (418V)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_neast_09:
+  id: 11041
+  name: perkins_fl04_study_carrel_neast_09
+  room_number: 
+  label: Study Carrel (418W)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_neast_08:
+  id: 11042
+  name: perkins_fl04_study_carrel_neast_08
+  room_number: 
+  label: Study Carrel (418X)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_neast_07:
+  id: 11043
+  name: perkins_fl04_study_carrel_neast_07
+  room_number: 
+  label: Study Carrel (418Y)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_neast_06:
+  id: 11044
+  name: perkins_fl04_study_carrel_neast_06
+  room_number: 
+  label: Study Carrel (418Z)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_ctr_01:
+  id: 11045
+  name: perkins_fl04_study_carrel_ctr_01
+  room_number: 
+  label: Study Carrel (420A)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_ctr_02:
+  id: 11046
+  name: perkins_fl04_study_carrel_ctr_02
+  room_number: 
+  label: Study Carrel (420B)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_ctr_03:
+  id: 11047
+  name: perkins_fl04_study_carrel_ctr_03
+  room_number: 
+  label: Study Carrel (420C)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_ctr_04:
+  id: 11048
+  name: perkins_fl04_study_carrel_ctr_04
+  room_number: 
+  label: Study Carrel (420D)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_ctr_05:
+  id: 11049
+  name: perkins_fl04_study_carrel_ctr_05
+  room_number: 
+  label: Study Carrel (420E)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_ctr_06:
+  id: 11050
+  name: perkins_fl04_study_carrel_ctr_06
+  room_number: 
+  label: Study Carrel (420F)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_33:
+  id: 11051
+  name: perkins_fl04_study_carrel_west_33
+  room_number: 
+  label: Study Carrel (421A)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_32:
+  id: 11052
+  name: perkins_fl04_study_carrel_west_32
+  room_number: 
+  label: Study Carrel (421B)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_06:
+  id: 11053
+  name: perkins_fl04_study_carrel_west_06
+  room_number: 
+  label: Study Carrel (421BB)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_31:
+  id: 11054
+  name: perkins_fl04_study_carrel_west_31
+  room_number: 
+  label: Study Carrel (421C)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_30:
+  id: 11055
+  name: perkins_fl04_study_carrel_west_30
+  room_number: 
+  label: Study Carrel (421D)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_29:
+  id: 11056
+  name: perkins_fl04_study_carrel_west_29
+  room_number: 
+  label: Study Carrel (421E)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_28:
+  id: 11057
+  name: perkins_fl04_study_carrel_west_28
+  room_number: 
+  label: Study Carrel (421F)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_27:
+  id: 11058
+  name: perkins_fl04_study_carrel_west_27
+  room_number: 
+  label: Study Carrel (421G)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_26:
+  id: 11059
+  name: perkins_fl04_study_carrel_west_26
+  room_number: 
+  label: Study Carrel (421H)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_25:
+  id: 11060
+  name: perkins_fl04_study_carrel_west_25
+  room_number: 
+  label: Study Carrel (421I)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_24:
+  id: 11061
+  name: perkins_fl04_study_carrel_west_24
+  room_number: 
+  label: Michael Corey Study Carrel (421J)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_23:
+  id: 11062
+  name: perkins_fl04_study_carrel_west_23
+  room_number: 
+  label: Study Carrel (421K)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_22:
+  id: 11063
+  name: perkins_fl04_study_carrel_west_22
+  room_number: 
+  label: Study Carrel (421L)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_21:
+  id: 11064
+  name: perkins_fl04_study_carrel_west_21
+  room_number: 
+  label: Study Carrel (421M)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_20:
+  id: 11065
+  name: perkins_fl04_study_carrel_west_20
+  room_number: 
+  label: Study Carrel (421N)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_19:
+  id: 11066
+  name: perkins_fl04_study_carrel_west_19
+  room_number: 
+  label: Study Carrel (421O)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_18:
+  id: 11067
+  name: perkins_fl04_study_carrel_west_18
+  room_number: 
+  label: Study Carrel (421P)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_17:
+  id: 11068
+  name: perkins_fl04_study_carrel_west_17
+  room_number: 
+  label: Study Carrel (421Q)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_16:
+  id: 11069
+  name: perkins_fl04_study_carrel_west_16
+  room_number: 
+  label: Study Carrel (421R)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_15:
+  id: 11070
+  name: perkins_fl04_study_carrel_west_15
+  room_number: 
+  label: Study Carrel (421S)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_14:
+  id: 11071
+  name: perkins_fl04_study_carrel_west_14
+  room_number: 
+  label: Study Carrel (421T)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_13:
+  id: 11072
+  name: perkins_fl04_study_carrel_west_13
+  room_number: 
+  label: Study Carrel (421U)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+perkins_fl04_study_carrel_west_09:
+  id: 11073
+  name: perkins_fl04_study_carrel_west_09
+  room_number: 
+  label: Study Carrel (421Y)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl04_study_carrel_06:
+  id: 10028
+  name: bostock_fl04_study_carrel_06
+  room_number: 
+  label: Charles Henry Peete Study Carrel (426U)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl04_study_carrel_05:
+  id: 10029
+  name: bostock_fl04_study_carrel_05
+  room_number: 
+  label: Study Carrel (426V)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl04_study_carrel_04:
+  id: 10030
+  name: bostock_fl04_study_carrel_04
+  room_number: 
+  label: Study Carrel (426W)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl04_study_carrel_03:
+  id: 10031
+  name: bostock_fl04_study_carrel_03
+  room_number: 
+  label: Study Carrel (426X)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl04_study_carrel_02:
+  id: 10032
+  name: bostock_fl04_study_carrel_02
+  room_number: 
+  label: Study Carrel (426Y)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl04_study_carrel_01:
+  id: 10033
+  name: bostock_fl04_study_carrel_01
+  room_number: 
+  label: Study Carrel (426Z)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 5000
+  pending_sale: 0
+  carrel: 1
+
+bostock_fl04_lobby_east:
+  id: 10034
+  name: bostock_fl04_lobby_east
+  room_number: 
+  label: Lobby (East End)
+  floorplan_id: 10
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl04_lobby_west_end:
+  id: 14561
+  name: perkins_fl04_lobby_west_end
+  room_number: 
+  label: Lobby (West End)
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl04_lobby_west:
+  id: 10035
+  name: bostock_fl04_lobby_west
+  room_number: 
+  label: Lobby (West End)
+  floorplan_id: 10
+  naming_opportunity: 0
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl04_study_space:
+  id: 11074
+  name: perkins_fl04_study_space
+  room_number: 
+  label: Study Space
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl04_study_area:
+  id: 11075
+  name: perkins_fl04_study_area
+  room_number: 
+  label: Study Area
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 150000
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl04_tower_reading_room:
+  id: 11076
+  name: perkins_fl04_tower_reading_room
+  room_number: 
+  label: Tower Reading Room
+  floorplan_id: 11
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 500000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl04_tower_reading_room:
+  id: 10036
+  name: bostock_fl04_tower_reading_room
+  room_number: 
+  label: Tower Reading Room
+  floorplan_id: 10
+  naming_opportunity: 0
+  nameable: 1
+  dollar_amount: 500000
+  pending_sale: 0
+  carrel: 0
+
+bostock_ll01_fish_stairwell:
+  id: 12000
+  name: bostock_ll01_fish_stairwell
+  room_number: 
+  label: Gretchen and Edward Fish Family Grand Stairway
+  floorplan_id: 12
+  naming_opportunity: 0
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+lilly_ll01_left_side_reading_area:
+  id: 14491
+  name: lilly_ll01_left_side_reading_area
+  room_number: 
+  label: Left Side Reading Area
+  floorplan_id: 21
+  naming_opportunity: 0
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+lilly_ll01_paul_williams_room:
+  id: 14341
+  name: lilly_ll01_paul_williams_room
+  room_number: 
+  label: Paul Williams Room
+  floorplan_id: 21
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 100000
+  pending_sale: 0
+  carrel: 0
+
+bostock_ll01_study_room:
+  id: 12001
+  name: bostock_ll01_study_room
+  room_number: 
+  label: Group Study Room
+  floorplan_id: 12
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 25000
+  pending_sale: 0
+  carrel: 0
+
+lilly_ll01_librarian_office:
+  id: 14361
+  name: lilly_ll01_librarian_office
+  room_number: 
+  label: Librarian Office
+  floorplan_id: 21
+  naming_opportunity: 0
+  nameable: 1
+  dollar_amount: 25000
+  pending_sale: 0
+  carrel: 0
+
+bostock_ll01_sound_lab:
+  id: 12002
+  name: bostock_ll01_sound_lab
+  room_number: 
+  label: Sound Lab
+  floorplan_id: 12
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 25000
+  pending_sale: 0
+  carrel: 0
+
+bostock_ll01_conference_room:
+  id: 12003
+  name: bostock_ll01_conference_room
+  room_number: 
+  label: Conference Room
+  floorplan_id: 12
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+bostock_ll01_consultation_room:
+  id: 12004
+  name: bostock_ll01_consultation_room
+  room_number: 
+  label: Consultation Room
+  floorplan_id: 12
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+bostock_ll01_it_office:
+  id: 12005
+  name: bostock_ll01_it_office
+  room_number: 
+  label: IT Office
+  floorplan_id: 12
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+bostock_ll01_lobby_east:
+  id: 12006
+  name: bostock_ll01_lobby_east
+  room_number: 
+  label: Lobby (East End)
+  floorplan_id: 12
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+bostock_ll01_lobby_west:
+  id: 12007
+  name: bostock_ll01_lobby_west
+  room_number: 
+  label: Lobby (West End)
+  floorplan_id: 12
+  naming_opportunity: 0
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+bostock_ll01_study_space:
+  id: 12008
+  name: bostock_ll01_study_space
+  room_number: 
+  label: Study Space
+  floorplan_id: 12
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+lilly_ll01_training_room_01:
+  id: 14351
+  name: lilly_ll01_training_room_01
+  room_number: 
+  label: Training Room
+  floorplan_id: 21
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+bostock_ll01_it_conference_room:
+  id: 12009
+  name: bostock_ll01_it_conference_room
+  room_number: 
+  label: IT Conference Room
+  floorplan_id: 12
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 75000
+  pending_sale: 0
+  carrel: 0
+
+bostock_ll01_cit_lab:
+  id: 12010
+  name: bostock_ll01_cit_lab
+  room_number: 
+  label: CIT Studio
+  floorplan_id: 12
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 250000
+  pending_sale: 0
+  carrel: 0
+
+bostock_ll01_instructional_lab:
+  id: 12011
+  name: bostock_ll01_instructional_lab
+  room_number: 
+  label: Instructional Lab
+  floorplan_id: 12
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 250000
+  pending_sale: 0
+  carrel: 0
+
+bostock_ll01_multimedia_project_studio:
+  id: 12012
+  name: bostock_ll01_multimedia_project_studio
+  room_number: 
+  label: Multimedia Project Studio
+  floorplan_id: 12
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 500000
+  pending_sale: 0
+  carrel: 0
+
+bostock_ll01_it_office_suite:
+  id: 12013
+  name: bostock_ll01_it_office_suite
+  room_number: 
+  label: Information Technology Office Suite
+  floorplan_id: 12
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 750000
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll01_smDugan_study_room:
+  id: 13000
+  name: perkins_ll01_smDugan_study_room
+  room_number: 
+  label: Group Study Room
+  floorplan_id: 13
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 75000
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll01_fish_stairwell:
+  id: 14571
+  name: perkins_ll01_fish_stairwell
+  room_number: 
+  label: Gretchen and Edward Fish Family Grand Stairway
+  floorplan_id: 13
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll01_savitt_seminar_room:
+  id: 13001
+  name: perkins_ll01_savitt_seminar_room
+  room_number: 
+  label: Jeanne Shapiro and Robert Savitt Seminar Room
+  floorplan_id: 13
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll01_aptman_study_room:
+  id: 13002
+  name: perkins_ll01_aptman_study_room
+  room_number: 
+  label: Lowell and Eileen Aptman Group Study Room
+  floorplan_id: 13
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll01_medBruce_study_room:
+  id: 13003
+  name: perkins_ll01_medBruce_study_room
+  room_number: 
+  label: Maryann Esernio-Bruce and Ronald Bruce Group Study Room
+  floorplan_id: 13
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll01_smMeyer_study_room:
+  id: 13004
+  name: perkins_ll01_smMeyer_study_room
+  room_number: 
+  label: Michael and Katy Meyer Group Study Room
+  floorplan_id: 13
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll01_lgMeyer_study_room:
+  id: 13005
+  name: perkins_ll01_lgMeyer_study_room
+  room_number: 
+  label: Michael and Katy Meyer Large Group Study Room
+  floorplan_id: 13
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll01_williams_service_point:
+  id: 13006
+  name: perkins_ll01_williams_service_point
+  room_number: 
+  label: Paul B. Williams Service Desk
+  floorplan_id: 13
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll01_prak1_study_room:
+  id: 13007
+  name: perkins_ll01_prak1_study_room
+  room_number: 
+  label: Barbara and Michael Dugan Group Study Room
+  floorplan_id: 13
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll01_roberts_conservation_lab:
+  id: 13009
+  name: perkins_ll01_roberts_conservation_lab
+  room_number: 
+  label: Vern and Tanya Roberts Conservation Lab
+  floorplan_id: 13
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll01_lg_seminar_room:
+  id: 13010
+  name: perkins_ll01_lg_seminar_room
+  room_number: 
+  label: Pamela and Bradley Korman Seminar Room
+  floorplan_id: 13
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 100000
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll01_study_room:
+  id: 13008
+  name: perkins_ll01_study_room
+  room_number: 
+  label: Mark and Robin Prak Group Study Room 
+  floorplan_id: 13
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll01_sm_study_room:
+  id: 13011
+  name: perkins_ll01_sm_study_room
+  room_number: 
+  label: Group Study Room
+  floorplan_id: 13
+  naming_opportunity: 0
+  nameable: 0
+  dollar_amount: 25000
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll01_med_study_room:
+  id: 13012
+  name: perkins_ll01_med_study_room
+  room_number: 
+  label: Tex and Barbara Williams Group Study Room 
+  floorplan_id: 13
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll01_lobby_west:
+  id: 14581
+  name: perkins_ll01_lobby_west
+  room_number: 
+  label: Lobby (West End)
+  floorplan_id: 13
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll01_lg_study_room:
+  id: 13013
+  name: perkins_ll01_lg_study_room
+  room_number: 
+  label: Group Study Room
+  floorplan_id: 13
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 75000
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll01_med_seminar_room:
+  id: 13014
+  name: perkins_ll01_med_seminar_room
+  room_number: 
+  label: Seminar Room
+  floorplan_id: 13
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 75000
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll01_sm_classroom:
+  id: 13015
+  name: perkins_ll01_sm_classroom
+  room_number: 
+  label: Rob Moxley Classroom
+  floorplan_id: 13
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 100000
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll01_med_classroom:
+  id: 13016
+  name: perkins_ll01_med_classroom
+  room_number: 
+  label: Classroom
+  floorplan_id: 13
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 150000
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll01_reading_area:
+  id: 13017
+  name: perkins_ll01_reading_area
+  room_number: 
+  label: Reading Area
+  floorplan_id: 13
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 150000
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll01_lg_classroom:
+  id: 13018
+  name: perkins_ll01_lg_classroom
+  room_number: 
+  label: Classroom
+  floorplan_id: 13
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 200000
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll01_xl_classroom:
+  id: 13019
+  name: perkins_ll01_xl_classroom
+  room_number: 
+  label: Classroom
+  floorplan_id: 13
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 250000
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll01_digital_production_center:
+  id: 13020
+  name: perkins_ll01_digital_production_center
+  room_number: 
+  label: Digital Production Center
+  floorplan_id: 13
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 250000
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll02_fish_stairwell:
+  id: 14591
+  name: perkins_ll02_fish_stairwell
+  room_number: 
+  label: Gretchen and Edward Fish Family Grand Stairway
+  floorplan_id: 14
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll02_study_room:
+  id: 14000
+  name: perkins_ll02_study_room
+  room_number: 
+  label: Group Study Room
+  floorplan_id: 14
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 25000
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll02_lg_study_room:
+  id: 14001
+  name: perkins_ll02_lg_study_room
+  room_number: 
+  label: Group Study Room
+  floorplan_id: 14
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll02_reading_concourse:
+  id: 14002
+  name: perkins_ll02_reading_concourse
+  room_number: 
+  label: Reading Concourse
+  floorplan_id: 14
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 100000
+  pending_sale: 0
+  carrel: 0
+
+perkins_ll01_mcneely_study_room:
+  id: 14623
+  name: perkins_ll01_mcneely_study_room
+  room_number: 
+  label: Douglas and Lori McNeely Group Study Room
+  floorplan_id: 13
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+perkins_fl01_blakely_research_area:
+  id: 14625
+  name: perkins_fl01_blakely_research_area
+  room_number: 
+  label: Florence Blakely Research Area
+  floorplan_id: 3
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_todd_karen_ruppert_commons:
+  id: 14639
+  name: bostock_fl01_todd_karen_ruppert_commons
+  room_number: 
+  label: Todd and Karen Ruppert Commons
+  floorplan_id: 2
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl01_foyer:
+  id: 14641
+  name: rubenstein_fl01_foyer
+  room_number: 
+  label: Foyer
+  floorplan_id: 1
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+

@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+perkins:
+  id: 1
+  name: perkins
+  label: Perkins Library
+  sublabel: 
+  active: true
+
+bostock:
+  id: 2
+  name: bostock
+  label: Bostock Library
+  sublabel: 
+  active: true
+
+lilly:
+  id: 3
+  name: lilly
+  label: Lilly Library
+  sublabel: 
+  active: true
+  
+rubenstein:
+  id: 4
+  name: rubenstein
+  label: Rubenstein Library
+  sublabel:
+  active: true
