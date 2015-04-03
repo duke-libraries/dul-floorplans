@@ -19,7 +19,7 @@
 <div class="row">
 	<% @buildings.each do |building| %>
 	<div class="panel panel-primary">
-		<div class="panel-heading libraryprofile"><h4><%= building.label %></h4></div>
+		<div class="panel-heading libraryprofile"><strong><%= building.label %></strong></div>
 		<div class="panel-body">
 			<div class="row librarylevelslist<%= building.name %>">
 				<% if building.floorplans.size > 0 %>
@@ -28,7 +28,7 @@
 						<ul class="list-unstyled buildingfloorlist">
 						<% building.above_ground_floorplans.reverse.each do |floorplan| %>
 							<li>
-								<strong><a data-target-area="<%= floorplan.name %>" href="<%= url_for :controller => 'floorplans', :action => 'show', :id => floorplan.id %>"><%= floorplan.label %></a></strong>
+								<a data-target-area="<%= floorplan.name %>" href="<%= url_for :controller => 'floorplans', :action => 'show', :id => floorplan.id %>"><%= floorplan.label %></a>
 								<% if !floorplan.sublabel.nil? && !floorplan.sublabel.empty? %>
 								<br /><small><%= floorplan.sublabel %></small>
 								<% end %>
@@ -36,7 +36,7 @@
 						<% end %>
 						<% building.below_ground_floorplans.each do |floorplan| %>
 							<li>
-								<strong><a data-target-area="<%= floorplan.name %>" href="<%= url_for :controller => 'floorplans', :action => 'show', :id => floorplan.id %>"><%= floorplan.label %></a></strong>
+								<a data-target-area="<%= floorplan.name %>" href="<%= url_for :controller => 'floorplans', :action => 'show', :id => floorplan.id %>"><%= floorplan.label %></a>
 								<% if !floorplan.sublabel.nil? && !floorplan.sublabel.empty? %>
 								<br /><small><%= floorplan.sublabel %></small>
 								<% end %>
