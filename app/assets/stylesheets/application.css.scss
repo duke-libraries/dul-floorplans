@@ -15,11 +15,41 @@
  */
 @import 'bootstrap-sprockets';
 
-$brand-primary:  #036;
-$brand-success:  lighten(#A1B70D, 6.5%);
-$brand-info:     lighten(#0680CD, 13.0%);
-$brand-warning:  lighten(#F09905, 7.5%);
-$brand-danger:   lighten(#CC3300, 6.5%);
-@import 'bootswatch/sandstone/variables';
+$brand-primary:       #036;
+$brand-success:       lighten(#A1B70D, 6.5%);
+$brand-info:          lighten(#0680CD, 13.0%);
+$brand-warning:       lighten(#F09905, 7.5%);
+$brand-danger:        lighten(#CC3300, 6.5%);
+$navbar-inverse-bg:   #036;
+@import 'bootswatch/cerulean/variables';
 
 @import 'bootstrap';
+
+.navbar-is-fixed-bottom {
+  .main-container {
+    padding-top: 29px;
+  }
+}
+
+.navbar-is-fixed-top {
+  .main-container {
+    padding-top: 29px;
+  }
+}
+
+.socialMediaIconsBig {
+  margin-bottom: 0.5em;
+}
+
+.footer {
+  h5,
+  div.h5 {
+    color: darken($brand-success, 5%);
+    border-bottom: 1px dotted $gray-light;
+  }
+  border-top: 6px solid lighten($gray-light, 15.0%);
+  background: lighten($gray-light, 29.5%);
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 1em;
+}
+

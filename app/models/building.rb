@@ -11,7 +11,11 @@ class Building < ActiveRecord::Base
   }
   
   include    BuildingSize
-  has_many   :floorplans
+  has_many   :floorplans, -> { order "label ASC" }
+  
+  # http://stackoverflow.com/questions/11636541/use-a-scope-by-default-on-a-rails-has-many-relationship
+  has_many   :below_ground_floorplans, -> { below_ground }, class_name: "Floorplan"
+  has_many   :above_ground_floorplans, -> { above_ground }, class_name: "Floorplan"
   
   after_initialize :init
   

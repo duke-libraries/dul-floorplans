@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+
+  get 'floorplans/view'
+  resources :floorplans
+
   get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.

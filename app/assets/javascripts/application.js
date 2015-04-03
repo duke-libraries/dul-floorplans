@@ -11,7 +11,9 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery-migrate-min
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap-sprockets
-//= require_tree .
+//= require jquery.imagemapster.min.js
+//= require_tree ./sitewide

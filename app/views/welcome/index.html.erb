@@ -21,30 +21,57 @@
 	<div class="panel panel-primary">
 		<div class="panel-heading libraryprofile"><h4><%= building.label %></h4></div>
 		<div class="panel-body">
-			<div class="row">
+			<div class="row librarylevelslist<%= building.name %>">
 				<% if building.floorplans.size > 0 %>
-				<div class="pull-right col-sm-4">
-					<ul class="list-unstyled">
-					<% building.floorplans.each do |floorplan| %>
-						<li>
-							<strong><%= floorplan.label %></strong>
-							<% if !floorplan.sublabel.nil? && !floorplan.sublabel.empty? %>
-							<br /><small><%= floorplan.sublabel %></small>
-							<% end %>
-						</li>
-					<% end %>
-					</ul>
+				<div class="pull-right col-sm-4 floorlistoutercontainer">
+					<div id="<%= building.name %>floorlist" class="floorlistcontainer">
+						<ul class="list-unstyled buildingfloorlist">
+						<% building.above_ground_floorplans.reverse.each do |floorplan| %>
+							<li>
+								<strong><a data-target-area="<%= floorplan.name %>" href="<%= url_for :controller => 'floorplans', :action => 'show', :id => floorplan.id %>"><%= floorplan.label %></a></strong>
+								<% if !floorplan.sublabel.nil? && !floorplan.sublabel.empty? %>
+								<br /><small><%= floorplan.sublabel %></small>
+								<% end %>
+							</li>
+						<% end %>
+						<% building.below_ground_floorplans.each do |floorplan| %>
+							<li>
+								<strong><a data-target-area="<%= floorplan.name %>" href="<%= url_for :controller => 'floorplans', :action => 'show', :id => floorplan.id %>"><%= floorplan.label %></a></strong>
+								<% if !floorplan.sublabel.nil? && !floorplan.sublabel.empty? %>
+								<br /><small><%= floorplan.sublabel %></small>
+								<% end %>
+							</li>
+						<% end %>
+						</ul>
+					</div>
 				</div>
 				<% end %>
 				<div class="libraryprofilegraphic col-sm-8">
-					<img src="http://placehold.it/<%= building.image_width %>x<%= building.image_height %>" 
-							 class="img-thumbnail img-responsive" 
-							 width="<%= building.image_width %>" 
-							 height="<%= building.image_height %>" 
-							 alt="Profile of the <%= building.label %>"/>
+				<%= image_tag "dul-libraries-profile-google-earth-#{building.name}-ground-level-#{building.image_width}x#{building.image_height}.jpg", 
+											height: building.image_height,
+											width: building.image_width,
+											alt: "Profile of the #{building.label}",
+											class: "img-thumbnail img-responsive", 
+											usemap: "#libraryprofilemap" + building.name %>
 				</div>
 			</div>
 		</div>
 	</div>
 	<% end %>
 </div>
+
+<% @floorplan_list.each do |building, floorplans| %>
+<map name="libraryprofilemap<%= building %>">
+	<% floorplans.each do |floorplan| %>
+		<% floorplan.floor_areas.each do |area| %>
+		<area shape="<%= area.shape %>" 
+					coords="<%= area.coord %>" 
+					data-roomdesc="<%= floorplan.label %>" 
+					title="<%= floorplan.label %>" 
+					data-roomgroup="<%= floorplan.name %>"
+					href="<%= url_for :controller => 'floorplans', :action => 'show', :id => floorplan.id %>"
+					/>
+		<% end%>
+	<% end %>
+</map>
+<% end %>
