@@ -1,5 +1,5 @@
 class Building < ActiveRecord::Base
-  cattr_accessor :image_size
+  cattr_accessor  :image_size
   attr_accessor   :image_height
   attr_accessor   :image_width
   

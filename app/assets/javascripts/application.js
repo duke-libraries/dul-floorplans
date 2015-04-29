@@ -15,5 +15,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap-sprockets
-//= require jquery.imagemapster.min.js
+//= require jquery.imagemapster.js
+//= require colorbox-rails
 //= require_tree ./sitewide

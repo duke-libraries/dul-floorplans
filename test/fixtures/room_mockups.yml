@@ -1,0 +1,1297 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+bostock_fl01-fl04_fish_stairwell:
+  id: 651
+  label: bostock_fl01-fl04_fish_stairwell
+  image: floorplans/roommockup/bostock_fl01-fl04_fish_stairwell.jpg
+
+bostock_fl01_amoeba_workstation:
+  id: 661
+  label: bostock_fl01_amoeba_workstation
+  image: floorplans/roommockup/bostock_fl01_amoeba_workstation_1.jpg
+
+bostock_fl01_diamond_lobby:
+  id: 671
+  label: bostock_fl01_diamond_lobby
+  image: floorplans/roommockup/bostock_fl01_diamond_lobby_1.jpg
+
+bostock_fl01_fischer_zernin_service_desk_01:
+  id: 681
+  label: bostock_fl01_fischer_zernin_service_desk_01
+  image: floorplans/roommockup/bostock_fl01_fischer_zernin_service_desk_01.jpg
+
+bostock_fl01_fischer_zernin_service_desk_02:
+  id: 691
+  label: bostock_fl01_fischer_zernin_service_desk_02
+  image: floorplans/roommockup/bostock_fl01_fischer_zernin_service_desk_02.jpg
+
+bostock_fl01_gateway_terrace_01:
+  id: 701
+  label: bostock_fl01_gateway_terrace_01
+  image: floorplans/roommockup/bostock_fl01_gateway_terrace_01.jpg
+
+bostock_fl01_gateway_terrace_02:
+  id: 711
+  label: bostock_fl01_gateway_terrace_02
+  image: floorplans/roommockup/bostock_fl01_gateway_terrace_02.jpg
+
+bostock_fl01_gateway_terrace_03:
+  id: 721
+  label: bostock_fl01_gateway_terrace_03
+  image: floorplans/roommockup/bostock_fl01_gateway_terrace_03.jpg
+
+bostock_fl01_gateway_terrace_04:
+  id: 2211
+  label: bostock_fl01_gateway_terrace_04
+  image: floorplans/roommockup/bostock_fl01_gateway_terrace_04.jpg
+
+bostock_fl01_hively_study_room:
+  id: 731
+  label: bostock_fl01_hively_study_room
+  image: floorplans/roommockup/bostock_fl01_hively_study_room.jpg
+
+bostock_fl01_hoy_study_room:
+  id: 741
+  label: bostock_fl01_hoy_study_room
+  image: floorplans/roommockup/bostock_fl01_hoy_study_room.jpg
+
+bostock_fl01_jones_reading_room:
+  id: 751
+  label: bostock_fl01_jones_reading_room
+  image: floorplans/roommockup/bostock_fl01_jones_reading_room.jpg
+
+bostock_fl01_lobby_west:
+  id: 761
+  label: bostock_fl01_lobby_west
+  image: floorplans/roommockup/bostock_fl01_lobby_west.jpg
+
+bostock_fl01_periodical_reading_room_01:
+  id: 771
+  label: bostock_fl01_periodical_reading_room_01
+  image: floorplans/roommockup/bostock_fl01_periodical_reading_room_01.jpg
+
+bostock_fl01_periodical_reading_room_02:
+  id: 781
+  label: bostock_fl01_periodical_reading_room_02
+  image: floorplans/roommockup/bostock_fl01_periodical_reading_room_02.jpg
+
+bostock_fl01_study_space:
+  id: 791
+  label: bostock_fl01_study_space
+  image: floorplans/roommockup/bostock_fl01_study_space.jpg
+
+bostock_fl01_tower_reading_room_classroom_01:
+  id: 2221
+  label: bostock_fl01_tower_reading_room_classroom_01
+  image: floorplans/roommockup/bostock_fl01_tower_reading_room_classroom_01.jpg
+
+bostock_fl01_tower_reading_room_classroom_02:
+  id: 2231
+  label: bostock_fl01_tower_reading_room_classroom_02
+  image: floorplans/roommockup/bostock_fl01_tower_reading_room_classroom_02.jpg
+
+bostock_fl02_beckstett_bridge_01:
+  id: 801
+  label: bostock_fl02_beckstett_bridge_01
+  image: floorplans/roommockup/bostock_fl02_beckstett_bridge_01.jpg
+
+bostock_fl02_beckstett_bridge_02:
+  id: 811
+  label: bostock_fl02_beckstett_bridge_02
+  image: floorplans/roommockup/bostock_fl02_beckstett_bridge_02.jpg
+
+bostock_fl02_east_asia_reading_room_01:
+  id: 821
+  label: bostock_fl02_east_asia_reading_room_01
+  image: floorplans/roommockup/bostock_fl02_east_asia_reading_room_01.jpg
+
+bostock_fl02_east_asia_reading_room_02:
+  id: 831
+  label: bostock_fl02_east_asia_reading_room_02
+  image: floorplans/roommockup/bostock_fl02_east_asia_reading_room_02.jpg
+
+bostock_fl02_east_asia_reading_room_03:
+  id: 2241
+  label: bostock_fl02_east_asia_reading_room_03
+  image: floorplans/roommockup/bostock_fl02_east_asia_reading_room_03.jpg
+
+bostock_fl02_ias_office_01:
+  id: 2251
+  label: bostock_fl02_ias_office_01
+  image: floorplans/roommockup/bostock_fl02_ias_office_01.jpg
+
+bostock_fl02_ias_office_02:
+  id: 2261
+  label: bostock_fl02_ias_office_02
+  image: floorplans/roommockup/bostock_fl02_ias_office_02.jpg
+
+bostock_fl02_ias_work_area:
+  id: 2271
+  label: bostock_fl02_ias_work_area
+  image: floorplans/roommockup/bostock_fl02_ias_work_area.jpg
+
+bostock_fl02_lobby_east:
+  id: 851
+  label: bostock_fl02_lobby_east
+  image: floorplans/roommockup/bostock_fl02_lobby_east.jpg
+
+bostock_fl02_lobby_west:
+  id: 861
+  label: bostock_fl02_lobby_west
+  image: floorplans/roommockup/bostock_fl02_lobby_west.jpg
+
+bostock_fl02_nicholas_reading_room_01:
+  id: 871
+  label: bostock_fl02_nicholas_reading_room_01
+  image: floorplans/roommockup/bostock_fl02_nicholas_reading_room_01.jpg
+
+bostock_fl02_nicholas_reading_room_02:
+  id: 881
+  label: bostock_fl02_nicholas_reading_room_02
+  image: floorplans/roommockup/bostock_fl02_nicholas_reading_room_02.jpg
+
+bostock_fl02_nicholas_reading_room_03:
+  id: 891
+  label: bostock_fl02_nicholas_reading_room_03
+  image: floorplans/roommockup/bostock_fl02_nicholas_reading_room_03.jpg
+
+bostock_fl02_tarasoff_tower_reading_room:
+  id: 901
+  label: bostock_fl02_tarasoff_tower_reading_room
+  image: floorplans/roommockup/bostock_fl02_tarasoff_tower_reading_room.jpg
+
+bostock_fl03_brod_reader_seating:
+  id: 911
+  label: bostock_fl03_brod_reader_seating
+  image: floorplans/roommockup/bostock_fl03_brod_reader_seating.jpg
+
+bostock_fl03_carpenter_reading_room_01:
+  id: 921
+  label: bostock_fl03_carpenter_reading_room_01
+  image: floorplans/roommockup/bostock_fl03_carpenter_reading_room_01.jpg
+
+bostock_fl03_carpenter_reading_room_02:
+  id: 931
+  label: bostock_fl03_carpenter_reading_room_02
+  image: floorplans/roommockup/bostock_fl03_carpenter_reading_room_02.jpg
+
+bostock_fl03_carpenter_reading_room_03:
+  id: 941
+  label: bostock_fl03_carpenter_reading_room_03
+  image: floorplans/roommockup/bostock_fl03_carpenter_reading_room_03.jpg
+
+bostock_fl03_carpenter_reading_room_04:
+  id: 951
+  label: bostock_fl03_carpenter_reading_room_04
+  image: floorplans/roommockup/bostock_fl03_carpenter_reading_room_04.jpg
+
+bostock_fl03_dierks_study_room_01:
+  id: 2281
+  label: bostock_fl03_dierks_study_room_01
+  image: floorplans/roommockup/bostock_fl03_dierks_study_room_01.jpg
+
+bostock_fl03_dierks_study_room_02:
+  id: 2291
+  label: bostock_fl03_dierks_study_room_02
+  image: floorplans/roommockup/bostock_fl03_dierks_study_room_02.jpg
+
+bostock_fl03_horowitz_reading_room:
+  id: 971
+  label: bostock_fl03_horowitz_reading_room
+  image: floorplans/roommockup/bostock_fl03_horowitz_reading_room.jpg
+
+bostock_fl03_lobby_east:
+  id: 981
+  label: bostock_fl03_lobby_east
+  image: floorplans/roommockup/bostock_fl03_lobby_east.jpg
+
+bostock_fl03_lobby_west:
+  id: 991
+  label: bostock_fl03_lobby_west
+  image: floorplans/roommockup/bostock_fl03_lobby_west.jpg
+
+bostock_fl03_locke_connector_01:
+  id: 2301
+  label: bostock_fl03_locke_connector_01
+  image: floorplans/roommockup/bostock_fl03_locke_connector_01.jpg
+
+bostock_fl03_locke_connector_02:
+  id: 2311
+  label: bostock_fl03_locke_connector_02
+  image: floorplans/roommockup/bostock_fl03_locke_connector_02.jpg
+
+bostock_fl03_simpson_study_room_01:
+  id: 1011
+  label: bostock_fl03_simpson_study_room_01
+  image: floorplans/roommockup/bostock_fl03_simpson_study_room_01.jpg
+
+bostock_fl03_simpson_study_room_02:
+  id: 1021
+  label: bostock_fl03_simpson_study_room_02
+  image: floorplans/roommockup/bostock_fl03_simpson_study_room_02.jpg
+
+bostock_fl03_tower_reading_room:
+  id: 1031
+  label: bostock_fl03_tower_reading_room
+  image: floorplans/roommockup/bostock_fl03_tower_reading_room.jpg
+
+bostock_fl04_fischer_zernin_reading_area:
+  id: 1041
+  label: bostock_fl04_fischer_zernin_reading_area
+  image: floorplans/roommockup/bostock_fl04_fischer_zernin_reading_area.jpg
+
+bostock_fl04_friends_of_libraries_study_room:
+  id: 1051
+  label: bostock_fl04_friends_of_libraries_study_room
+  image: floorplans/roommockup/bostock_fl04_friends_of_libraries_study_room.jpg
+
+bostock_fl04_laughlin_reading_area:
+  id: 1061
+  label: bostock_fl04_laughlin_reading_area
+  image: floorplans/roommockup/bostock_fl04_laughlin_reading_area.jpg
+
+bostock_fl04_lobby_east:
+  id: 1071
+  label: bostock_fl04_lobby_east
+  image: floorplans/roommockup/bostock_fl04_lobby_east.jpg
+
+bostock_fl04_lobby_west:
+  id: 1081
+  label: bostock_fl04_lobby_west
+  image: floorplans/roommockup/bostock_fl04_lobby_west.jpg
+
+bostock_fl04_sperling_reading_room_01:
+  id: 2321
+  label: bostock_fl04_sperling_reading_room_01
+  image: floorplans/roommockup/bostock_fl04_sperling_reading_room_01.jpg
+
+bostock_fl04_sperling_reading_room_02:
+  id: 2331
+  label: bostock_fl04_sperling_reading_room_02
+  image: floorplans/roommockup/bostock_fl04_sperling_reading_room_02.jpg
+
+bostock_fl04_sperling_reading_room_03:
+  id: 2341
+  label: bostock_fl04_sperling_reading_room_03
+  image: floorplans/roommockup/bostock_fl04_sperling_reading_room_03.jpg
+
+bostock_fl04_tower_reading_room:
+  id: 1101
+  label: bostock_fl04_tower_reading_room
+  image: floorplans/roommockup/bostock_fl04_tower_reading_room.jpg
+
+bostock_fl04_vaughan_connector_01:
+  id: 1111
+  label: bostock_fl04_vaughan_connector_01
+  image: floorplans/roommockup/bostock_fl04_vaughan_connector_01.jpg
+
+bostock_fl04_vaughan_connector_02:
+  id: 1121
+  label: bostock_fl04_vaughan_connector_02
+  image: floorplans/roommockup/bostock_fl04_vaughan_connector_02.jpg
+
+bostock_fl04_yoh_study_room:
+  id: 1131
+  label: bostock_fl04_yoh_study_room
+  image: floorplans/roommockup/bostock_fl04_yoh_study_room.jpg
+
+bostock_ll01_cit_studio:
+  id: 1141
+  label: bostock_ll01_cit_studio
+  image: floorplans/roommockup/bostock_ll01_cit_studio.jpg
+
+bostock_ll01_conference_room_01:
+  id: 1151
+  label: bostock_ll01_conference_room_01
+  image: floorplans/roommockup/bostock_ll01_conference_room_01.jpg
+
+bostock_ll01_conference_room_02:
+  id: 1161
+  label: bostock_ll01_conference_room_02
+  image: floorplans/roommockup/bostock_ll01_conference_room_02.jpg
+
+bostock_ll01_conference_room_03:
+  id: 2351
+  label: bostock_ll01_conference_room_03
+  image: floorplans/roommockup/bostock_ll01_conference_room_03.jpg
+
+bostock_ll01_conference_room_04:
+  id: 2361
+  label: bostock_ll01_conference_room_04
+  image: floorplans/roommockup/bostock_ll01_conference_room_04.jpg
+
+bostock_ll01_consultation_room:
+  id: 2371
+  label: bostock_ll01_consultation_room
+  image: floorplans/roommockup/bostock_ll01_consultation_room.jpg
+
+bostock_ll01_instructional_lab_01:
+  id: 1171
+  label: bostock_ll01_instructional_lab_01
+  image: floorplans/roommockup/bostock_ll01_instructional_lab_01.jpg
+
+bostock_ll01_instructional_lab_02:
+  id: 1181
+  label: bostock_ll01_instructional_lab_02
+  image: floorplans/roommockup/bostock_ll01_instructional_lab_02.jpg
+
+bostock_ll01_instructional_lab_03:
+  id: 1191
+  label: bostock_ll01_instructional_lab_03
+  image: floorplans/roommockup/bostock_ll01_instructional_lab_03.jpg
+
+bostock_ll01_instructional_lab_04:
+  id: 1201
+  label: bostock_ll01_instructional_lab_04
+  image: floorplans/roommockup/bostock_ll01_instructional_lab_04.jpg
+
+bostock_ll01_it_conference_room:
+  id: 2381
+  label: bostock_ll01_it_conference_room
+  image: floorplans/roommockup/bostock_ll01_it_conference_room.jpg
+
+bostock_ll01_it_office:
+  id: 2391
+  label: bostock_ll01_it_office
+  image: floorplans/roommockup/bostock_ll01_it_office.jpg
+
+bostock_ll01_it_suite:
+  id: 1211
+  label: bostock_ll01_it_suite
+  image: floorplans/roommockup/bostock_ll01_it_suite.jpg
+
+bostock_ll01_lobby_east:
+  id: 2401
+  label: bostock_ll01_lobby_east
+  image: floorplans/roommockup/bostock_ll01_lobby_east.jpg
+
+bostock_ll01_lobby_west_01:
+  id: 2411
+  label: bostock_ll01_lobby_west_01
+  image: floorplans/roommockup/bostock_ll01_lobby_west_01.jpg
+
+bostock_ll01_lobby_west_02:
+  id: 2421
+  label: bostock_ll01_lobby_west_02
+  image: floorplans/roommockup/bostock_ll01_lobby_west_02.jpg
+
+bostock_ll01_lobby_west_03:
+  id: 2431
+  label: bostock_ll01_lobby_west_03
+  image: floorplans/roommockup/bostock_ll01_lobby_west_03.jpg
+
+bostock_ll01_multimedia_project_studio:
+  id: 2441
+  label: bostock_ll01_multimedia_project_studio
+  image: floorplans/roommockup/bostock_ll01_multimedia_project_studio.jpg
+
+perkins_bostock_named_study_carrel:
+  id: 2461
+  label: perkins_bostock_named_study_carrel
+  image: floorplans/roommockup/perkins_bostock_named_study_carrel.jpg
+
+perkins_bostock_study_carrels_01:
+  id: 2471
+  label: perkins_bostock_study_carrels_01
+  image: floorplans/roommockup/perkins_bostock_study_carrels_01.jpg
+
+perkins_bostock_study_carrels_02:
+  id: 2481
+  label: perkins_bostock_study_carrels_02
+  image: floorplans/roommockup/perkins_bostock_study_carrels_02.jpg
+
+perkins_bostock_study_carrels_03:
+  id: 2491
+  label: perkins_bostock_study_carrels_03
+  image: floorplans/roommockup/perkins_bostock_study_carrels_03.jpg
+
+perkins_bostock_study_carrels_04:
+  id: 2501
+  label: perkins_bostock_study_carrels_04
+  image: floorplans/roommockup/perkins_bostock_study_carrels_04.jpg
+
+perkins_bostock_study_carrels_05:
+  id: 2511
+  label: perkins_bostock_study_carrels_05
+  image: floorplans/roommockup/perkins_bostock_study_carrels_05.jpg
+
+perkins_bostock_study_carrels_06:
+  id: 2521
+  label: perkins_bostock_study_carrels_06
+  image: floorplans/roommockup/perkins_bostock_study_carrels_06.jpg
+
+perkins_bostock_study_carrels_07:
+  id: 2531
+  label: perkins_bostock_study_carrels_07
+  image: floorplans/roommockup/perkins_bostock_study_carrels_07.jpg
+
+perkins_bostock_study_carrels_08:
+  id: 2541
+  label: perkins_bostock_study_carrels_08
+  image: floorplans/roommockup/perkins_bostock_study_carrels_08.jpg
+
+perkins_bostock_study_carrels_09:
+  id: 2551
+  label: perkins_bostock_study_carrels_09
+  image: floorplans/roommockup/perkins_bostock_study_carrels_09.jpg
+
+perkins_bostock_study_carrels_10:
+  id: 2561
+  label: perkins_bostock_study_carrels_10
+  image: floorplans/roommockup/perkins_bostock_study_carrels_10.jpg
+
+perkins_bostock_study_carrels_11:
+  id: 2571
+  label: perkins_bostock_study_carrels_11
+  image: floorplans/roommockup/perkins_bostock_study_carrels_11.jpg
+
+perkins_bostock_study_space_01:
+  id: 2581
+  label: perkins_bostock_study_space_01
+  image: floorplans/roommockup/perkins_bostock_study_space_01.jpg
+
+perkins_bostock_study_space_02:
+  id: 2591
+  label: perkins_bostock_study_space_02
+  image: floorplans/roommockup/perkins_bostock_study_space_02.jpg
+
+perkins_bostock_study_space_03:
+  id: 2601
+  label: perkins_bostock_study_space_03
+  image: floorplans/roommockup/perkins_bostock_study_space_03.jpg
+
+perkins_bostock_study_space_04:
+  id: 2611
+  label: perkins_bostock_study_space_04
+  image: floorplans/roommockup/perkins_bostock_study_space_04.jpg
+
+perkins_bostock_study_space_05:
+  id: 2621
+  label: perkins_bostock_study_space_05
+  image: floorplans/roommockup/perkins_bostock_study_space_05.jpg
+
+perkins_bostock_study_space_06:
+  id: 2631
+  label: perkins_bostock_study_space_06
+  image: floorplans/roommockup/perkins_bostock_study_space_06.jpg
+
+perkins_bostock_study_space_07:
+  id: 2641
+  label: perkins_bostock_study_space_07
+  image: floorplans/roommockup/perkins_bostock_study_space_07.jpg
+
+perkins_bostock_study_space_08:
+  id: 2651
+  label: perkins_bostock_study_space_08
+  image: floorplans/roommockup/perkins_bostock_study_space_08.jpg
+
+perkins_bostock_study_space_09:
+  id: 2661
+  label: perkins_bostock_study_space_09
+  image: floorplans/roommockup/perkins_bostock_study_space_09.jpg
+
+perkins_fl01_access_delivery_services_area_01:
+  id: 2671
+  label: perkins_fl01_access_delivery_services_area_01
+  image: floorplans/roommockup/perkins_fl01_access_delivery_services_area_01.jpg
+
+perkins_fl01_access_delivery_services_area_02:
+  id: 2681
+  label: perkins_fl01_access_delivery_services_area_02
+  image: floorplans/roommockup/perkins_fl01_access_delivery_services_area_02.jpg
+
+perkins_fl01_amoeba_workstations_01:
+  id: 1591
+  label: perkins_fl01_amoeba_workstations_01
+  image: floorplans/roommockup/perkins_fl01_amoeba_workstations_01.jpg
+
+perkins_fl01_amoeba_workstations_02:
+  id: 1601
+  label: perkins_fl01_amoeba_workstations_02
+  image: floorplans/roommockup/perkins_fl01_amoeba_workstations_02.jpg
+
+perkins_fl01_amoeba_workstations_03:
+  id: 1611
+  label: perkins_fl01_amoeba_workstations_03
+  image: floorplans/roommockup/perkins_fl01_amoeba_workstations_03.jpg
+
+perkins_fl01_amoeba_workstations_04:
+  id: 1621
+  label: perkins_fl01_amoeba_workstations_04
+  image: floorplans/roommockup/perkins_fl01_amoeba_workstations_04.jpg
+
+perkins_fl01_barber_writing_studio_01:
+  id: 2691
+  label: perkins_fl01_barber_writing_studio_01
+  image: floorplans/roommockup/perkins_fl01_barber_writing_studio_01.jpg
+
+perkins_fl01_barber_writing_studio_02:
+  id: 2701
+  label: perkins_fl01_barber_writing_studio_02
+  image: floorplans/roommockup/perkins_fl01_barber_writing_studio_02.jpg
+
+perkins_fl01_consultation_room_01:
+  id: 1641
+  label: perkins_fl01_consultation_room_01
+  image: floorplans/roommockup/perkins_fl01_consultation_room_01.jpg
+
+perkins_fl01_consultation_room_02:
+  id: 1651
+  label: perkins_fl01_consultation_room_02
+  image: floorplans/roommockup/perkins_fl01_consultation_room_02.jpg
+
+perkins_fl01_consultation_room_03:
+  id: 1661
+  label: perkins_fl01_consultation_room_03
+  image: floorplans/roommockup/perkins_fl01_consultation_room_03.jpg
+
+perkins_fl01_ferriero_study_room:
+  id: 1671
+  label: perkins_fl01_ferriero_study_room
+  image: floorplans/roommockup/perkins_fl01_ferriero_study_room.jpg
+
+perkins_fl01_head_of_circulation_office_01:
+  id: 2711
+  label: perkins_fl01_head_of_circulation_office_01
+  image: floorplans/roommockup/perkins_fl01_head_of_circulation_office_01.jpg
+
+perkins_fl01_head_of_circulation_office_02:
+  id: 2721
+  label: perkins_fl01_head_of_circulation_office_02
+  image: floorplans/roommockup/perkins_fl01_head_of_circulation_office_02.jpg
+
+perkins_fl01_korman_study_room_01:
+  id: 1681
+  label: perkins_fl01_korman_study_room_01
+  image: floorplans/roommockup/perkins_fl01_korman_study_room_01.jpg
+
+perkins_fl01_korman_study_room_02:
+  id: 1691
+  label: perkins_fl01_korman_study_room_02
+  image: floorplans/roommockup/perkins_fl01_korman_study_room_02.jpg
+
+perkins_fl01_mcneely_study_room:
+  id: 1701
+  label: perkins_fl01_mcneely_study_room
+  image: floorplans/roommockup/perkins_fl01_mcneely_study_room.jpg
+
+perkins_fl01_morris_reading_area_01:
+  id: 2731
+  label: perkins_fl01_morris_reading_area_01
+  image: floorplans/roommockup/perkins_fl01_morris_reading_area_01.jpg
+
+perkins_fl01_morris_reading_area_02:
+  id: 2741
+  label: perkins_fl01_morris_reading_area_02
+  image: floorplans/roommockup/perkins_fl01_morris_reading_area_02.jpg
+
+perkins_fl01_odell_conference_room:
+  id: 1721
+  label: perkins_fl01_odell_conference_room
+  image: floorplans/roommockup/perkins_fl01_odell_conference_room.jpg
+
+perkins_fl01_orr_study_room:
+  id: 1731
+  label: perkins_fl01_orr_study_room
+  image: floorplans/roommockup/perkins_fl01_orr_study_room.jpg
+
+perkins_fl01_reference_reading_area_01:
+  id: 1741
+  label: perkins_fl01_reference_reading_area_01
+  image: floorplans/roommockup/perkins_fl01_reference_reading_area_01.jpg
+
+perkins_fl01_reference_reading_area_02:
+  id: 1751
+  label: perkins_fl01_reference_reading_area_02
+  image: floorplans/roommockup/perkins_fl01_reference_reading_area_02.jpg
+
+perkins_fl01_reference_reading_area_03:
+  id: 1761
+  label: perkins_fl01_reference_reading_area_03
+  image: floorplans/roommockup/perkins_fl01_reference_reading_area_03.jpg
+
+perkins_fl01_reference_reading_area_04:
+  id: 1771
+  label: perkins_fl01_reference_reading_area_04
+  image: floorplans/roommockup/perkins_fl01_reference_reading_area_04.jpg
+
+perkins_fl01_reference_reading_area_05:
+  id: 1781
+  label: perkins_fl01_reference_reading_area_05
+  image: floorplans/roommockup/perkins_fl01_reference_reading_area_05.jpg
+
+perkins_fl01_silver_reference_desk_01:
+  id: 2751
+  label: perkins_fl01_silver_reference_desk_01
+  image: floorplans/roommockup/perkins_fl01_silver_reference_desk_01.jpg
+
+perkins_fl01_silver_reference_desk_02:
+  id: 2761
+  label: perkins_fl01_silver_reference_desk_02
+  image: floorplans/roommockup/perkins_fl01_silver_reference_desk_02.jpg
+
+perkins_fl01_silver_reference_desk_03:
+  id: 2771
+  label: perkins_fl01_silver_reference_desk_03
+  image: floorplans/roommockup/perkins_fl01_silver_reference_desk_03.jpg
+
+perkins_fl01_smith_ferracone_circulation_area_01:
+  id: 1801
+  label: perkins_fl01_smith_ferracone_circulation_area_01
+  image: floorplans/roommockup/perkins_fl01_smith_ferracone_circulation_area_01.jpg
+
+perkins_fl01_smith_ferracone_circulation_area_02:
+  id: 1811
+  label: perkins_fl01_smith_ferracone_circulation_area_02
+  image: floorplans/roommockup/perkins_fl01_smith_ferracone_circulation_area_02.jpg
+
+perkins_fl01_von_der_heyden_01:
+  id: 1821
+  label: perkins_fl01_von_der_heyden_01
+  image: floorplans/roommockup/perkins_fl01_von_der_heyden_01.jpg
+
+perkins_fl01_von_der_heyden_02:
+  id: 1831
+  label: perkins_fl01_von_der_heyden_02
+  image: floorplans/roommockup/perkins_fl01_von_der_heyden_02.jpg
+
+perkins_fl01_von_der_heyden_03:
+  id: 1841
+  label: perkins_fl01_von_der_heyden_03
+  image: floorplans/roommockup/perkins_fl01_von_der_heyden_03.jpg
+
+perkins_fl01_von_der_heyden_04:
+  id: 1851
+  label: perkins_fl01_von_der_heyden_04
+  image: floorplans/roommockup/perkins_fl01_von_der_heyden_04.jpg
+
+perkins_fl01_von_der_heyden_05:
+  id: 2781
+  label: perkins_fl01_von_der_heyden_05
+  image: floorplans/roommockup/perkins_fl01_von_der_heyden_05.jpg
+
+perkins_fl01_waters_courtyard_01:
+  id: 1861
+  label: perkins_fl01_waters_courtyard_01
+  image: floorplans/roommockup/perkins_fl01_waters_courtyard_01.jpg
+
+perkins_fl01_waters_courtyard_02:
+  id: 1871
+  label: perkins_fl01_waters_courtyard_02
+  image: floorplans/roommockup/perkins_fl01_waters_courtyard_02.jpg
+
+perkins_fl01_waters_courtyard_03:
+  id: 2791
+  label: perkins_fl01_waters_courtyard_03
+  image: floorplans/roommockup/perkins_fl01_waters_courtyard_03.jpg
+
+perkins_fl02_assembly_room_01:
+  id: 1881
+  label: perkins_fl02_assembly_room_01
+  image: floorplans/roommockup/perkins_fl02_assembly_room_01.jpg
+
+perkins_fl02_assembly_room_02:
+  id: 1891
+  label: perkins_fl02_assembly_room_02
+  image: floorplans/roommockup/perkins_fl02_assembly_room_02.jpg
+
+perkins_fl02_brandaleone_gis_area:
+  id: 1901
+  label: perkins_fl02_brandaleone_gis_area
+  image: floorplans/roommockup/perkins_fl02_brandaleone_gis_area.jpg
+
+perkins_fl02_research_services_lg_conference_room:
+  id: 1911
+  label: perkins_fl02_research_services_lg_conference_room
+  image: floorplans/roommockup/perkins_fl02_research_services_lg_conference_room.jpg
+
+perkins_fl02_research_services_office_01:
+  id: 1931
+  label: perkins_fl02_research_services_office_01
+  image: floorplans/roommockup/perkins_fl02_research_services_office_01.jpg
+
+perkins_fl02_research_services_office_02:
+  id: 1941
+  label: perkins_fl02_research_services_office_02
+  image: floorplans/roommockup/perkins_fl02_research_services_office_02.jpg
+
+perkins_fl02_research_services_suite:
+  id: 1921
+  label: perkins_fl02_research_services_suite
+  image: floorplans/roommockup/perkins_fl02_research_services_suite.jpg
+
+perkins_fl02_riess_reading_room:
+  id: 1951
+  label: perkins_fl02_riess_reading_room
+  image: floorplans/roommockup/perkins_fl02_riess_reading_room.jpg
+
+perkins_fl02_shaughnessy_study_area:
+  id: 1961
+  label: perkins_fl02_shaughnessy_study_area
+  image: floorplans/roommockup/perkins_fl02_shaughnessy_study_area.jpg
+
+perkins_fl02_study_room_01:
+  id: 1971
+  label: perkins_fl02_study_room_01
+  image: floorplans/roommockup/perkins_fl02_study_room_01.jpg
+
+perkins_fl02_study_room_02:
+  id: 1981
+  label: perkins_fl02_study_room_02
+  image: floorplans/roommockup/perkins_fl02_study_room_02.jpg
+
+perkins_fl03_boylston_study_room:
+  id: 1991
+  label: perkins_fl03_boylston_study_room
+  image: floorplans/roommockup/perkins_fl03_boylston_study_room.jpg
+
+perkins_fl03_study_area_01:
+  id: 2001
+  label: perkins_fl03_study_area_01
+  image: floorplans/roommockup/perkins_fl03_study_area_01.jpg
+
+perkins_fl03_study_area_02:
+  id: 2011
+  label: perkins_fl03_study_area_02
+  image: floorplans/roommockup/perkins_fl03_study_area_02.jpg
+
+perkins_fl03_study_room_01:
+  id: 2021
+  label: perkins_fl03_study_room_01
+  image: floorplans/roommockup/perkins_fl03_study_room_01.jpg
+
+perkins_fl03_study_room_02:
+  id: 2031
+  label: perkins_fl03_study_room_02
+  image: floorplans/roommockup/perkins_fl03_study_room_02.jpg
+
+perkins_fl03_study_space:
+  id: 2041
+  label: perkins_fl03_study_space
+  image: floorplans/roommockup/perkins_fl03_study_space.jpg
+
+perkins_fl04_bradley_study_room:
+  id: 2051
+  label: perkins_fl04_bradley_study_room
+  image: floorplans/roommockup/perkins_fl04_bradley_study_room.jpg
+
+perkins_fl04_brod_reading_area:
+  id: 2061
+  label: perkins_fl04_brod_reading_area
+  image: floorplans/roommockup/perkins_fl04_brod_reading_area.jpg
+
+perkins_fl04_drill_study_room:
+  id: 2071
+  label: perkins_fl04_drill_study_room
+  image: floorplans/roommockup/perkins_fl04_drill_study_room.jpg
+
+perkins_fl04_levene_study_room:
+  id: 2081
+  label: perkins_fl04_levene_study_room
+  image: floorplans/roommockup/perkins_fl04_levene_study_room.jpg
+
+perkins_fl04_study_area:
+  id: 2091
+  label: perkins_fl04_study_area
+  image: floorplans/roommockup/perkins_fl04_study_area.jpg
+
+perkins_fl04_study_space_01:
+  id: 2101
+  label: perkins_fl04_study_space_01
+  image: floorplans/roommockup/perkins_fl04_study_space_01.jpg
+
+perkins_fl04_study_space_02:
+  id: 2111
+  label: perkins_fl04_study_space_02
+  image: floorplans/roommockup/perkins_fl04_study_space_02.jpg
+
+perkins_ll01_digital_production_center:
+  id: 1221
+  label: perkins_ll01_digital_production_center
+  image: floorplans/roommockup/perkins_ll01_digital_production_center.jpg
+
+perkins_ll01_lg_classroom_01:
+  id: 1231
+  label: perkins_ll01_lg_classroom_01
+  image: floorplans/roommockup/perkins_ll01_lg_classroom_01.jpg
+
+perkins_ll01_lg_classroom_02:
+  id: 1241
+  label: perkins_ll01_lg_classroom_02
+  image: floorplans/roommockup/perkins_ll01_lg_classroom_02.jpg
+
+perkins_ll01_lg_seminar_room_01:
+  id: 1251
+  label: perkins_ll01_lg_seminar_room_01
+  image: floorplans/roommockup/perkins_ll01_lg_seminar_room_01.jpg
+
+perkins_ll01_lg_seminar_room_02:
+  id: 1261
+  label: perkins_ll01_lg_seminar_room_02
+  image: floorplans/roommockup/perkins_ll01_lg_seminar_room_02.jpg
+
+perkins_ll01_lg_study_room_01:
+  id: 1271
+  label: perkins_ll01_lg_study_room_01
+  image: floorplans/roommockup/perkins_ll01_lg_study_room_01.jpg
+
+perkins_ll01_lg_study_room_02:
+  id: 1281
+  label: perkins_ll01_lg_study_room_02
+  image: floorplans/roommockup/perkins_ll01_lg_study_room_02.jpg
+
+perkins_ll01_lg_study_room_03:
+  id: 1291
+  label: perkins_ll01_lg_study_room_03
+  image: floorplans/roommockup/perkins_ll01_lg_study_room_03.jpg
+
+perkins_ll01_med_classroom:
+  id: 1301
+  label: perkins_ll01_med_classroom
+  image: floorplans/roommockup/perkins_ll01_med_classroom.jpg
+
+perkins_ll01_med_seminar_room:
+  id: 1311
+  label: perkins_ll01_med_seminar_room
+  image: floorplans/roommockup/perkins_ll01_med_seminar_room.jpg
+
+perkins_ll01_med_study_room_01:
+  id: 1321
+  label: perkins_ll01_med_study_room_01
+  image: floorplans/roommockup/perkins_ll01_med_study_room_01.jpg
+
+perkins_ll01_med_study_room_02:
+  id: 1331
+  label: perkins_ll01_med_study_room_02
+  image: floorplans/roommockup/perkins_ll01_med_study_room_02.jpg
+
+perkins_ll01_reading_area_01:
+  id: 1341
+  label: perkins_ll01_reading_area_01
+  image: floorplans/roommockup/perkins_ll01_reading_area_01.jpg
+
+perkins_ll01_reading_area_02:
+  id: 1351
+  label: perkins_ll01_reading_area_02
+  image: floorplans/roommockup/perkins_ll01_reading_area_02.jpg
+
+perkins_ll01_reading_area_03:
+  id: 1361
+  label: perkins_ll01_reading_area_03
+  image: floorplans/roommockup/perkins_ll01_reading_area_03.jpg
+
+perkins_ll01_reading_area_04:
+  id: 1371
+  label: perkins_ll01_reading_area_04
+  image: floorplans/roommockup/perkins_ll01_reading_area_04.jpg
+
+perkins_ll01_reading_area_05:
+  id: 1381
+  label: perkins_ll01_reading_area_05
+  image: floorplans/roommockup/perkins_ll01_reading_area_05.jpg
+
+perkins_ll01_reading_area_06:
+  id: 1391
+  label: perkins_ll01_reading_area_06
+  image: floorplans/roommockup/perkins_ll01_reading_area_06.jpg
+
+perkins_ll01_reading_area_07:
+  id: 1401
+  label: perkins_ll01_reading_area_07
+  image: floorplans/roommockup/perkins_ll01_reading_area_07.jpg
+
+perkins_ll01_reading_area_08:
+  id: 1411
+  label: perkins_ll01_reading_area_08
+  image: floorplans/roommockup/perkins_ll01_reading_area_08.jpg
+
+perkins_ll01_roberts_conservation_lab:
+  id: 1421
+  label: perkins_ll01_roberts_conservation_lab
+  image: floorplans/roommockup/perkins_ll01_roberts_conservation_lab.jpg
+
+perkins_ll01_savitt_seminar_room:
+  id: 1431
+  label: perkins_ll01_savitt_seminar_room
+  image: floorplans/roommockup/perkins_ll01_savitt_seminar_room.jpg
+
+perkins_ll01_sm_classroom:
+  id: 2451
+  label: perkins_ll01_sm_classroom
+  image: floorplans/roommockup/perkins_ll01_sm_classroom.jpg
+
+perkins_ll01_sm_seminar_room_01:
+  id: 1441
+  label: perkins_ll01_sm_seminar_room_01
+  image: floorplans/roommockup/perkins_ll01_sm_study_room_01.jpg
+
+perkins_ll01_sm_seminar_room_02:
+  id: 1451
+  label: perkins_ll01_sm_seminar_room_02
+  image: floorplans/roommockup/perkins_ll01_sm_seminar_room_02.jpg
+
+perkins_ll01_sm_seminar_room_03:
+  id: 1461
+  label: perkins_ll01_sm_seminar_room_03
+  image: floorplans/roommockup/perkins_ll01_sm_seminar_room_03.jpg
+
+perkins_ll01_sm_study_room_01:
+  id: 1471
+  label: perkins_ll01_sm_study_room_01
+  image: floorplans/roommockup/perkins_ll01_sm_study_room_01_1.jpg
+
+perkins_ll01_sm_study_room_02:
+  id: 1481
+  label: perkins_ll01_sm_study_room_02
+  image: floorplans/roommockup/perkins_ll01_sm_study_room_02.jpg
+
+perkins_ll01_sm_study_room_03:
+  id: 1491
+  label: perkins_ll01_sm_study_room_03
+  image: floorplans/roommockup/perkins_ll01_sm_study_room_03.jpg
+
+perkins_ll01_sm_study_room_04:
+  id: 1501
+  label: perkins_ll01_sm_study_room_04
+  image: floorplans/roommockup/perkins_ll01_sm_study_room_04.jpg
+
+perkins_ll01_sm_study_room_05:
+  id: 1511
+  label: perkins_ll01_sm_study_room_05
+  image: floorplans/roommockup/perkins_ll01_sm_study_room_05.jpg
+
+perkins_ll01_williams_service_point_01:
+  id: 1521
+  label: perkins_ll01_williams_service_point_01
+  image: floorplans/roommockup/perkins_ll01_williams_service_point_01.jpg
+
+perkins_ll01_williams_service_point_02:
+  id: 1531
+  label: perkins_ll01_williams_service_point_02
+  image: floorplans/roommockup/perkins_ll01_williams_service_point_02.jpg
+
+perkins_ll01_williams_service_point_03:
+  id: 1541
+  label: perkins_ll01_williams_service_point_03
+  image: floorplans/roommockup/perkins_ll01_williams_service_point_03.jpg
+
+perkins_ll01_xl_classroom_01:
+  id: 1551
+  label: perkins_ll01_xl_classroom_01
+  image: floorplans/roommockup/perkins_ll01_xl_classroom_01.jpg
+
+perkins_ll01_xl_classroom_02:
+  id: 1561
+  label: perkins_ll01_xl_classroom_02
+  image: floorplans/roommockup/perkins_ll01_xl_classroom_02.jpg
+
+perkins_ll01_xl_classroom_03:
+  id: 1571
+  label: perkins_ll01_xl_classroom_03
+  image: floorplans/roommockup/perkins_ll01_xl_classroom_03.jpg
+
+perkins_ll02_lg_study_room_01:
+  id: 2171
+  label: perkins_ll02_lg_study_room_01
+  image: floorplans/roommockup/perkins_ll02_lg_study_room_01.jpg
+
+perkins_ll02_lg_study_room_02:
+  id: 2181
+  label: perkins_ll02_lg_study_room_02
+  image: floorplans/roommockup/perkins_ll02_lg_study_room_02.jpg
+
+perkins_ll02_reading_concourse:
+  id: 2121
+  label: perkins_ll02_reading_concourse
+  image: floorplans/roommockup/perkins_ll02_reading_concourse.jpg
+
+perkins_ll02_study_room_01:
+  id: 2191
+  label: perkins_ll02_study_room_01
+  image: floorplans/roommockup/perkins_ll02_study_room_01.jpg
+
+perkins_ll02_study_room_02:
+  id: 2201
+  label: perkins_ll02_study_room_02
+  image: floorplans/roommockup/perkins_ll02_study_room_02.jpg
+
+perkins_reading_area_01:
+  id: 2801
+  label: perkins_reading_area_01
+  image: floorplans/roommockup/perkins_reading_area_01.jpg
+
+perkins_reading_area_02:
+  id: 2811
+  label: perkins_reading_area_02
+  image: floorplans/roommockup/perkins_reading_area_02.jpg
+
+perkins_reading_area_03:
+  id: 2821
+  label: perkins_reading_area_03
+  image: floorplans/roommockup/perkins_reading_area_03.jpg
+
+perkins_reading_area_04:
+  id: 2831
+  label: perkins_reading_area_04
+  image: floorplans/roommockup/perkins_reading_area_04.jpg
+
+perkins_study_space_north-facing_01:
+  id: 2841
+  label: perkins_study_space_north-facing_01
+  image: floorplans/roommockup/perkins_study_space_north-facing_01.jpg
+
+perkins_study_space_north-facing_02:
+  id: 2851
+  label: perkins_study_space_north-facing_02
+  image: floorplans/roommockup/perkins_study_space_north-facing_02.jpg
+
+rubenstein_fl03_mockup_reading_area_01:
+  id: 2881
+  label: rubenstein_fl03_mockup_reading_area_01
+  image: floorplans/roommockup/rubenstein_fl03_mockup_reading_area_01.png
+
+rubenstein_fl03_mockup_reading_area_02:
+  id: 2891
+  label: rubenstein_fl03_mockup_reading_area_02
+  image: floorplans/roommockup/rubenstein_fl03_mockup_reading_area_02.png
+
+rubenstein_mockup_images_biddle_foyer:
+  id: 1
+  label: rubenstein_mockup_images_biddle_foyer
+  image: floorplans/roommockup/rubenstein_mockup_images_biddle_foyer.jpg
+
+rubenstein_mockup_images_biddle_rare_book_room_01:
+  id: 321
+  label: rubenstein_mockup_images_biddle_rare_book_room_01
+  image: floorplans/roommockup/rubenstein_mockup_images_biddle_rare_book_room_01.jpg
+
+rubenstein_mockup_images_biddle_rare_book_room_02:
+  id: 331
+  label: rubenstein_mockup_images_biddle_rare_book_room_02
+  image: floorplans/roommockup/rubenstein_mockup_images_biddle_rare_book_room_02.jpg
+
+rubenstein_mockup_images_biddle_rare_book_room_03:
+  id: 341
+  label: rubenstein_mockup_images_biddle_rare_book_room_03
+  image: floorplans/roommockup/rubenstein_mockup_images_biddle_rare_book_room_03.jpg
+
+rubenstein_mockup_images_biddle_rare_book_room_04:
+  id: 351
+  label: rubenstein_mockup_images_biddle_rare_book_room_04
+  image: floorplans/roommockup/rubenstein_mockup_images_biddle_rare_book_room_04.jpg
+
+rubenstein_mockup_images_carpenter_board_room:
+  id: 21
+  label: rubenstein_mockup_images_carpenter_board_room
+  image: floorplans/roommockup/rubenstein_mockup_images_carpenter_board_room.jpg
+
+rubenstein_mockup_images_catering_kitchen:
+  id: 31
+  label: rubenstein_mockup_images_catering_kitchen
+  image: floorplans/roommockup/rubenstein_mockup_images_catering_kitchen.jpg
+
+rubenstein_mockup_images_chappell_gallery_01:
+  id: 361
+  label: rubenstein_mockup_images_chappell_gallery_01
+  image: floorplans/roommockup/rubenstein_mockup_images_chappell_gallery_01.jpg
+
+rubenstein_mockup_images_chappell_gallery_02:
+  id: 371
+  label: rubenstein_mockup_images_chappell_gallery_02
+  image: floorplans/roommockup/rubenstein_mockup_images_chappell_gallery_02.jpg
+
+rubenstein_mockup_images_conference_room:
+  id: 51
+  label: rubenstein_mockup_images_conference_room
+  image: floorplans/roommockup/rubenstein_mockup_images_conference_room.jpg
+
+rubenstein_mockup_images_dig_hum_coll_wk_room:
+  id: 381
+  label: rubenstein_mockup_images_dig_hum_coll_wk_room
+  image: floorplans/roommockup/rubenstein_mockup_images_dig_hum_coll_wk_room.jpg
+
+rubenstein_mockup_images_exhibition_gallery_01:
+  id: 391
+  label: rubenstein_mockup_images_exhibition_gallery_01
+  image: floorplans/roommockup/rubenstein_mockup_images_exhibition_gallery_01.jpg
+
+rubenstein_mockup_images_exhibition_gallery_02:
+  id: 401
+  label: rubenstein_mockup_images_exhibition_gallery_02
+  image: floorplans/roommockup/rubenstein_mockup_images_exhibition_gallery_02.jpg
+
+rubenstein_mockup_images_exhibition_gallery_03:
+  id: 411
+  label: rubenstein_mockup_images_exhibition_gallery_03
+  image: floorplans/roommockup/rubenstein_mockup_images_exhibition_gallery_03.jpg
+
+rubenstein_mockup_images_flowers_dalton_room:
+  id: 121
+  label: rubenstein_mockup_images_flowers_dalton_room
+  image: floorplans/roommockup/rubenstein_mockup_images_flowers_dalton_room.jpg
+
+rubenstein_mockup_images_gothic_lounge:
+  id: 131
+  label: rubenstein_mockup_images_gothic_lounge
+  image: floorplans/roommockup/rubenstein_mockup_images_gothic_lounge.jpg
+
+rubenstein_mockup_images_gothic_reading_room_01:
+  id: 431
+  label: rubenstein_mockup_images_gothic_reading_room_01
+  image: floorplans/roommockup/rubenstein_mockup_images_gothic_reading_room_01.jpg
+
+rubenstein_mockup_images_gothic_reading_room_01a:
+  id: 2861
+  label: rubenstein_mockup_images_gothic_reading_room_01a
+  image: floorplans/roommockup/rubenstein_mockup_images_gothic_reading_room_01a.jpg
+
+rubenstein_mockup_images_gothic_reading_room_02:
+  id: 441
+  label: rubenstein_mockup_images_gothic_reading_room_02
+  image: floorplans/roommockup/rubenstein_mockup_images_gothic_reading_room_02.jpg
+
+rubenstein_mockup_images_gothic_reading_room_03:
+  id: 451
+  label: rubenstein_mockup_images_gothic_reading_room_03
+  image: floorplans/roommockup/rubenstein_mockup_images_gothic_reading_room_03.jpg
+
+rubenstein_mockup_images_gothic_reading_room_04:
+  id: 551
+  label: rubenstein_mockup_images_gothic_reading_room_04
+  image: floorplans/roommockup/rubenstein_mockup_images_gothic_reading_room_04.jpg
+
+rubenstein_mockup_images_gothic_reading_room_05:
+  id: 561
+  label: rubenstein_mockup_images_gothic_reading_room_05
+  image: floorplans/roommockup/rubenstein_mockup_images_gothic_reading_room_05.jpg
+
+rubenstein_mockup_images_gothic_reading_room_06:
+  id: 571
+  label: rubenstein_mockup_images_gothic_reading_room_06
+  image: floorplans/roommockup/rubenstein_mockup_images_gothic_reading_room_06.jpg
+
+rubenstein_mockup_images_holsti_anderson_seminar_room:
+  id: 151
+  label: rubenstein_mockup_images_holsti_anderson_seminar_room
+  image: floorplans/roommockup/rubenstein_mockup_images_holsti_anderson_seminar_room.jpg
+
+rubenstein_mockup_images_library_administration:
+  id: 161
+  label: rubenstein_mockup_images_library_administration
+  image: floorplans/roommockup/rubenstein_mockup_images_library_administration.jpg
+
+rubenstein_mockup_images_papyrology_and_paleography:
+  id: 171
+  label: rubenstein_mockup_images_papyrology_and_paleography
+  image: floorplans/roommockup/rubenstein_mockup_images_papyrology_and_paleography.jpg
+
+rubenstein_mockup_images_rare_book_library_classroom:
+  id: 181
+  label: rubenstein_mockup_images_rare_book_library_classroom
+  image: floorplans/roommockup/rubenstein_mockup_images_rare_book_library_classroom.jpg
+
+rubenstein_mockup_images_reception_01:
+  id: 461
+  label: rubenstein_mockup_images_reception_01
+  image: floorplans/roommockup/rubenstein_mockup_images_reception_01.jpg
+
+rubenstein_mockup_images_reception_02:
+  id: 471
+  label: rubenstein_mockup_images_reception_02
+  image: floorplans/roommockup/rubenstein_mockup_images_reception_02.jpg
+
+rubenstein_mockup_images_reference_room:
+  id: 201
+  label: rubenstein_mockup_images_reference_room
+  image: floorplans/roommockup/rubenstein_mockup_images_reference_room.jpg
+
+rubenstein_mockup_images_research_room:
+  id: 2871
+  label: rubenstein_mockup_images_research_room
+  image: floorplans/roommockup/rubenstein_mockup_images_research_room.jpg
+
+rubenstein_mockup_images_seminar_room_fl1:
+  id: 221
+  label: rubenstein_mockup_images_seminar_room_fl1
+  image: floorplans/roommockup/rubenstein_mockup_images_seminar_room_fl1.jpg
+
+rubenstein_mockup_images_seminar_room_fl3:
+  id: 231
+  label: rubenstein_mockup_images_seminar_room_fl3
+  image: floorplans/roommockup/rubenstein_mockup_images_seminar_room_fl3.jpg
+
+rubenstein_mockup_images_smith_ferracone_reception_area_01:
+  id: 601
+  label: rubenstein_mockup_images_smith_ferracone_reception_area_01
+  image: floorplans/roommockup/rubenstein_mockup_images_smith_ferracone_reception_area_01.jpg
+
+rubenstein_mockup_images_smith_ferracone_reception_area_02:
+  id: 611
+  label: rubenstein_mockup_images_smith_ferracone_reception_area_02
+  image: floorplans/roommockup/rubenstein_mockup_images_smith_ferracone_reception_area_02.jpg
+
+rubenstein_mockup_images_sperling_lobby_01:
+  id: 511
+  label: rubenstein_mockup_images_sperling_lobby_01
+  image: floorplans/roommockup/rubenstein_mockup_images_sperling_lobby_01.jpg
+
+rubenstein_mockup_images_sperling_lobby_02:
+  id: 521
+  label: rubenstein_mockup_images_sperling_lobby_02
+  image: floorplans/roommockup/rubenstein_mockup_images_sperling_lobby_02.jpg
+
+rubenstein_mockup_images_study_room_01:
+  id: 261
+  label: rubenstein_mockup_images_study_room_01
+  image: floorplans/roommockup/rubenstein_mockup_images_study_room_01.jpg
+
+rubenstein_mockup_images_study_room_02:
+  id: 271
+  label: rubenstein_mockup_images_study_room_02
+  image: floorplans/roommockup/rubenstein_mockup_images_study_room_02.jpg
+
+rubenstein_mockup_images_study_room_03:
+  id: 581
+  label: rubenstein_mockup_images_study_room_03
+  image: floorplans/roommockup/rubenstein_mockup_images_study_room_03.jpg
+
+rubenstein_mockup_images_trent_room:
+  id: 291
+  label: rubenstein_mockup_images_trent_room
+  image: floorplans/roommockup/rubenstein_mockup_images_trent_room.jpg
+
+rubenstein_mockup_images_university_librarian_office:
+  id: 301
+  label: rubenstein_mockup_images_university_librarian_office
+  image: floorplans/roommockup/rubenstein_mockup_images_university_librarian_office.jpg
+
+rubenstein_mockup_images_west_quad_stair_tower_01:
+  id: 531
+  label: rubenstein_mockup_images_west_quad_stair_tower_01
+  image: floorplans/roommockup/rubenstein_mockup_images_west_quad_stair_tower_01.jpg
+
+rubenstein_mockup_images_west_quad_stair_tower_02:
+  id: 541
+  label: rubenstein_mockup_images_west_quad_stair_tower_02
+  image: floorplans/roommockup/rubenstein_mockup_images_west_quad_stair_tower_02.jpg
+
+rubenstein_mockup_images_west_quad_stair_tower_03:
+  id: 591
+  label: rubenstein_mockup_images_west_quad_stair_tower_03
+  image: floorplans/roommockup/rubenstein_mockup_images_west_quad_stair_tower_03.jpg
+
+rubenstein_mockup_images_research_room_01:
+  id: 2893
+  label: rubenstein_mockup_images_research_room_01
+  image: floorplans/roommockup/rubenstein_mockup_images_research_room_01_1.jpg
+
+rubenstein_mockup_images_research_room_02:
+  id: 2895
+  label: rubenstein_mockup_images_research_room_02
+  image: floorplans/roommockup/rubenstein_mockup_images_research_room_02_1.jpg
+
+rubenstein_mockup_images_research_room_03:
+  id: 2897
+  label: rubenstein_mockup_images_research_room_03
+  image: floorplans/roommockup/rubenstein_mockup_images_research_room_03_1.jpg
+

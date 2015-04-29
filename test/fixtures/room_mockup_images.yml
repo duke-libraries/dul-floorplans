@@ -1,0 +1,1547 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+1225:
+  id: 1225
+  room_id: 1000
+  room_mockup_id: 1
+
+1251:
+  id: 1251
+  room_id: 1001
+  room_mockup_id: 321
+
+1253:
+  id: 1253
+  room_id: 1001
+  room_mockup_id: 331
+
+1255:
+  id: 1255
+  room_id: 1001
+  room_mockup_id: 341
+
+1257:
+  id: 1257
+  room_id: 1001
+  room_mockup_id: 351
+
+1247:
+  id: 1247
+  room_id: 1002
+  room_mockup_id: 361
+
+1249:
+  id: 1249
+  room_id: 1002
+  room_mockup_id: 371
+
+25:
+  id: 25
+  room_id: 3001
+  room_mockup_id: 1671
+
+1037:
+  id: 1037
+  room_id: 3002
+  room_mockup_id: 1701
+
+1179:
+  id: 1179
+  room_id: 14635
+  room_mockup_id: 2021
+
+31:
+  id: 31
+  room_id: 14601
+  room_mockup_id: 651
+
+33:
+  id: 33
+  room_id: 1003
+  room_mockup_id: 151
+
+35:
+  id: 35
+  room_id: 14461
+  room_mockup_id: 1621
+
+37:
+  id: 37
+  room_id: 3003
+  room_mockup_id: 2731
+
+39:
+  id: 39
+  room_id: 3003
+  room_mockup_id: 2741
+
+41:
+  id: 41
+  room_id: 3004
+  room_mockup_id: 2761
+
+43:
+  id: 43
+  room_id: 3004
+  room_mockup_id: 2771
+
+45:
+  id: 45
+  room_id: 3004
+  room_mockup_id: 2751
+
+47:
+  id: 47
+  room_id: 2003
+  room_mockup_id: 761
+
+49:
+  id: 49
+  room_id: 14611
+  room_mockup_id: 761
+
+51:
+  id: 51
+  room_id: 3005
+  room_mockup_id: 1721
+
+53:
+  id: 53
+  room_id: 3006
+  room_mockup_id: 1681
+
+55:
+  id: 55
+  room_id: 3006
+  room_mockup_id: 1691
+
+1267:
+  id: 1267
+  room_id: 1004
+  room_mockup_id: 581
+
+1265:
+  id: 1265
+  room_id: 1004
+  room_mockup_id: 261
+
+1263:
+  id: 1263
+  room_id: 1004
+  room_mockup_id: 271
+
+63:
+  id: 63
+  room_id: 3000
+  room_mockup_id: 1761
+
+65:
+  id: 65
+  room_id: 3000
+  room_mockup_id: 1771
+
+67:
+  id: 67
+  room_id: 3000
+  room_mockup_id: 1741
+
+69:
+  id: 69
+  room_id: 3000
+  room_mockup_id: 1751
+
+71:
+  id: 71
+  room_id: 3000
+  room_mockup_id: 1781
+
+73:
+  id: 73
+  room_id: 2005
+  room_mockup_id: 671
+
+75:
+  id: 75
+  room_id: 1005
+  room_mockup_id: 601
+
+77:
+  id: 77
+  room_id: 1005
+  room_mockup_id: 611
+
+1289:
+  id: 1289
+  room_id: 1006
+  room_mockup_id: 511
+
+1287:
+  id: 1287
+  room_id: 1006
+  room_mockup_id: 521
+
+83:
+  id: 83
+  room_id: 3007
+  room_mockup_id: 1801
+
+85:
+  id: 85
+  room_id: 3007
+  room_mockup_id: 1811
+
+87:
+  id: 87
+  room_id: 3008
+  room_mockup_id: 1731
+
+1269:
+  id: 1269
+  room_id: 1007
+  room_mockup_id: 121
+
+91:
+  id: 91
+  room_id: 3009
+  room_mockup_id: 1871
+
+93:
+  id: 93
+  room_id: 3009
+  room_mockup_id: 1861
+
+95:
+  id: 95
+  room_id: 3009
+  room_mockup_id: 2791
+
+97:
+  id: 97
+  room_id: 3010
+  room_mockup_id: 2691
+
+99:
+  id: 99
+  room_id: 3010
+  room_mockup_id: 2701
+
+101:
+  id: 101
+  room_id: 3011
+  room_mockup_id: 1841
+
+103:
+  id: 103
+  room_id: 3011
+  room_mockup_id: 1851
+
+105:
+  id: 105
+  room_id: 3011
+  room_mockup_id: 1831
+
+107:
+  id: 107
+  room_id: 3011
+  room_mockup_id: 2781
+
+109:
+  id: 109
+  room_id: 3011
+  room_mockup_id: 1821
+
+111:
+  id: 111
+  room_id: 1008
+  room_mockup_id: 181
+
+113:
+  id: 113
+  room_id: 1009
+  room_mockup_id: 221
+
+1125:
+  id: 1125
+  room_id: 3012
+  room_mockup_id: 1621
+
+1123:
+  id: 1123
+  room_id: 3012
+  room_mockup_id: 1601
+
+1271:
+  id: 1271
+  room_id: 1011
+  room_mockup_id: 271
+
+1273:
+  id: 1273
+  room_id: 1011
+  room_mockup_id: 261
+
+1275:
+  id: 1275
+  room_id: 1011
+  room_mockup_id: 581
+
+129:
+  id: 129
+  room_id: 3013
+  room_mockup_id: 2721
+
+131:
+  id: 131
+  room_id: 3013
+  room_mockup_id: 2711
+
+133:
+  id: 133
+  room_id: 3014
+  room_mockup_id: 1641
+
+135:
+  id: 135
+  room_id: 3014
+  room_mockup_id: 1651
+
+137:
+  id: 137
+  room_id: 3014
+  room_mockup_id: 1661
+
+139:
+  id: 139
+  room_id: 1013
+  room_mockup_id: 171
+
+141:
+  id: 141
+  room_id: 3015
+  room_mockup_id: 1761
+
+143:
+  id: 143
+  room_id: 3015
+  room_mockup_id: 1771
+
+145:
+  id: 145
+  room_id: 3015
+  room_mockup_id: 1741
+
+147:
+  id: 147
+  room_id: 3015
+  room_mockup_id: 1751
+
+149:
+  id: 149
+  room_id: 3015
+  room_mockup_id: 1781
+
+1183:
+  id: 1183
+  room_id: 1010
+  room_mockup_id: 201
+
+153:
+  id: 153
+  room_id: 3016
+  room_mockup_id: 2681
+
+155:
+  id: 155
+  room_id: 3016
+  room_mockup_id: 2671
+
+157:
+  id: 157
+  room_id: 2010
+  room_mockup_id: 2221
+
+159:
+  id: 159
+  room_id: 2010
+  room_mockup_id: 2231
+
+161:
+  id: 161
+  room_id: 14621
+  room_mockup_id: 2221
+
+163:
+  id: 163
+  room_id: 14621
+  room_mockup_id: 2231
+
+165:
+  id: 165
+  room_id: 1014
+  room_mockup_id: 531
+
+167:
+  id: 167
+  room_id: 1014
+  room_mockup_id: 541
+
+169:
+  id: 169
+  room_id: 1014
+  room_mockup_id: 591
+
+1317:
+  id: 1317
+  room_id: 1015
+  room_mockup_id: 391
+
+1315:
+  id: 1315
+  room_id: 1015
+  room_mockup_id: 411
+
+1313:
+  id: 1313
+  room_id: 1015
+  room_mockup_id: 401
+
+1133:
+  id: 1133
+  room_id: 2011
+  room_mockup_id: 711
+
+1131:
+  id: 1131
+  room_id: 2011
+  room_mockup_id: 701
+
+1129:
+  id: 1129
+  room_id: 2011
+  room_mockup_id: 2211
+
+1127:
+  id: 1127
+  room_id: 2011
+  room_mockup_id: 721
+
+1261:
+  id: 1261
+  room_id: 1016
+  room_mockup_id: 291
+
+1235:
+  id: 1235
+  room_id: 1017
+  room_mockup_id: 2895
+
+189:
+  id: 189
+  room_id: 5000
+  room_mockup_id: 801
+
+191:
+  id: 191
+  room_id: 5000
+  room_mockup_id: 811
+
+193:
+  id: 193
+  room_id: 6006
+  room_mockup_id: 2571
+
+195:
+  id: 195
+  room_id: 6006
+  room_mockup_id: 2471
+
+197:
+  id: 197
+  room_id: 6006
+  room_mockup_id: 2551
+
+199:
+  id: 199
+  room_id: 6006
+  room_mockup_id: 2531
+
+1185:
+  id: 1185
+  room_id: 6000
+  room_mockup_id: 1901
+
+203:
+  id: 203
+  room_id: 14501
+  room_mockup_id: 651
+
+205:
+  id: 205
+  room_id: 5001
+  room_mockup_id: 651
+
+207:
+  id: 207
+  room_id: 5002
+  room_mockup_id: 881
+
+209:
+  id: 209
+  room_id: 5002
+  room_mockup_id: 891
+
+211:
+  id: 211
+  room_id: 5002
+  room_mockup_id: 871
+
+213:
+  id: 213
+  room_id: 6001
+  room_mockup_id: 1951
+
+215:
+  id: 215
+  room_id: 5003
+  room_mockup_id: 1011
+
+217:
+  id: 217
+  room_id: 5003
+  room_mockup_id: 1021
+
+219:
+  id: 219
+  room_id: 6002
+  room_mockup_id: 1961
+
+221:
+  id: 221
+  room_id: 5004
+  room_mockup_id: 901
+
+223:
+  id: 223
+  room_id: 14521
+  room_mockup_id: 901
+
+225:
+  id: 225
+  room_id: 5010
+  room_mockup_id: 1131
+
+685:
+  id: 685
+  room_id: 5009
+  room_mockup_id: 1041
+
+687:
+  id: 687
+  room_id: 5009
+  room_mockup_id: 911
+
+873:
+  id: 873
+  room_id: 4000
+  room_mockup_id: 301
+
+1281:
+  id: 1281
+  room_id: 4001
+  room_mockup_id: 131
+
+1293:
+  id: 1293
+  room_id: 4002
+  room_mockup_id: 21
+
+1119:
+  id: 1119
+  room_id: 5005
+  room_mockup_id: 2511
+
+1117:
+  id: 1117
+  room_id: 5005
+  room_mockup_id: 2541
+
+1115:
+  id: 1115
+  room_id: 5005
+  room_mockup_id: 2471
+
+1113:
+  id: 1113
+  room_id: 5005
+  room_mockup_id: 2531
+
+1111:
+  id: 1111
+  room_id: 5005
+  room_mockup_id: 2481
+
+1141:
+  id: 1141
+  room_id: 6005
+  room_mockup_id: 2531
+
+1139:
+  id: 1139
+  room_id: 6005
+  room_mockup_id: 2551
+
+1137:
+  id: 1137
+  room_id: 6005
+  room_mockup_id: 2471
+
+1135:
+  id: 1135
+  room_id: 6005
+  room_mockup_id: 2571
+
+255:
+  id: 255
+  room_id: 6008
+  room_mockup_id: 1971
+
+257:
+  id: 257
+  room_id: 6008
+  room_mockup_id: 1981
+
+259:
+  id: 259
+  room_id: 5006
+  room_mockup_id: 2251
+
+261:
+  id: 261
+  room_id: 5006
+  room_mockup_id: 2261
+
+263:
+  id: 263
+  room_id: 5007
+  room_mockup_id: 851
+
+265:
+  id: 265
+  room_id: 5008
+  room_mockup_id: 861
+
+267:
+  id: 267
+  room_id: 14511
+  room_mockup_id: 861
+
+269:
+  id: 269
+  room_id: 6010
+  room_mockup_id: 1931
+
+271:
+  id: 271
+  room_id: 6010
+  room_mockup_id: 1941
+
+273:
+  id: 273
+  room_id: 6011
+  room_mockup_id: 1911
+
+275:
+  id: 275
+  room_id: 4003
+  room_mockup_id: 31
+
+1285:
+  id: 1285
+  room_id: 4004
+  room_mockup_id: 471
+
+1283:
+  id: 1283
+  room_id: 4004
+  room_mockup_id: 461
+
+625:
+  id: 625
+  room_id: 6013
+  room_mockup_id: 1891
+
+623:
+  id: 623
+  room_id: 6013
+  room_mockup_id: 1881
+
+285:
+  id: 285
+  room_id: 5011
+  room_mockup_id: 2271
+
+287:
+  id: 287
+  room_id: 5012
+  room_mockup_id: 2241
+
+289:
+  id: 289
+  room_id: 5012
+  room_mockup_id: 821
+
+291:
+  id: 291
+  room_id: 5012
+  room_mockup_id: 831
+
+293:
+  id: 293
+  room_id: 4005
+  room_mockup_id: 161
+
+295:
+  id: 295
+  room_id: 6014
+  room_mockup_id: 1921
+
+915:
+  id: 915
+  room_id: 4006
+  room_mockup_id: 571
+
+913:
+  id: 913
+  room_id: 4006
+  room_mockup_id: 441
+
+911:
+  id: 911
+  room_id: 4006
+  room_mockup_id: 561
+
+909:
+  id: 909
+  room_id: 4006
+  room_mockup_id: 431
+
+907:
+  id: 907
+  room_id: 4006
+  room_mockup_id: 2861
+
+905:
+  id: 905
+  room_id: 4006
+  room_mockup_id: 551
+
+903:
+  id: 903
+  room_id: 4006
+  room_mockup_id: 451
+
+311:
+  id: 311
+  room_id: 9000
+  room_mockup_id: 1991
+
+313:
+  id: 313
+  room_id: 8000
+  room_mockup_id: 921
+
+315:
+  id: 315
+  room_id: 8000
+  room_mockup_id: 931
+
+317:
+  id: 317
+  room_id: 8000
+  room_mockup_id: 941
+
+319:
+  id: 319
+  room_id: 8000
+  room_mockup_id: 951
+
+699:
+  id: 699
+  room_id: 8001
+  room_mockup_id: 2311
+
+697:
+  id: 697
+  room_id: 8001
+  room_mockup_id: 2301
+
+325:
+  id: 325
+  room_id: 8002
+  room_mockup_id: 2461
+
+327:
+  id: 327
+  room_id: 8003
+  room_mockup_id: 651
+
+1107:
+  id: 1107
+  room_id: 14531
+  room_mockup_id: 651
+
+331:
+  id: 331
+  room_id: 8007
+  room_mockup_id: 2281
+
+333:
+  id: 333
+  room_id: 8007
+  room_mockup_id: 2291
+
+335:
+  id: 335
+  room_id: 9002
+  room_mockup_id: 2461
+
+337:
+  id: 337
+  room_id: 8009
+  room_mockup_id: 971
+
+339:
+  id: 339
+  room_id: 8010
+  room_mockup_id: 1011
+
+341:
+  id: 341
+  room_id: 8010
+  room_mockup_id: 1021
+
+343:
+  id: 343
+  room_id: 8014
+  room_mockup_id: 1041
+
+345:
+  id: 345
+  room_id: 8014
+  room_mockup_id: 911
+
+621:
+  id: 621
+  room_id: 7000
+  room_mockup_id: 231
+
+349:
+  id: 349
+  room_id: 9004
+  room_mockup_id: 2501
+
+351:
+  id: 351
+  room_id: 9004
+  room_mockup_id: 2471
+
+353:
+  id: 353
+  room_id: 9004
+  room_mockup_id: 2541
+
+355:
+  id: 355
+  room_id: 9004
+  room_mockup_id: 2511
+
+357:
+  id: 357
+  room_id: 9004
+  room_mockup_id: 2481
+
+359:
+  id: 359
+  room_id: 9004
+  room_mockup_id: 2521
+
+361:
+  id: 361
+  room_id: 8015
+  room_mockup_id: 2521
+
+363:
+  id: 363
+  room_id: 8015
+  room_mockup_id: 2491
+
+365:
+  id: 365
+  room_id: 8015
+  room_mockup_id: 2531
+
+367:
+  id: 367
+  room_id: 8015
+  room_mockup_id: 2551
+
+1175:
+  id: 1175
+  room_id: 9071
+  room_mockup_id: 2031
+
+1173:
+  id: 1173
+  room_id: 9071
+  room_mockup_id: 2021
+
+373:
+  id: 373
+  room_id: 14301
+  room_mockup_id: 2881
+
+375:
+  id: 375
+  room_id: 14311
+  room_mockup_id: 2891
+
+377:
+  id: 377
+  room_id: 8034
+  room_mockup_id: 981
+
+379:
+  id: 379
+  room_id: 8035
+  room_mockup_id: 991
+
+381:
+  id: 381
+  room_id: 14541
+  room_mockup_id: 991
+
+383:
+  id: 383
+  room_id: 9072
+  room_mockup_id: 2041
+
+385:
+  id: 385
+  room_id: 9072
+  room_mockup_id: 2651
+
+919:
+  id: 919
+  room_id: 7001
+  room_mockup_id: 381
+
+389:
+  id: 389
+  room_id: 9073
+  room_mockup_id: 2001
+
+391:
+  id: 391
+  room_id: 9073
+  room_mockup_id: 2011
+
+1291:
+  id: 1291
+  room_id: 7002
+  room_mockup_id: 51
+
+395:
+  id: 395
+  room_id: 8037
+  room_mockup_id: 1031
+
+397:
+  id: 397
+  room_id: 9074
+  room_mockup_id: 1031
+
+735:
+  id: 735
+  room_id: 10000
+  room_mockup_id: 1061
+
+1105:
+  id: 1105
+  room_id: 11000
+  room_mockup_id: 2061
+
+1103:
+  id: 1103
+  room_id: 11000
+  room_mockup_id: 2601
+
+405:
+  id: 405
+  room_id: 10001
+  room_mockup_id: 2461
+
+407:
+  id: 407
+  room_id: 11001
+  room_mockup_id: 2051
+
+1089:
+  id: 1089
+  room_id: 10007
+  room_mockup_id: 911
+
+1087:
+  id: 1087
+  room_id: 10007
+  room_mockup_id: 1041
+
+981:
+  id: 981
+  room_id: 10009
+  room_mockup_id: 1051
+
+415:
+  id: 415
+  room_id: 14551
+  room_mockup_id: 651
+
+417:
+  id: 417
+  room_id: 10011
+  room_mockup_id: 651
+
+419:
+  id: 419
+  room_id: 11002
+  room_mockup_id: 2071
+
+421:
+  id: 421
+  room_id: 10014
+  room_mockup_id: 1131
+
+741:
+  id: 741
+  room_id: 10017
+  room_mockup_id: 2341
+
+739:
+  id: 739
+  room_id: 10017
+  room_mockup_id: 2331
+
+737:
+  id: 737
+  room_id: 10017
+  room_mockup_id: 2321
+
+429:
+  id: 429
+  room_id: 11004
+  room_mockup_id: 2081
+
+431:
+  id: 431
+  room_id: 10025
+  room_mockup_id: 1121
+
+433:
+  id: 433
+  room_id: 10025
+  room_mockup_id: 1111
+
+435:
+  id: 435
+  room_id: 11005
+  room_mockup_id: 2461
+
+1221:
+  id: 1221
+  room_id: 11014
+  room_mockup_id: 2551
+
+1219:
+  id: 1219
+  room_id: 11014
+  room_mockup_id: 2511
+
+1217:
+  id: 1217
+  room_id: 11014
+  room_mockup_id: 2491
+
+1215:
+  id: 1215
+  room_id: 11014
+  room_mockup_id: 2571
+
+1213:
+  id: 1213
+  room_id: 11014
+  room_mockup_id: 2521
+
+1055:
+  id: 1055
+  room_id: 14623
+  room_mockup_id: 1271
+
+1027:
+  id: 1027
+  room_id: 10028
+  room_mockup_id: 2521
+
+1029:
+  id: 1029
+  room_id: 10028
+  room_mockup_id: 2571
+
+1031:
+  id: 1031
+  room_id: 10028
+  room_mockup_id: 2491
+
+1033:
+  id: 1033
+  room_id: 10028
+  room_mockup_id: 2541
+
+457:
+  id: 457
+  room_id: 10034
+  room_mockup_id: 1071
+
+459:
+  id: 459
+  room_id: 14561
+  room_mockup_id: 1081
+
+461:
+  id: 461
+  room_id: 10035
+  room_mockup_id: 1081
+
+463:
+  id: 463
+  room_id: 11074
+  room_mockup_id: 2101
+
+465:
+  id: 465
+  room_id: 11074
+  room_mockup_id: 2111
+
+467:
+  id: 467
+  room_id: 11075
+  room_mockup_id: 2091
+
+469:
+  id: 469
+  room_id: 11075
+  room_mockup_id: 2821
+
+471:
+  id: 471
+  room_id: 11075
+  room_mockup_id: 2811
+
+473:
+  id: 473
+  room_id: 11076
+  room_mockup_id: 1101
+
+475:
+  id: 475
+  room_id: 10036
+  room_mockup_id: 1101
+
+477:
+  id: 477
+  room_id: 12000
+  room_mockup_id: 651
+
+479:
+  id: 479
+  room_id: 12003
+  room_mockup_id: 1161
+
+481:
+  id: 481
+  room_id: 12003
+  room_mockup_id: 1151
+
+483:
+  id: 483
+  room_id: 12003
+  room_mockup_id: 2361
+
+485:
+  id: 485
+  room_id: 12003
+  room_mockup_id: 2351
+
+487:
+  id: 487
+  room_id: 12004
+  room_mockup_id: 2371
+
+489:
+  id: 489
+  room_id: 12005
+  room_mockup_id: 2391
+
+491:
+  id: 491
+  room_id: 12006
+  room_mockup_id: 2401
+
+493:
+  id: 493
+  room_id: 12007
+  room_mockup_id: 2411
+
+495:
+  id: 495
+  room_id: 12007
+  room_mockup_id: 2421
+
+497:
+  id: 497
+  room_id: 12007
+  room_mockup_id: 2431
+
+499:
+  id: 499
+  room_id: 12008
+  room_mockup_id: 2641
+
+501:
+  id: 501
+  room_id: 12008
+  room_mockup_id: 2621
+
+503:
+  id: 503
+  room_id: 12008
+  room_mockup_id: 2631
+
+505:
+  id: 505
+  room_id: 12009
+  room_mockup_id: 2381
+
+711:
+  id: 711
+  room_id: 12010
+  room_mockup_id: 1141
+
+509:
+  id: 509
+  room_id: 12011
+  room_mockup_id: 1201
+
+511:
+  id: 511
+  room_id: 12011
+  room_mockup_id: 1171
+
+513:
+  id: 513
+  room_id: 12011
+  room_mockup_id: 1181
+
+515:
+  id: 515
+  room_id: 12011
+  room_mockup_id: 1191
+
+517:
+  id: 517
+  room_id: 12012
+  room_mockup_id: 2441
+
+519:
+  id: 519
+  room_id: 12013
+  room_mockup_id: 1211
+
+1187:
+  id: 1187
+  room_id: 13000
+  room_mockup_id: 1501
+
+523:
+  id: 523
+  room_id: 14571
+  room_mockup_id: 651
+
+525:
+  id: 525
+  room_id: 13001
+  room_mockup_id: 1431
+
+527:
+  id: 527
+  room_id: 13002
+  room_mockup_id: 1471
+
+529:
+  id: 529
+  room_id: 13003
+  room_mockup_id: 1321
+
+531:
+  id: 531
+  room_id: 13004
+  room_mockup_id: 1511
+
+533:
+  id: 533
+  room_id: 13005
+  room_mockup_id: 1271
+
+535:
+  id: 535
+  room_id: 13006
+  room_mockup_id: 1521
+
+537:
+  id: 537
+  room_id: 13006
+  room_mockup_id: 1531
+
+539:
+  id: 539
+  room_id: 13006
+  room_mockup_id: 1541
+
+1205:
+  id: 1205
+  room_id: 13007
+  room_mockup_id: 1481
+
+543:
+  id: 543
+  room_id: 13009
+  room_mockup_id: 1421
+
+545:
+  id: 545
+  room_id: 13010
+  room_mockup_id: 1251
+
+547:
+  id: 547
+  room_id: 13010
+  room_mockup_id: 1261
+
+1207:
+  id: 1207
+  room_id: 13008
+  room_mockup_id: 1491
+
+759:
+  id: 759
+  room_id: 13011
+  room_mockup_id: 1511
+
+757:
+  id: 757
+  room_id: 13011
+  room_mockup_id: 1501
+
+755:
+  id: 755
+  room_id: 13011
+  room_mockup_id: 1491
+
+753:
+  id: 753
+  room_id: 13011
+  room_mockup_id: 1481
+
+1211:
+  id: 1211
+  room_id: 13012
+  room_mockup_id: 1331
+
+1209:
+  id: 1209
+  room_id: 13012
+  room_mockup_id: 1321
+
+563:
+  id: 563
+  room_id: 14581
+  room_mockup_id: 2411
+
+565:
+  id: 565
+  room_id: 14581
+  room_mockup_id: 2421
+
+567:
+  id: 567
+  room_id: 14581
+  room_mockup_id: 2431
+
+1057:
+  id: 1057
+  room_id: 13013
+  room_mockup_id: 1281
+
+1059:
+  id: 1059
+  room_id: 13013
+  room_mockup_id: 1291
+
+1061:
+  id: 1061
+  room_id: 13013
+  room_mockup_id: 1271
+
+575:
+  id: 575
+  room_id: 13014
+  room_mockup_id: 1311
+
+1223:
+  id: 1223
+  room_id: 13015
+  room_mockup_id: 2451
+
+579:
+  id: 579
+  room_id: 13016
+  room_mockup_id: 1301
+
+581:
+  id: 581
+  room_id: 13017
+  room_mockup_id: 1411
+
+583:
+  id: 583
+  room_id: 13017
+  room_mockup_id: 1381
+
+585:
+  id: 585
+  room_id: 13017
+  room_mockup_id: 1351
+
+587:
+  id: 587
+  room_id: 13017
+  room_mockup_id: 1391
+
+589:
+  id: 589
+  room_id: 13017
+  room_mockup_id: 1361
+
+591:
+  id: 591
+  room_id: 13017
+  room_mockup_id: 1401
+
+593:
+  id: 593
+  room_id: 13017
+  room_mockup_id: 1371
+
+595:
+  id: 595
+  room_id: 13017
+  room_mockup_id: 1341
+
+597:
+  id: 597
+  room_id: 13018
+  room_mockup_id: 1241
+
+599:
+  id: 599
+  room_id: 13018
+  room_mockup_id: 1231
+
+601:
+  id: 601
+  room_id: 13019
+  room_mockup_id: 1561
+
+603:
+  id: 603
+  room_id: 13019
+  room_mockup_id: 1571
+
+605:
+  id: 605
+  room_id: 13019
+  room_mockup_id: 1551
+
+607:
+  id: 607
+  room_id: 13020
+  room_mockup_id: 1221
+
+609:
+  id: 609
+  room_id: 14591
+  room_mockup_id: 651
+
+1145:
+  id: 1145
+  room_id: 14000
+  room_mockup_id: 2191
+
+1143:
+  id: 1143
+  room_id: 14000
+  room_mockup_id: 2201
+
+615:
+  id: 615
+  room_id: 14001
+  room_mockup_id: 2171
+
+617:
+  id: 617
+  room_id: 14001
+  room_mockup_id: 2181
+
+785:
+  id: 785
+  room_id: 14002
+  room_mockup_id: 2121
+
+1233:
+  id: 1233
+  room_id: 1017
+  room_mockup_id: 2893
+
+1231:
+  id: 1231
+  room_id: 1017
+  room_mockup_id: 2897
+
+1053:
+  id: 1053
+  room_id: 14623
+  room_mockup_id: 1291
+
+1051:
+  id: 1051
+  room_id: 14623
+  room_mockup_id: 1281
+
+1099:
+  id: 1099
+  room_id: 14625
+  room_mockup_id: 1611
+
+1101:
+  id: 1101
+  room_id: 14625
+  room_mockup_id: 1591
+

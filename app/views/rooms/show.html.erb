@@ -1,0 +1,35 @@
+	<div class="row">
+		<!-- CAROUSEL HERE -->
+		<%if @room_has_mockups %>
+		<div class="col-sm-7">
+		<%= render "shared/carousel" %>
+		</div>
+		<% end %>
+		<div class="col-sm-5">
+			<dl class="room_info">
+				<dt>Room/Area Name</dt>
+				<dd><%= @room.label %></dd>
+				<dt>Building/Floor</dt>
+				<dd><%= @room.floorplan.building.label %> (<%= @room.floorplan.label %>)</dd>
+				<dt>Naming Opportunity</dt>
+				<dd>
+				<% if @room.nameable and @room.naming_opportunity %>
+					<% if !@room.dollar_amount.nil? %>
+					$<%= number_with_delimiter(@room.dollar_amount) %>
+					<% end %>
+				<% end %>
+				</dd>
+			</dl>
+			<% if @room_has_mockups %>
+			<hr />
+			<div>
+				<%= image_tag @room.floorplan.thumbnail_image(highlighted_rooms: [@room], render_as_nameable: false)[:image_url] %>
+			</div>
+			<% end %>
+		</div>
+	</div>
+	<% if @room_has_mockups %>
+	<div class="row text-center">
+		<small>(Note: photos for this location are intended to be representative and may not show all of the possible configurations)</small>
+	</div>
+	<% end %>

@@ -1,0 +1,32 @@
+<div id="<%= @carousel_div_id %>" class="carousel slide<%= " " + @carousel_classes.join(' ') %>" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+  <% for n in 0..(@carousel_items.size - 1) %>
+  	<li data-target="#<%= @carousel_div_id %>" data-slide-to="<%= n %>" class="active">
+  <% end %>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+  <% @carousel_items.each do |item| %>
+    <div class="item<% if item.has_key? :active and item[:active] %> active<% end %>">
+      <img src="/assets/<%= item[:image_url] %>" alt="<%= item[:image_alt] %>">
+      <% if item.has_key? :image_caption %>
+      <div class="carousel-caption">
+        <%= item[:image_caption]%>
+      </div>
+      <% end %>
+    </div>
+  <% end %>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#<%= @carousel_div_id %>" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#<%= @carousel_div_id %>" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150331161015) do
+ActiveRecord::Schema.define(version: 20150410201028) do
 
   create_table "buildings", force: :cascade do |t|
     t.string   "name",       limit: 255, null: false
@@ -69,6 +69,26 @@ ActiveRecord::Schema.define(version: 20150331161015) do
   add_index "room_areas", ["room_id"], name: "index_room_areas_on_room_id", using: :btree
   add_index "room_areas", ["shape"], name: "index_room_areas_on_shape", using: :btree
 
+  create_table "room_mockup_images", force: :cascade do |t|
+    t.integer  "room_id",        limit: 4
+    t.integer  "room_mockup_id", limit: 4
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
+  end
+
+  add_index "room_mockup_images", ["room_id"], name: "index_room_mockup_images_on_room_id", using: :btree
+  add_index "room_mockup_images", ["room_mockup_id"], name: "index_room_mockup_images_on_room_mockup_id", using: :btree
+
+  create_table "room_mockups", force: :cascade do |t|
+    t.string   "label",      limit: 255
+    t.string   "image",      limit: 750
+    t.integer  "room_id",    limit: 4
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
+  end
+
+  add_index "room_mockups", ["room_id"], name: "index_room_mockups_on_room_id", using: :btree
+
   create_table "rooms", force: :cascade do |t|
     t.string   "name",               limit: 255
     t.string   "room_number",        limit: 255
@@ -90,5 +110,8 @@ ActiveRecord::Schema.define(version: 20150331161015) do
   add_foreign_key "floorplans", "buildings"
   add_foreign_key "floorplans", "floorplan_maps"
   add_foreign_key "room_areas", "rooms"
+  add_foreign_key "room_mockup_images", "room_mockups"
+  add_foreign_key "room_mockup_images", "rooms"
+  add_foreign_key "room_mockups", "rooms"
   add_foreign_key "rooms", "floorplans"
 end

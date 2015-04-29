@@ -22,4 +22,23 @@ class FloorplanTest < ActiveSupport::TestCase
     floor_areas = floorplan.floor_areas
     assert_not_nil(floor_areas)
   end
+  
+  test "I can filter (exclude) 'carrel' rooms from the rooms list" do
+    floorplan = floorplans(:perkins_floor2_floorplan)
+    rooms = floorplan.rooms
+    rooms_filtered = rooms.where(carrel: false)
+    assert_not_empty(rooms_filtered)
+  end
+  
+  test "Grouping Floorplan rooms" do
+    floorplan = floorplans(:perkins_floor2_floorplan)
+    rooms = floorplan.rooms.select("name, dollar_amount, label, count(name) as name_count").group(:name).having("count(name) >= ?", 1)
+    rooms.each do |r|
+      puts r.name_count
+    end
+    #count = rooms.count(:name)
+    #count.each do |k, v|
+    #  puts "#{k} = #{v}"
+    #end
+  end
 end

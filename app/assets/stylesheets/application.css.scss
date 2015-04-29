@@ -10,18 +10,26 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *= require colorbox-rails 
  *= require_tree .
  *= require_self
  */
 @import 'bootstrap-sprockets';
 
-$brand-primary:       #036;
-$brand-success:       lighten(#A1B70D, 6.5%);
-$brand-info:          lighten(#0680CD, 13.0%);
-$brand-warning:       lighten(#F09905, 7.5%);
-$brand-danger:        lighten(#CC3300, 6.5%);
-$navbar-inverse-bg:   #036;
-@import 'bootswatch/cerulean/variables';
+$brand-primary:                   #036;
+$brand-success:                   lighten(#A1B70D, 6.5%);
+$brand-info:                      lighten(#0680CD, 13.0%);
+$brand-warning:                   lighten(#F09905, 7.5%);
+$brand-danger:                    lighten(#CC3300, 6.5%);
+$link-color:                      #A1B70D;
+
+//== NAVBAR INVERSE 
+//
+$navbar-inverse-bg:               $brand-primary;
+$navbar-inverse-link-hover-bg:    darken($brand-primary, 5.0%);
+$navbar-inverse-link-hover-color: lighten($link-color, 10.0%);
+
+@import 'bootswatch/flatly/variables';
 
 @import 'bootstrap';
 

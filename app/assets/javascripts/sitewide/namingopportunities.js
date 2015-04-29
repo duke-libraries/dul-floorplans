@@ -4,7 +4,37 @@
 $(document).ready(function() {
 
 	// first prep the fancybox options and instantiate it (we need to use the click() method here since we're dynamically adjusting the href parameter)
-	$('map[name!="libraryprofilemap"] area, #roomlist a[data-target-area]').click(fancyboxActivation);
+	$('.room-link').bind('ajax:complete', function(e, o, ajaxObj) {
+		var div = o.responseText;
+		$('#roomDetailsModal .modal-body')
+			.html( div );
+		$('#roomDetailsModal').modal('show');
+	});
+	/*
+	$.ajax(href, {
+		success : function(data, status, o) {
+			$img = $('<img>');
+			$img.attr('src', '/assets/' + data.thumbnail.image_url);
+			$thumbnailDiv = $('<div></div>');
+			$thumbnailDiv.append( $img );
+			$('#roomDetailsModal .modal-body').append( $thumbnailDiv );
+			$('#roomDetailsModal').modal('show');
+		},
+		error : function() {
+			
+		}
+	});
+	*/
+	$('#roomlist a[data-target-area]').click(function(e) {
+		href = $(this).attr('href');
+		room_title = $(this).attr('title');
+		
+		// set the modal title prior to loading markup
+		$('#roomDetailsModalLabel').text( room_title );
+		return e.preventDefault;
+	});
+	
+	//$('map[name!="libraryprofilemap"] area, #roomlist a[data-target-area]').click(fancyboxActivation);
 
 	// now prep some of the mapster options (including the appropriate JQuery container objects), and instantiate the mapster options
 
@@ -68,10 +98,46 @@ $(document).ready(function() {
 	});
 	floorplanMapsterOptions['areas'] = nonNameableAreas;
 
+	function IsImageOk(img) {
+		console.log(img[0].complete);
+		console.log(img[0].naturalWidth);
+		for (var i in img[0]) {
+			console.log(i + ' = ' + img[0][i]);
+		}
+		if (!img[0].complete) {
+			return false;
+		}	
+		if (img[0].naturalWidth === 0) {
+			return false;
+		}
+		return true;
+	}
+
+	console.log('floorplans length = ' + document.floorplans.length);
+	/*
+	$('.floorplan-map').hide().on('load', function() {
+		$(this).show({
+			complete : function() {
+				document.floorplans.mapster(floorplanMapsterOptions); // activate mapster options for the floorplan(s)
+				$('#roomlist a[data-target-area]').on('click mouseenter mouseleave', {
+					'imageMapJqueryObject': document.floorplans
+					},listLinkEventListener
+				); // prep the roomlist links for both clicking and for hovering				
+			}
+		});
+	});
+	*/
+
 	if (document.floorplans.length > 0) {
 		document.floorplans.mapster(floorplanMapsterOptions); // activate mapster options for the floorplan(s)
-		$(document).delegate('#roomlist a[data-target-area]', 'click hover', {'imageMapJqueryObject': document.floorplans},listLinkEventListener); // prep the roomlist links for both clicking and for hovering
+		$('#roomlist a[data-target-area]').on('mouseenter mouseleave', {'imageMapJqueryObject': document.floorplans},listLinkEventListener); // prep the roomlist links for both clicking and for hovering
 	}
+	/*
+	if (document.floorplans.length > 0) {
+		document.floorplans.mapster(floorplanMapsterOptions); // activate mapster options for the floorplan(s)
+		$('#roomlist a[data-target-area]').on('click mouseenter mouseleave', {'imageMapJqueryObject': document.floorplans},listLinkEventListener); // prep the roomlist links for both clicking and for hovering
+	}
+	*/
 	
 	// also instantiate imagemapster on home page image
 	var buildingProfileImage = $('.libraryprofilegraphic img[usemap]');

@@ -2,6 +2,8 @@ Rails.application.routes.draw do
 
   get 'floorplans/view'
   resources :floorplans
+  
+  resources :rooms
 
   get 'welcome/index'
 
