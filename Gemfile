@@ -28,6 +28,7 @@ gem 'bootswatch-rails'
 gem 'autoprefixer-rails'
 gem 'jquery-migrate-rails'
 gem 'rmagick', '~> 2.13.2'
+gem 'actionpack-page_caching'
 gem 'actionpack-action_caching'
 gem 'colorbox-rails'
 
@@ -42,7 +43,8 @@ gem 'colorbox-rails'
 
 group :development, :test do
   # Call 'debugger' anywhere in the code to stop execution and get a debugger console
-  gem 'debugger'
+  #gem 'debugger'
+	gem 'byebug'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'

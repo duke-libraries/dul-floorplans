@@ -11,6 +11,9 @@
 # make it easier to manage project cross-platform
 /bin
 
+/config/database.yml
+/config/environments/development.rb
+
 # Ignore the media directory
 /app/assets/media/*
 

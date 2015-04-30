@@ -1,4 +1,7 @@
 class WelcomeController < ApplicationController
+	caches_page			:public
+	caches_action		:index
+
   def index
     @buildings = Building.all()
     
