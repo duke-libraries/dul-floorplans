@@ -1,7 +1,7 @@
 <footer class="footer container">
 	<div class="row">
 		<div class="col-sm-1">
-			<a href="//library.duke.edu"><img src="/<?php print $reading_devil_logo; ?>"/></a>
+			<a href="//library.duke.edu"><img src="<%= asset_path('devillogo-60pct-60.png') %>"/></a>
 		</div>
 		<div class="col-sm-2">
 			<div class="h5">Contact Us</div>
@@ -38,17 +38,17 @@
 		<div class="col-sm-3">
 			<div class="socialMediaIconsBig">
 				<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'Twitter'});" href="https://twitter.com/DukeLibraries" title="Twitter">
-					<img src="/sites/all/themes/dukestrap/images/social/Twitter/24.png"/></a>
+					<div class="twitter"></div></a>
 				<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'Facebook'});" href="https://www.facebook.com/dukelibraries" title="Facebook">
-					<img src="/sites/all/themes/dukestrap/images/social/Facebook/24.png"/></a>
+					<div class="facebook"></div></a>
 				<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'Youtube'});" href="http://www.youtube.com/user/DukeUnivLibraries" title="Youtube">
-					<img src="/sites/all/themes/dukestrap/images/social/YouTube/24.png"/></a>
+					<div class="youtube"></div></a>
 				<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'Flickr'});" href="http://www.flickr.com/photos/dukeunivlibraries/" title="Flickr">
-					<img src="/sites/all/themes/dukestrap/images/social/Flickr/24.png"/></a>
+					<div class="flickr"></div></a>
 				<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'Pinterest'});" href="http://www.pinterest.com/dukelibraries/" title="Pinterest">
-					<img src="/sites/all/themes/dukestrap/images/social/Pinterest/24.png"/></a>
+					<div class="instagram"></div></a>
 				<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'RSS'});" href="http://blogs.library.duke.edu/" title="RSS">
-					<img src="/sites/all/themes/dukestrap/images/social/RSS/24.png"/></a>
+					<div class="rss"></div></a>
 			</div>
 			<ul class="list-unstyled small">
 				<li><a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Links', eventLabel: 'Re-use and Attribution'});" href="/about/reuse-attribution">Re-use &amp; Attribution</a> / <a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Links', eventLabel: 'Privacy'});" href="/about/privacy">Privacy</a></li>
@@ -57,7 +57,7 @@
 			<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Links', eventLabel: 'Creative Commons'});" rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US" ><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" title="This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License" /></a>
 		</div>
 		<div class="col-sm-2 pull-right">
-			<a href="//duke.edu"><img src="/<?php print $duke_logo; ?>"/></a>
+			<a href="//duke.edu"><img src="<%= asset_path('dukelogo_vert_60pct_140.png') %>"/></a>
 		</div>
 	</div>
 </footer>
