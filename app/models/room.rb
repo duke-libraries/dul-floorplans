@@ -55,7 +55,6 @@ class Room < ActiveRecord::Base
     
     filter_conditions = {:naming_opportunity => true, 'floorplans.name' => floorplan_name, :nameable => nameable}
     if room_label == Rails.application.config.floorplan.study_carrels_id_substring
-      logger.debug "~~~~~~~~~! study_carrels !~~~~~~~~~"
       filter_conditions['carrel'] = true
       label = 'Study Carrels'
     else
@@ -67,8 +66,6 @@ class Room < ActiveRecord::Base
     rooms = Room
       .select("rooms.id, floorplan_id, rooms.name, rooms.label, max(dollar_amount) as max_dollar_amount")
       .joins(:floorplan).find_by filter_conditions
-      
-    logger.debug "@@@@@@@ " + rooms.inspect
       
     if rooms && !rooms.max_dollar_amount.nil?
       label_string = ''

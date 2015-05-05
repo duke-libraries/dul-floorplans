@@ -3,7 +3,6 @@ module FloorplanMapImagery
   extend ActiveSupport::Concern
 
   def resized_map_image_metadata(floor_name, rooms, full_size_image, opts = {})
-    logger.debug opts.inspect
     defaults = {
       :scale_factor => 100.0,
       :write => true,

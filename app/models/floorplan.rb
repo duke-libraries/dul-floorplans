@@ -56,8 +56,6 @@ class Floorplan < ActiveRecord::Base
     rz = resized_map_image_metadata self.name, opts[:highlighted_rooms], @full_size_image, 
         render_as_nameable: opts[:render_as_nameable], scale_factor: scale_factor, write: true, clobber: false, map_name_snippet: '_thumbnail_'
 
-    logger.debug "#################################"
-    logger.debug rz.inspect
     return rz
   end
   
