@@ -17,5 +17,5 @@
 //= require bootstrap-sprockets
 //= require jquery.imagemapster.js
 //= require colorbox-rails
-//= require loading_spinner
+// require loading_spinner
 //= require_tree ./sitewide
