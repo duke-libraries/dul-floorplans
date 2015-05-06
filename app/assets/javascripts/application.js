@@ -13,8 +13,9 @@
 //= require jquery
 //= require jquery-migrate-min
 //= require jquery_ujs
-//= require turbolinks
+// require turbolinks
 //= require bootstrap-sprockets
 //= require jquery.imagemapster.js
 //= require colorbox-rails
+//= require loading_spinner
 //= require_tree ./sitewide
