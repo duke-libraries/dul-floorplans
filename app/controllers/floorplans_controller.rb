@@ -1,6 +1,7 @@
 class FloorplansController < ApplicationController
   include BuildingList
   
+  #caches_action :show, :layout => false, :expires_in => 1.hour
   caches_action :show
   
   def view
@@ -87,8 +88,7 @@ class FloorplansController < ApplicationController
           @floorplan_rooms_dict['More than $500,000'].push(r)
         end   
       end
-      logger.debug @floorplan_rooms_dict.inspect
-      logger.debug "================================================="
+
       @floorplan_rooms_dict['Previously-named spaces'].sort_by{ |e| e.label }
       @floorplan_building = '%s Library' % [@floorplan.building.label]
       @building_floorplans = @floorplan.building.floorplans
