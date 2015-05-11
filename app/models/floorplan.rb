@@ -53,8 +53,8 @@ class Floorplan < ActiveRecord::Base
       opts[:highlighted_rooms] = self.rooms
     end
     scale_factor = Rails.application.config.floorplan.thumbnail_max_height.to_f() / @full_size_image.rows.to_f()
-    rz = resized_map_image_metadata self.name, opts[:highlighted_rooms], @full_size_image, 
-        render_as_nameable: opts[:render_as_nameable], scale_factor: scale_factor, write: true, clobber: false, map_name_snippet: '_thumbnail_'
+    rz = resized_map_image_metadata self.name, opts[:highlighted_rooms], @full_size_image,
+        render_as_nameable: opts[:render_as_nameable], scale_factor: scale_factor, write: true, clobber: true, map_name_snippet: '_thumbnail_'
 
     return rz
   end
