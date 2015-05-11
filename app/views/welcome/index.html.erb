@@ -1,7 +1,6 @@
 <div class="row">
+	<div class="col-md-12">
 	<h2>Naming Opportunities</h2>
-</div>
-<div class="row">
 	<p>
 	The Perkins Project began with the construction of Bostock Library and the von der Heyden Pavilion, 
 	followed by the renovation of Perkins Library. Now we begin the final phase with the renovation of the 
@@ -11,15 +10,19 @@
 		We invite you to join us. Make a gift to the Perkins Project, name one of the Libraries' signature spaces, 
 		and participate in the transformation of Duke and its Libraries. For more information, contact Tom Hadzor, Director of Development.	
 	</p>
+	</div>
 </div>
 <div class="row">
-	<div class="small bg-info" style="padding: 1em; margin-bottom: 1em;">
-		To view the floorplan for a library building, choose a floor link from the list to the right of each 
-		building (as you move your mouse over each link, you can see the corresponding floor area in the images).
+	<div class="col-md-12">
+		<div class="small bg-info" style="padding: 1em; margin-bottom: 1em;">
+			To view the floorplan for a library building, choose a floor link from the list to the right of each 
+			building (as you move your mouse over each link, you can see the corresponding floor area in the images).
+		</div>
 	</div>
 </div>
 <div class="row">
 	<% @buildings.each do |building| %>
+	<div class="col-md-12">
 	<div class="panel panel-primary">
 		<div class="panel-heading libraryprofile"><strong><%= building.label %></strong></div>
 		<div class="panel-body">
@@ -59,6 +62,7 @@
 				</div>
 			</div>
 		</div>
+	</div>
 	</div>
 	<% end %>
 </div>
