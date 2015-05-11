@@ -19,13 +19,11 @@ module FloorplanMapImagery
     rootpath = Rails.root.join 'app/assets/media/', floorplan_path
     resized_image_path = rootpath.to_s()    
 
-    if File.exists? resized_image_path
+    if File.exists? resized_image_path and !(opts[:clobber] and opts[:write])
       # return stats
       resized_image = Magick::Image::ping(rootpath.to_s()).first
     else
-      
       resized_image = full_size_image.dup
-
       rooms.each do |room|
         if opts[:render_as_nameable]
           fill_color = Rails.application.config.floorplan.nameable_room_color
