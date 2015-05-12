@@ -141,6 +141,25 @@ $(document).ready(function() {
 	
 	// also instantiate imagemapster on home page image
 	var buildingProfileImage = $('.libraryprofilegraphic img[usemap]');
+	$(buildingProfileImage).each(function(n, el){
+		var buildingProfileImageMapName = $(this).attr('usemap');
+		if (buildingProfileImageMapName && (buildingProfileImageMapName.length > 0)) {
+			buildingProfileImageMapName = buildingProfileImageMapName.replace(/#/, '');
+			// compile imageMapster options for the building-profile image...
+			buildingProfileMapsterOptions = { isSelectable: false, onClick: followAreaHref, noHrefIsMask: false };
+			$.extend(buildingProfileMapsterOptions, imageMapsterCommonSettings);
+			var buildingProfileAreas = [];
+			$('map[name="' + buildingProfileImageMapName + '"] area').each(function() {
+				var floorGroup = $(this).attr('data-roomgroup');
+				buildingProfileAreas.push({key: floorGroup, isSelectable: false});
+			});
+			$(this).mapster(buildingProfileMapsterOptions);
+			// and make floor list links able to highlight imagemap floors on hover
+			$('.buildingfloorlist a[data-target-area]').on('hover', {'imageMapJqueryObject': $(this)}, listLinkEventListener);
+		}
+		
+	});
+	/*
 	var buildingProfileImageMapName = buildingProfileImage.attr('usemap');
 	if (buildingProfileImageMapName && (buildingProfileImageMapName.length > 0)) {
 		buildingProfileImageMapName = buildingProfileImageMapName.replace(/#/, '');
@@ -154,9 +173,9 @@ $(document).ready(function() {
 		});
 		buildingProfileImage.mapster(buildingProfileMapsterOptions);
 		// and make floor list links able to highlight imagemap floors on hover
-		$(document).delegate('.buildingfloorlist a[data-target-area]', 'hover', {'imageMapJqueryObject': buildingProfileImage}, listLinkEventListener);
+		$('.buildingfloorlist a[data-target-area]').on('hover', {'imageMapJqueryObject': buildingProfileImage}, listLinkEventListener);
 	}
-
+	*/
 	// fade in the various lists (previously hidden from view)
 	$('#roomlist, #buildingfloorlist, #buildinglist').show('blind', {direction: 'vertical'}, 600);
 });
