@@ -1,6 +1,6 @@
 <div class="row">
 	<div class="col-md-12">
-	<h2>Naming Opportunities</h2>
+	<h2>Support The Libraries / Naming Opportunities</h2>
 	<p>
 	The Perkins Project began with the construction of Bostock Library and the von der Heyden Pavilion, 
 	followed by the renovation of Perkins Library. Now we begin the final phase with the renovation of the 
@@ -22,41 +22,33 @@
 </div>
 <div class="row">
 	<% @buildings.each do |building| %>
-	<div class="col-md-12">
-	<div class="panel panel-primary">
+	<div class="col-md-6 col-sm-12 librarybuilding">
+	<div class="panel panel-default">
 		<div class="panel-heading libraryprofile"><strong><%= building.label %></strong></div>
 		<div class="panel-body">
 			<div class="row librarylevelslist<%= building.name %>">
 				<% if building.floorplans.size > 0 %>
-				<div class="pull-right col-sm-4 floorlistoutercontainer">
-					<div id="<%= building.name %>floorlist" class="floorlistcontainer">
-						<ul class="list-unstyled buildingfloorlist">
+				<div class="col-sm-12 floorlistoutercontainer">
+					<div class="buildingfloorlist">
 						<% building.above_ground_floorplans.reverse.each do |floorplan| %>
-							<li>
-								<a data-target-area="<%= floorplan.name %>" href="<%= url_for :controller => 'floorplans', :action => 'show', :id => floorplan.id %>"><%= floorplan.label %></a>
-								<% if !floorplan.sublabel.nil? && !floorplan.sublabel.empty? %>
-								<br /><small><%= floorplan.sublabel %></small>
-								<% end %>
-							</li>
+							<%= link_to floorplan.label, floorplan_path(:id => floorplan.id),
+								:class => ['btn', 'btn-default', 'btn-xs'], 'data-target-area' => floorplan.name
+							%>
 						<% end %>
 						<% building.below_ground_floorplans.each do |floorplan| %>
-							<li>
-								<a data-target-area="<%= floorplan.name %>" href="<%= url_for :controller => 'floorplans', :action => 'show', :id => floorplan.id %>"><%= floorplan.label %></a>
-								<% if !floorplan.sublabel.nil? && !floorplan.sublabel.empty? %>
-								<br /><small><%= floorplan.sublabel %></small>
-								<% end %>
-							</li>
+							<%= link_to floorplan.label, floorplan_path(:id => floorplan.id),
+								:class => ['btn', 'btn-default', 'btn-xs'], 'data-target-area' => floorplan.name
+							%>
 						<% end %>
-						</ul>
 					</div>
 				</div>
 				<% end %>
-				<div class="libraryprofilegraphic col-sm-8">
+				<div class="libraryprofilegraphic col-sm-12 text-center" style="min-height: 300px;">
 				<%= image_tag "dul-libraries-profile-google-earth-#{building.name}-ground-level-#{building.image_width}x#{building.image_height}.jpg", 
 											height: building.image_height,
 											width: building.image_width,
 											alt: "Profile of the #{building.label}",
-											class: "img-thumbnail img-responsive", 
+											class: "img-responsive", 
 											usemap: "#libraryprofilemap" + building.name
 											%>
 				</div>
