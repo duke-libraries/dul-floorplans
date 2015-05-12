@@ -19,6 +19,9 @@ class FloorplansController < ApplicationController
     begin
       @floorplan = Floorplan.find(params[:id])
       @building_list = build_building_list()
+  
+      add_breadcrumb @floorplan.building.label, '#'
+      add_breadcrumb @floorplan.label
 
       all_floorplan_rooms = @floorplan.rooms.where(naming_opportunity: true)
       floorplan_rooms = []
