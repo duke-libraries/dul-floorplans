@@ -1,0 +1,8 @@
+<% if @breadcrumbs %>
+	<ol class="breadcrumb">
+  <% @breadcrumbs[0..-2].each do |txt, path| %>
+    <li><%= link_to(h(txt), path) %></li>
+  <% end %>
+  	<li><%= h(@breadcrumbs.last.first) %></li>
+  </ol>
+<% end %>
