@@ -22,7 +22,9 @@ module Floorplans
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
-  
+    
+    config.autoload_paths += %W(#{config.root}/lib)
+    
     # Config settings for floorplan (and room, roomarea, etc)
     config.floorplan = ActiveSupport::OrderedOptions.new
     config.floorplan.study_carrels_id_substring = 'study_carrels'
