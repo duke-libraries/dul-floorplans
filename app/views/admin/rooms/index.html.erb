@@ -1,0 +1,21 @@
+<table class="table table-condensed">
+	<thead>
+		<tr>
+			<th>Label</th>
+			<th>Floor</th>
+			<th>Actions</th>
+		</tr>
+	</thead>
+	<tbody>
+		<% @rooms.each do |room| %>
+		<tr>
+			<td width="200"><%=room.label %></td>
+			<td><%= room.floorplan.building.label %> - <%= room.floorplan.label %></td>
+			<td><%= link_to h("Edit"), edit_admin_room_path(:id => room.id), :class => ['btn','btn-default','btn-sm'] %></td>
+		</tr>
+		<% end %>
+	</tbody>
+</table>
+<nav>
+	<%= will_paginate @rooms, renderer: BootstrapPagination::Rails, :class => 'pagination pagination-sm' %>
+</nav>

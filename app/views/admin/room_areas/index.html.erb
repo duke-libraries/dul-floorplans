@@ -1,0 +1,20 @@
+<table class="table">
+	<thead>
+		<tr>
+			<th>Label</th>
+			<th>Sub-Label</th>
+			<th># Floors</th>
+			<th>Actions</th>
+		</tr>
+	</thead>
+	<tbody>
+		<% @buildings.each do |building| %>
+		<tr>
+			<td width="200"><%=building.label %></td>
+			<td><%=building.sublabel %></td>
+			<td><span class="badge"><%=building.floorplans.length %></span></td>
+			<td><%= link_to h("Edit"), edit_admin_building_path(:id => building.id), :class => ['btn','btn-default','btn-sm'] %></td>
+		</tr>
+		<% end %>
+	</tbody>
+</table>

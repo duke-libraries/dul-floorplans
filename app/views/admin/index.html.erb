@@ -1,0 +1,38 @@
+<div class="row">
+	<div class="col-xs-6 col-md-3 admin-section">
+		<a href="<%= url_for(admin_buildings_path) %>">
+		<%= image_tag "dul-libraries-profile-google-earth-#{@perkins.name}-ground-level-#{@perkins.image_width}x#{@perkins.image_height}.jpg", 
+									alt: "Profile of the #{@perkins.label}",
+									class: "img-circle", height: 200, width: 200
+									%>
+		</a>
+		<h4><a href="<%= url_for(admin_buildings_path) %>">Buildings</a></h4>									
+	</div>
+	<div class="col-xs-6 col-md-3 admin-section">
+		<a href="<%= url_for(admin_floorplans_path) %>">
+		<%= image_tag "floorplans/floorplanmap/perkins_floor_1_full_size_1.png", 
+									alt: "Profile of the #{@perkins.label}",
+									class: "img-circle", height: 200, width: 200
+									%>
+		</a>
+		<h4><a href="<%= url_for(admin_floorplans_path) %>">Floorplans</a></h4>										
+	</div>
+	<div class="col-xs-6 col-md-3 admin-section">
+		<a href="<%= url_for(admin_rooms_path) %>">
+		<%= image_tag "floorplans/roommockup/bostock_fl01_hively_study_room.jpg", 
+									alt: "Profile of the #{@perkins.label}",
+									class: "img-circle", height: 200, width: 200
+									%>
+		</a>
+		<h4><a href="<%= url_for(admin_rooms_path) %>">Rooms &amp; Room Areas</a></h4>					
+	</div>
+	<div class="col-xs-6 col-md-3 admin-section">
+		<a href="<%= url_for(admin_buildings_path) %>">
+		<%= image_tag "dul-libraries-profile-google-earth-#{@perkins.name}-ground-level-#{@perkins.image_width}x#{@perkins.image_height}.jpg", 
+									alt: "Profile of the #{@perkins.label}",
+									class: "img-circle", height: 200, width: 200
+									%>
+		</a>
+		<h4>Other Stuff</h4>							
+	</div>
+</div>

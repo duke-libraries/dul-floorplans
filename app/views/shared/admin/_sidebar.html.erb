@@ -1,0 +1,12 @@
+          <ul class="nav nav-sidebar">
+            <!--li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Buildings</a></li>
+            <li><a href="#">Floorplans</a></li>
+            <li><a href="#">Rooms</a></li>
+            <li><a href="#">Room Areas</a></li>
+            <li><a href="#">Room Mockups</a></li>
+          	<li><a href="#">Export</a></li-->
+          	<% @admin_sidebars.each do |sidebar| %>
+          	<li><%= link_to h(sidebar[:name]), sidebar[:path] %></a></li>
+          	<% end %>
+          </ul>

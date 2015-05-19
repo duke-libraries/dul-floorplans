@@ -1,0 +1,109 @@
+<h3>Edit <%= @room.label %></h3>
+<ul class="nav nav-tabs room-tabs">
+	<li role="presentation" class="active"><a data-toggle="tab" href="#room-data">Info</a></li>
+	<li role="presentation"><a data-toggle="tab" href="#roomareas">Room Areas</a></li>
+</ul>
+<div class="tab-content">
+	<div id="room-data" class="tab-pane fade in active">
+		<%= form_for :room, html: {class: 'form-horizontal'} do |f| %>
+			<div class="form-group">
+				<%= f.label :name, {class: 'col-sm-2 control-label', for: 'roomId' } %>
+				<div class="col-sm-10">
+					<%= f.text_field :name, {class: 'form-control input-sm', id: 'roomId', placeholder: 'Enter Room Name'}%>
+					<p class="help-block small">HTML-safe id string that identifies this specific room (e.g. "p28_study_room_01")</p>
+				</div>
+			</div>
+			<div class="form-group">
+				<%= f.label :room_number, {class: 'col-sm-2 control-label', for: 'roomNumber' } %>
+				<div class="col-sm-10">
+					<div class="row">
+						<div class="col-sm-4">
+							<%= f.text_field :room_number, {class: 'form-control input-sm', id: 'roomNumber', placeholder: 'Enter Room Number'} %>
+						</div>
+					</div>
+					<p class="help-block small">Room number for this space, if available; include Building name where relevant (e.g. "Perkins 217")</p>
+				</div>
+			</div>
+			<div class="form-group">
+				<%= f.label :label, {class: 'col-sm-2 control-label', for: 'roomLabel' } %>
+				<div class="col-sm-10">
+					<div class="row">
+						<div class="col-sm-6">
+							<%= f.text_field :label, {class: 'form-control input-sm', id: 'roomLabel', placeholder: 'Enter Room Label'} %>
+						</div>
+					</div>
+					<p class="help-block small">The visible name/label for this room, without any dollar amounts associated with it (e.g. "Study Room")</p>
+				</div>
+			</div>
+			<div class="form-group">
+				<%= f.label :building_id, {class: 'col-sm-2 control-label', for: 'roomFloorplan' } %>
+				<div class="col-sm-10">
+					<%= f.collection_select :floorplan_id, 
+						Floorplan.joins(:building).all.order('buildings.label','label'), 
+						:id, lambda {|f| return "%s - %s" % [f.building.label, f.label] }, {}, {class: 'form-control input-sm', id: 'roomFloorplan' } %>
+				</div>
+			</div>
+			<div class="form-group">
+				<%= f.label :naming_opportunity, {class: 'col-sm-2 control-label', for: 'roomNamingOpportunity' } %>
+				<div class="col-sm-10">
+					<div class="checkbox">
+						<%= f.check_box :naming_opportunity, {class: 'roomNamingOpportunity'} %>
+					</div>
+				</div>
+			</div>
+		  <div class="form-group">
+		    <div class="col-sm-offset-2 col-sm-10">
+		    	<%= f.submit "Save Room", {class: 'btn btn-primary'} %>
+		    </div>
+		  </div>
+		<% end %>
+	</div>
+	<div id="roomareas" class="tab-pane fade in">
+		<div class="panel panel-default">
+			<div class="panel-heading">Room Areas</div>
+			<div class="panel-body">
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Coordinates</th>
+						<th>Shape</th>
+						<th>Actions</th>
+					</tr>
+				</thead>
+				<tbody class="tbodyFloorAreas">
+					<% @room.room_areas.each do |room_area| %>
+					<%= render partial: 'roomarea_row', locals: {room_area: room_area} %>
+					<% end %>
+				</tbody>
+				<thead>
+					<tr>
+						<th colspan="3"><strong>Add New Area</strong></th>
+					</tr>
+				</thead>					
+				<tbody>
+					<tr>
+						<td>
+							<div class="row">
+								<div class="col-xs-5">
+								<input id="newAreaCoords" class="form-control input-sm" type="text" placeholder="Add new coordinates"/>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="row">
+								<div class="col-xs-7">
+								<%= select_tag(:area_shape, options_for_select(@area_shapes), {class: 'form-control input-sm', id: 'areaMapShape' }) %>
+								</div>
+							</div>
+						</td>
+						<td>
+							<%= link_to "Add Area", admin_room_add_room_area_path(:room_id => @room.id), 
+							:class => ['btn','btn-default','btn-sm'], :id => 'btnAddRoomArea'%>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+		</div>	
+	</div>
+</div>

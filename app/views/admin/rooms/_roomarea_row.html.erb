@@ -1,0 +1,17 @@
+<tr id="room_area_id-<%=room_area.id%>">
+	<td>
+		<div class="row">
+			<div class="col-xs-7"><input disabled class="form-control coord" type="text" value="<%=room_area.coord %>"></div>
+		</div>
+	</td>
+	<td><%= room_area.shape %></td>
+	<td>
+		<button type="button" 
+						class="btn btn-default btn-sm" 
+						data-toggle="modal" 
+						data-target="#diagInlineEditArea" data-coord="<%=room_area.coord %>" data-shape="<%= room_area.shape %>">
+			<span class="glyphicon glyphicon-pencil" aria-hidden="true">			
+		</button>		
+		<button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-trash" aria-hidden="true"></button>		
+	</td>
+</tr>

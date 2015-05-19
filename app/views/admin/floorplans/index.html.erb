@@ -1,0 +1,31 @@
+<a href="<%= url_for(new_admin_floorplan_path) %>" class="btn btn-primary btn-lg">Create New Floorplan Entry</a>
+<hr />
+<table class="table table-condensed">
+	<thead>
+		<tr>
+			<th>Label</th>
+			<th>Building</th>
+			<th>Actions</th>
+		</tr>
+	</thead>
+	<tbody>
+		<% @floorplans.each do |floorplan| %>
+		<tr>
+			<td>
+				<%=floorplan.label %>
+				<% if !floorplan.sublabel.nil? %>
+				<br />
+				<small><%=floorplan.sublabel %></small>
+				<% end %>
+			</td>
+			<td><%=floorplan.building.label %></td>
+			<td>
+				<%= link_to h("Edit"), edit_admin_floorplan_path(:id => floorplan.id), :class => ['btn','btn-default','btn-sm'] %>
+			</td>
+		</tr>
+		<% end %>
+	</tbody>
+</table>
+<nav>
+	<%= will_paginate @floorplans, renderer: BootstrapPagination::Rails, :class => 'pagination pagination-sm' %>
+</nav>

@@ -1,0 +1,35 @@
+<div class="row">
+	<% @buildings.each do |building| %>
+	<div class="col-xs-6 col-md-3 admin-building-map">
+		<strong><%= building.label %></strong><br />
+		<a href="<%= url_for(edit_admin_building_path(:id => building.id)) %>">
+		<%= image_tag "dul-libraries-profile-google-earth-#{building.name}-ground-level-#{building.image_width}x#{building.image_height}.jpg", 
+									alt: "Profile of the #{building.label}",
+									class: "img-responsive img-thumbnail"
+									%>
+		</a>									
+	</div>
+	<% end %>
+</div>
+<a href="<%= url_for(new_admin_building_path) %>" class="btn btn-primary btn-lg">Create New Building Entry</a>
+<hr />
+<table class="table">
+	<thead>
+		<tr>
+			<th>Label</th>
+			<th>Sub-Label</th>
+			<th># Floors</th>
+			<th>Actions</th>
+		</tr>
+	</thead>
+	<tbody>
+		<% @buildings.each do |building| %>
+		<tr>
+			<td width="200"><%=building.label %></td>
+			<td><%=building.sublabel %></td>
+			<td><span class="badge"><%=building.floorplans.length %></span></td>
+			<td><%= link_to h("Edit"), edit_admin_building_path(:id => building.id), :class => ['btn','btn-default','btn-sm'] %></td>
+		</tr>
+		<% end %>
+	</tbody>
+</table>

@@ -1,0 +1,53 @@
+<h3>New Room</h3>
+<%= form_for :room, html: {class: 'form-horizontal'} do |f| %>
+	<div class="form-group">
+		<%= f.label :name, {class: 'col-sm-2 control-label', for: 'roomId' } %>
+		<div class="col-sm-10">
+			<%= f.text_field :name, {class: 'form-control input-sm', id: 'roomId', placeholder: 'Enter Room Name'}%>
+			<p class="help-block small">HTML-safe id string that identifies this specific room (e.g. "p28_study_room_01")</p>
+		</div>
+	</div>
+	<div class="form-group">
+		<%= f.label :room_number, {class: 'col-sm-2 control-label', for: 'roomNumber' } %>
+		<div class="col-sm-10">
+			<div class="row">
+				<div class="col-sm-4">
+					<%= f.text_field :room_number, {class: 'form-control input-sm', id: 'roomNumber', placeholder: 'Enter Room Number'} %>
+				</div>
+			</div>
+			<p class="help-block small">Room number for this space, if available; include Building name where relevant (e.g. "Perkins 217")</p>
+		</div>
+	</div>
+	<div class="form-group">
+		<%= f.label :label, {class: 'col-sm-2 control-label', for: 'roomLabel' } %>
+		<div class="col-sm-10">
+			<div class="row">
+				<div class="col-sm-6">
+					<%= f.text_field :label, {class: 'form-control input-sm', id: 'roomLabel', placeholder: 'Enter Room Label'} %>
+				</div>
+			</div>
+			<p class="help-block small">The visible name/label for this room, without any dollar amounts associated with it (e.g. "Study Room")</p>
+		</div>
+	</div>
+	<div class="form-group">
+		<%= f.label :building_id, {class: 'col-sm-2 control-label', for: 'roomFloorplan' } %>
+		<div class="col-sm-10">
+			<%= f.collection_select :floorplan_id, 
+				Floorplan.joins(:building).all.order('buildings.label','label'), 
+				:id, lambda {|f| return "%s - %s" % [f.building.label, f.label] }, {}, {class: 'form-control input-sm', id: 'roomFloorplan' } %>
+		</div>
+	</div>
+	<div class="form-group">
+		<%= f.label :naming_opportunity, {class: 'col-sm-2 control-label', for: 'roomNamingOpportunity' } %>
+		<div class="col-sm-10">
+			<div class="checkbox">
+				<%= f.check_box :naming_opportunity, {class: 'roomNamingOpportunity'} %>
+			</div>
+	</div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+    	<%= f.submit "Save Room", {class: 'btn btn-primary'} %>
+    </div>
+  </div>
+<% end %>
+
