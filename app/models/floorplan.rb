@@ -18,8 +18,10 @@ class Floorplan < ActiveRecord::Base
   def init
     # tip from:
     # http://stackoverflow.com/questions/16266933/rmagick-how-do-i-find-out-the-pixel-dimension-of-an-image
-    image_path = Rails.root.join 'app/assets/media/', self.floorplan_map.image_url
-    @full_size_image = Magick::Image::read(image_path.to_s()).first
+    if !self.floorplan_map.nil?
+      image_path = Rails.root.join 'app/assets/media/', self.floorplan_map.image_url
+      @full_size_image = Magick::Image::read(image_path.to_s()).first
+    end
   end
   
   @@STUDY_CARRELS_ID_SUBSTRING = 'study_carrels'
