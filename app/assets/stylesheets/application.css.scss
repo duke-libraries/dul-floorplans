@@ -11,7 +11,9 @@
  * file per style scope.
  *
  *= require colorbox-rails 
- *= require_tree .
+ *= require floorplans
+ *= require namingopportunities
+ *= require welcome
  *= require_self
  */
 @import 'bootstrap-sprockets';
