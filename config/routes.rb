@@ -61,4 +61,19 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  get 'admin' => 'admin#index'
+
+  namespace :admin do
+    get 'admin/index'
+    resources :buildings
+    resources :floorplans do
+      post 'add_floor_area' => 'floorplans#add_floor_area'
+    end
+    resources :rooms do
+      post 'add_room_area' => 'rooms#add_room_area'
+    end
+    resources :rooms
+    resources :room_areas
+  end
 end
