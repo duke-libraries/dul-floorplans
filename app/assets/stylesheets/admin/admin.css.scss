@@ -1,0 +1,141 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require colorbox-rails 
+ *= require_self
+ *= require_tree .
+ */
+@import 'bootstrap-sprockets';
+
+$brand-primary:                   #036;
+$brand-success:                   lighten(#A1B70D, 6.5%);
+$brand-info:                      lighten(#0680CD, 13.0%);
+$brand-warning:                   lighten(#F09905, 7.5%);
+$brand-danger:                    lighten(#CC3300, 6.5%);
+$link-color:                      #A1B70D;
+
+//== NAVBAR INVERSE 
+//
+$navbar-inverse-bg:               $brand-primary;
+$navbar-inverse-link-hover-bg:    darken($brand-primary, 5.0%);
+$navbar-inverse-link-hover-color: lighten($link-color, 10.0%);
+$navbar-height:                   50px;
+
+$pagination-bg:                   $brand-primary;
+$pagination-hover-bg:             darken($brand-primary, 10%);
+$pagination-active-bg:            darken($brand-primary, 10%);
+$pagination-disabled-bg:          lighten($brand-primary, 10%);
+
+@import 'bootswatch/flatly/variables';
+
+@import 'bootstrap';
+
+.navbar-is-fixed-bottom {
+  .main-container {
+    padding-top: 29px;
+  }
+}
+
+.navbar-is-fixed-top {
+  .main-container {
+    padding-top: 29px;
+  }
+}
+
+.navbar-header {
+  .logo.navbar-btn {
+    margin-bottom: 0px !important;
+    //margin-top: 0 !important;
+  }
+}
+
+.socialMediaIconsBig {
+  margin-bottom: 0.5em;
+}
+
+.footer {
+  h5,
+  div.h5 {
+    color: darken($brand-success, 5%);
+    border-bottom: 1px dotted $gray-light;
+  }
+  border-top: 6px solid lighten($gray, 15.0%);
+  background: lighten($gray, 29.5%);
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 1em;
+  margin-top: 45px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.give-now {
+  background-color: #728302;
+}
+
+.socialMediaIconsBig {
+  margin-bottom: 15px;
+  margin-top: 10px;
+  border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
+  padding: 10px 0 10px 0;
+  overflow: hidden;
+}
+
+
+.socialMediaIconsBig div {
+  width: 24px;
+  height: 24px;
+  float: left;
+  margin-right: 6px;
+}
+
+.socialMediaIconsBig .twitter {
+  background: url(asset-path('footer_icon_sprite_2015.png')) no-repeat 0 0;
+}
+
+.socialMediaIconsBig .facebook {
+  background: url(asset-path('footer_icon_sprite_2015.png')) no-repeat -24px 0;
+}
+
+.socialMediaIconsBig .youtube {
+  background: url(asset-path('footer_icon_sprite_2015.png')) no-repeat -48px 0;
+}
+
+.socialMediaIconsBig .flickr {
+  background: url(asset-path('footer_icon_sprite_2015.png')) no-repeat -72px 0;
+}
+
+.socialMediaIconsBig .pinterest,
+.socialMediaIconsBig .instagram {
+  background: url(asset-path('footer_icon_sprite_2015.png')) no-repeat -96px 0;
+}
+
+.socialMediaIconsBig .rss {
+  background: url(asset-path('footer_icon_sprite_2015.png')) no-repeat -120px 0;
+}
+
+.admin-building-map {
+  margin-bottom: 1em;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.floorplan-tabs {
+  margin-bottom: 1em;
+}
+.room-tabs {
+  margin-bottom: 1em;
+}
+
+.admin-section {
+  text-align: center;
+}
