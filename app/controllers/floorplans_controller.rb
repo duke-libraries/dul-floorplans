@@ -1,5 +1,6 @@
 class FloorplansController < ApplicationController
   include BuildingList
+  include RoomsExtraSauce
   
   #caches_action :show, :layout => false, :expires_in => 1.hour
   caches_action :show
@@ -15,63 +16,15 @@ class FloorplansController < ApplicationController
     @floorplan_rooms_dict = {}
     @floorplan_building = ''
     
+    rooms_aggregate = RoomsAggregate.new :named_spaces => {:label => 'Named Spaces'}, 
+      :available_spaces_5000 => {:label => '$5,000 - $99,999', :min => 5000, :max => 99999},
+      :available_spaces_100000 => {:label => '$100,000 - $500,000', :min => 100000, :max => 500000},
+      :available_spaces_500000 => {:label => 'More than $500,000', :min => 500001}
+    
     # TODO consider placing contents of block in a concern
     begin
       @floorplan = Floorplan.find(params[:id])
       @building_list = build_building_list()
-  
-      add_breadcrumb @floorplan.building.label, '#'
-      add_breadcrumb @floorplan.label
-
-      all_floorplan_rooms = @floorplan.rooms.where(naming_opportunity: true)
-      floorplan_rooms = []
-
-      floorplan_aggregate_room_names = []
-
-      rooms_non_carrel_nameable = all_floorplan_rooms.where(carrel: false, nameable: true) 
-      aggregate_room_queryset = rooms_non_carrel_nameable
-        .select("floorplan_id, id, name, dollar_amount, label, count(name) as name_count")
-        .group(:name).having("count(name) >= ?", 1).order(label: :asc)
-
-      aggregate_room_labels_list = []
-
-      aggregate_room_queryset.map do |r|
-        aggregate_room_labels_list.push({room: r.label, nameable: true, dollar_amount: r.dollar_amount})
-      end
-      
-      aggregate_room_labels_list.push(
-        {room: Rails.application.config.floorplan.study_carrels_id_substring, nameable: true, dollar_amount: nil},
-        {room: Rails.application.config.floorplan.study_carrels_id_substring, nameable: false, dollar_amount: nil}
-       )
-      puts aggregate_room_labels_list.inspect
-      
-      aggregate_room_labels_list.each do |d|
-        room_aggregate = Room.aggregate_room(@floorplan.name, d[:nameable], d[:room], d[:dollar_amount])
-        if room_aggregate
-          floorplan_rooms.push(room_aggregate)
-          if d.has_key? :dollar_amount and !d[:dollar_amount].nil?
-            all_floorplan_rooms.where(label: d[:room], dollar_amount: d[:dollar_amount]).each do |r|
-              floorplan_aggregate_room_names.push(r.name)
-            end
-          end
-        end
-      end
-  
-      rooms_non_carrel_non_nameable = all_floorplan_rooms.where(carrel: false, nameable: false).order(label: :asc)
-      rooms_non_carrel_non_nameable.each do |r|
-        non_nameable_room_proxy = Room.find_by name: r.name
-        if !non_nameable_room_proxy.nil?
-           non_nameable_room_proxy.dollar_amount = nil
-        end
-        floorplan_rooms.push(non_nameable_room_proxy)
-      end 
-      
-      floorplan_rooms.concat(
-        all_floorplan_rooms
-          .where(carrel: false, nameable: true)
-          .where('name not in (?)', floorplan_aggregate_room_names)
-      )
-      floorplan_rooms.sort_by(&:label)  
       
       @floorplan_rooms_dict = {
         'Previously-named spaces' => [],
@@ -79,21 +32,26 @@ class FloorplansController < ApplicationController
         '$100,000 - $500,000' => [],
         'More than $500,000' => [],
       }
-
-      floorplan_rooms.each do |r|
-        if r.dollar_amount.nil? or r.dollar_amount < 1
-          @floorplan_rooms_dict['Previously-named spaces'].push(r)
-        elsif r.dollar_amount < 100000
-          @floorplan_rooms_dict['$5,000 - $100,000'].push(r)
-        elsif r.dollar_amount < 500000
-          @floorplan_rooms_dict['$100,000 - $500,000'].push(r)
-        else
-          @floorplan_rooms_dict['More than $500,000'].push(r)
-        end   
+  
+      # I believe it's time to re-think how to organize the 
+      # list of rooms.
+      # a) simply get all of them
+      # b) parse through the entire list and handle the 
+      #    cases where a room label spans multiple room areas
+      @floorplan.rooms.where(naming_opportunity: true).order(:dollar_amount, :label).each do |room|
+        rooms_aggregate.process_room(room)
       end
+      @room_labels = rooms_aggregate.room_labels
+      
+      @named_spaces = @room_labels.select {|label, d| d[:category] == :named_spaces}.sort_by { |label, d| label }
+      @available_5000 = @room_labels.select {|label, d| d[:category] == :available_spaces_5000}
+      @available_100000 = @room_labels.select {|label, d| d[:category] == :available_spaces_100000}
+      @available_500000 = @room_labels.select {|label, d| d[:category] == :available_spaces_500000}
 
-      @floorplan_rooms_dict['Previously-named spaces'].sort_by{ |e| e.label }
-      @floorplan_building = '%s Library' % [@floorplan.building.label]
+      
+      ##add_breadcrumb @floorplan.building.label, '#'
+      add_breadcrumb "%s - %s" % [@floorplan.building.label, @floorplan.label]
+      @floorplan_building = @floorplan.building.label
       @building_floorplans = @floorplan.building.floorplans
     end
   end
