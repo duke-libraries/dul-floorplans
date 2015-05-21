@@ -10,21 +10,7 @@ $(document).ready(function() {
 			.html( div );
 		$('#roomDetailsModal').modal('show');
 	});
-	/*
-	$.ajax(href, {
-		success : function(data, status, o) {
-			$img = $('<img>');
-			$img.attr('src', '/assets/' + data.thumbnail.image_url);
-			$thumbnailDiv = $('<div></div>');
-			$thumbnailDiv.append( $img );
-			$('#roomDetailsModal .modal-body').append( $thumbnailDiv );
-			$('#roomDetailsModal').modal('show');
-		},
-		error : function() {
-			
-		}
-	});
-	*/
+	
 	$('#roomlist a[data-target-area]').click(function(e) {
 		href = $(this).attr('href');
 		room_title = $(this).attr('title');
@@ -99,8 +85,6 @@ $(document).ready(function() {
 	floorplanMapsterOptions['areas'] = nonNameableAreas;
 
 	function IsImageOk(img) {
-		console.log(img[0].complete);
-		console.log(img[0].naturalWidth);
 		for (var i in img[0]) {
 			console.log(i + ' = ' + img[0][i]);
 		}
@@ -130,6 +114,8 @@ $(document).ready(function() {
 
 	if (document.floorplans.length > 0) {
 		document.floorplans.mapster(floorplanMapsterOptions); // activate mapster options for the floorplan(s)
+		// the earlier click event was removed so the Bootstrap modal widget could 
+		// function correctly.
 		$('#roomlist a[data-target-area]').on('mouseenter mouseleave', {'imageMapJqueryObject': document.floorplans},listLinkEventListener); // prep the roomlist links for both clicking and for hovering
 	}
 	/*
@@ -178,6 +164,7 @@ $(document).ready(function() {
 	*/
 	// fade in the various lists (previously hidden from view)
 	$('#roomlist, #buildingfloorlist, #buildinglist').show('blind', {direction: 'vertical'}, 600);
+	
 });
 
 // Functions follow below
@@ -251,7 +238,8 @@ function styleRoomListLink(currentSelectedState, targetAreaName) {
 		}
 		return returnState;
 	// }).fadeOut(100, function() { $(this).addClass('selected ui-corner-all').fadeIn('slow'); });
-	}).addClass('selected ui-corner-all').effect('highlight', {}, 1000);
+	}).addClass('selected ui-corner-all');
+	//.effect('highlight', {}, 1000)
 }
 
 // event-handler for building-profile clicked areas (basically, just normal click behavior (follow href), but it appears that imageMapster actually overrides normal click behavior, so we need to add it back in this case).

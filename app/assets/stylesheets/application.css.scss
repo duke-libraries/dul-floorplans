@@ -23,7 +23,9 @@ $brand-success:                   lighten(#A1B70D, 6.5%);
 $brand-info:                      lighten(#0680CD, 13.0%);
 $brand-warning:                   lighten(#F09905, 7.5%);
 $brand-danger:                    lighten(#CC3300, 6.5%);
-$link-color:                      #A1B70D;
+
+//$link-color:                      #A1B70D;
+$link-color:                      lighten($brand-primary, 22.5%);
 
 //== NAVBAR INVERSE 
 //
@@ -35,6 +37,10 @@ $navbar-height:                   70px;
 @import 'bootswatch/flatly/variables';
 
 @import 'bootstrap';
+
+.front-sidebar-links a {
+  font-weight: bold;
+}
 
 .navbar-is-fixed-bottom {
   .main-container {
@@ -67,8 +73,8 @@ $navbar-height:                   70px;
   }
   border-top: 6px solid lighten($gray, 15.0%);
   background: lighten($gray, 29.5%);
-  border-radius: 0 0 10px 10px;
-  margin-bottom: 1em;
+  //border-radius: 0 0 10px 10px;
+  //margin-bottom: 1em;
   margin-top: 45px;
   padding-top: 35px;
   padding-bottom: 35px;
@@ -87,6 +93,19 @@ $navbar-height:                   70px;
   overflow: hidden;
 }
 
+.libraryprofilegraphic img {
+  width: 300px;
+
+  @media (min-width: $screen-sm-min) {
+    width: 300px;
+  }
+  @media (min-width: $screen-md-min) {
+    width: 500px;
+  }
+  @media (min-width: $screen-lg-min) {
+    width: 500px;
+  }
+}
 
 .socialMediaIconsBig div {
   width: 24px;
