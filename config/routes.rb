@@ -76,4 +76,14 @@ Rails.application.routes.draw do
     resources :rooms
     resources :room_areas
   end
+  
+  ## External URL references
+  get "/support" => redirect("http://library.duke.edu/support"), :as => :support_home
+  get "/featured-story" => redirect("http://library.duke.edu/crazy-smart"), :as => :featured_story
+  get "/giving-opportunities" => redirect("http://library.duke.edu/support/giving-opportunities"), :as => :giving_opportunities
+  get "/friends" => redirect("http://library.duke.edu/support/friends"), :as => :friends_of_libraries
+  get "/news" => redirect("http://blogs.library.duke.edu"), :as => :news_and_events
+  get "/how-to-give" => redirect("http://library.duke.edu/support/how-give"), :as => :how_to_give
+  get "/give-now" => redirect("https://www.gifts.duke.edu/library"), :as => :give_now
+  get "/contact" => redirect("http://library.duke.edu/support/contact"), :as => :contact
 end
