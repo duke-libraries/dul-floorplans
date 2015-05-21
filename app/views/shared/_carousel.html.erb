@@ -2,7 +2,11 @@
   <!-- Indicators -->
   <ol class="carousel-indicators">
   <% for n in 0..(@carousel_items.size - 1) %>
-  	<li data-target="#<%= @carousel_div_id %>" data-slide-to="<%= n %>" class="active">
+  	<% if @carousel_items[n].has_key? :active and @carousel_items[n][:active] %>
+  		<li data-target="#<%= @carousel_div_id %>" data-slide-to="<%= n %>" class="active">
+  	<% else %>
+  		<li data-target="#<%= @carousel_div_id %>" data-slide-to="<%= n %>">
+  	<% end %>
   <% end %>
   </ol>
 

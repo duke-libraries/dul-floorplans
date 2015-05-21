@@ -16,7 +16,24 @@
 	</div>
 </div>
 <div class="container">
-	<%= yield %>
+	<div class="row">
+		<div class="hidden-xs hidden-sm col-md-2">
+			<aside class="well well-sm">
+				<p><%= image_tag "sqfoto1.jpg", class: 'img-thumbnail' %></p>
+				<ul class="list-unstyled small front-sidebar-links">
+					<li><a href="<%= featured_story_path %>">Featured Story</a></li>
+					<li><a href="<%= giving_opportunities_path %>">Giving Opportunities</a></li>
+					<li><a href="<%= friends_of_libraries_path %>">Friends of the Libraries</a></li>
+					<li><a href="<%= news_and_events_path %>">News, Events, Exhibits</a></li>
+					<li><a href="<%= how_to_give_path %>">How To Give</li>
+				</ul>
+				<a href="<%= give_now_path %>" target="_blank" class="btn btn-success btn-block">Give Now</a>
+			</aside>			
+		</div>
+		<div class="col-xs-12 col-md-10">
+		<%= yield %>
+		</div>
+	</div>
 </div>
 
 <%= render "shared/footer" %>

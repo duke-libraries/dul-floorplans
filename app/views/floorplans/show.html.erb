@@ -1,92 +1,5 @@
 <div class="row" id="<%= @floorplan.name %>">
-	<div class="pull-right col-sm-4 listcontainer">
-		
-		<div id="roomlist">
-			<div class="panel panel-primary">
-				<div class="panel-heading">
-					<h4>Available Naming Opportunities</h4>
-				</div>
-				<div class="panel-body">
-					<ul class="list-unstyled">
-					<% @floorplan_rooms_dict.each do |category, room_list| %>
-						<% if category != 'Previously-named spaces' %>
-						<li>
-							<h5><strong><%= category %></strong></h5>
-							<% if !room_list.empty? %>
-								<ul class="list-styled">
-								<% room_list.each do |room| %>
-									<li class="namingopportunityitem">
-										<%= link_to room.label_for_link_element(), room_path(:id => room.id), :remote => true,
-											:class => [room.link_element_css_class, 'room-link'], 'data-target-area' => room.name, 'data-roomgroup' => room.name,
-											:title => room.label, :alt => room.label
-										%>
-									</li>
-								<% end %>
-								</ul>
-							<% end %>
-						</li>
-						<% end %>
-					<% end %>
-					</ul>
-				</div>
-			</div>
-			
-			<% @floorplan_rooms_dict.each do |category, room_list| %>
-				<% if category == 'Previously-named spaces' %>
-				<div class="panel panel-primary">
-					<div class="panel-heading">
-						<h4>Named Spaces</h4>
-					</div>
-					<div class="panel-body">
-						<ul class="list-unstyled">
-							<% room_list.each do |room| %>
-							<li class="namingopportunityitem">
-								<%= link_to room.label_for_link_element, room_path(:id => room.id), :remote => true,
-									:class => [room.link_element_css_class, 'room-link'], 'data-target-area' => room.name, 'data-roomgroup' => room.name,
-									:title => room.label, :alt => room.label
-								%>
-							</li>
-							<% end %>
-						</ul>
-					</div>
-				</div>
-				<% end %>
-			<% end %>
-		</div>
-		
-		<div id="buildingfloorlist">
-			<div class="panel panel-primary">
-				<div class="panel-heading">
-					<h4><%= @floorplan_building %> Floorplans</h4>
-				</div>
-				<div class="panel-body">
-					<% if @building_list[@floorplan.building.name][:room_list].count > 0 %>
-					<ul>
-						<% @building_list[@floorplan.building.name][:room_list].each do |floor| %>
-						<li><%= link_to floor.label, floorplan_path(:id => floor.id) %></li>
-						<% end %>
-					</ul>
-					<% end %>
-				</div>
-			</div>
-		</div>
-		
-		<div id="buildinglist">
-			<div class="panel panel-primary">
-				<div class="panel-heading">
-					<h4>Library Buildings</h4>
-				</div>
-				<div class="panel-body">
-					<ul class="list-unstyled">
-					<% @building_list.each do |building, building_floors|%>
-						<li><%= building_floors[:label] %></li>
-					<% end %>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="floorplanscontainer col-sm-8">
+	<div class="floorplanscontainer col-md-8 col-sm-12">
 		<div id="floorplans">
 			<h2><%= @floorplan.building.label %> (<%= @floorplan.label%>)</h2>
 			<% if !@floorplan.sublabel.nil? && !@floorplan.sublabel.empty? %>
@@ -103,28 +16,176 @@
 			</div>
 		</div>
 	</div>
+	<div class="col-md-4 col-sm-12 listcontainer">
+		
+		<div id="roomlist">
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h4>Naming Opportunities</h4>
+				</div>
+				<div class="panel-body">
+					<ul class="list-unstyled">
+					<% if @available_5000.size > 0 %>
+						<li><h5><strong>$5,000 - $100,000</strong></h5></li>
+						<ul class="list-styled">
+						<% @available_5000.each do |room_label, room_info| %>
+							<li>
+								<%= link_to room_label, room_path(:id => room_info[:room].id), :remote => true,
+									:class => [room_info[:room].link_element_css_class, 'room-link'], 'data-target-area' => room_info[:data_roomgroup],
+									:title => room_label, :alt => room_label
+								%>							
+							</li>
+						<% end %>
+						</ul>
+					<% end %>
+					<% if @available_100000.size > 0 %>
+						<li><h5><strong>$100,000 - $500,000</strong></h5></li>
+						<ul class="list-sytle">
+						<% @available_100000.each do |room_label, room_info| %>
+							<li>
+								<%= link_to room_label, room_path(:id => room_info[:room].id), :remote => true,
+									:class => [room_info[:room].link_element_css_class, 'room-link'], 'data-target-area' => room_info[:data_roomgroup],
+									:title => room_label, :alt => room_label
+								%>							
+							</li>
+						<% end %>
+						</ul>
+					<% end %>
+					<% if @available_500000.size > 0 %>
+						<li><h5><strong>More than $500,000</strong></h5></li>
+						<ul class="list-sytle">
+						<% @available_500000.each do |room_label, room_info| %>
+							<li>
+								<%= link_to room_label, room_path(:id => room_info[:room].id), :remote => true,
+									:class => [room_info[:room].link_element_css_class, 'room-link'], 'data-target-area' => room_info[:data_roomgroup],
+									:title => room_label, :alt => room_label
+								%>							
+							</li>
+						<% end %>
+						</ul>
+					<% end %>
+					</ul>
+				</div>
+			</div>
+			
+			<% if @named_spaces.size > 0 %>
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h4>Named Spaces</h4>
+					</div>
+					<ul class="list-group">
+						<% @named_spaces.each do |room_label, room_info| %>
+							<li class="namingopportunityitem list-group-item">
+								<%= link_to room_label, room_path(:id => room_info[:room].id), :remote => true,
+									:class => [room_info[:room].link_element_css_class, 'room-link'], 'data-target-area' => room_info[:data_roomgroup],
+									:title => room_label, :alt => room_label
+								%>							
+							</li>
+						<% end %>
+					</ul>
+				</div>
+			<% end %>
+		</div>
+		
+		<div id="buildingfloorlist">
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h4><%= @floorplan_building %></h4>
+				</div>
+				<% if @building_list[@floorplan.building.name][:room_list].count > 0 %>
+				<ul class="list-group">
+					<% @building_list[@floorplan.building.name][:room_list].each do |floor| %>
+					<li class="list-group-item"><%= link_to floor.label, floorplan_path(:id => floor.id) %></li>
+					<% end %>
+				</ul>
+				<% end %>
+			</div>
+		</div>
+		
+		<div id="buildinglist">
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h4>Library Buildings</h4>
+				</div>
+				<ul class="list-group">
+				<% @building_list.each do |building, building_floors|%>
+					<li class="list-group-item"><%= building_floors[:label] %></li>
+				<% end %>
+				</ul>
+			</div>
+		</div>
+	</div>
 </div>
 
 <map name="<%= @floorplan.name %>_<%= @floorplan.default_size %>">
 
-<% @floorplan_rooms_dict.each do |category, room_list| %>
-	<!-- <%= category %> -->
-	<% room_list.each do |room| %>
-		<% room.room_areas.each do |room_area| %>
-	<area shape="<%= room_area.shape %>" 
-				coords="<%= room_area.adjusted_coordinates() %>" 
-				data-roomdesc="<%= room.label %>" 
-				data-roomgroup="<%= room.name %>"
-				target="<%= room.name %>"
-				data-toggle="tooltip"
-				data-placement="right"
-				data-nameable="<%= room.pending_or_nameable %>"
-				title="<%= room.title_for_area_element %>"
-				href="<%= url_for room_path(:id => room.id) %>"
-				data-remote="true"
-				/>
+<% @available_5000.each do |label, label_data| %>
+		<% label_data[:room_areas].each do |room_area| %>
+		<area shape="<%= room_area.shape %>" 
+					coords="<%= room_area.adjusted_coordinates() %>" 
+					data-roomdesc="<%= label_data[:room].label %>" 
+					data-roomgroup="<%= label_data[:data_roomgroup] %>"
+					target="<%= label_data[:room].name %>"
+					data-toggle="tooltip"
+					data-placement="right"
+					data-nameable="<%= label_data[:room].pending_or_nameable %>"
+					title="<%= room_area.room.label %>"
+					href="<%= url_for room_path(:id => label_data[:room].id) %>"
+					data-remote="true"
+					class="room-link"
+					/>
 		<% end %>
-	<% end %>
+<% end %>
+<% @available_100000.each do |label, label_data| %>
+		<% label_data[:room_areas].each do |room_area| %>
+		<area shape="<%= room_area.shape %>" 
+					coords="<%= room_area.adjusted_coordinates() %>" 
+					data-roomdesc="<%= label_data[:room].label %>" 
+					data-roomgroup="<%= label_data[:data_roomgroup] %>"
+					target="<%= label_data[:room].name %>"
+					data-toggle="tooltip"
+					data-placement="right"
+					data-nameable="<%= label_data[:room].pending_or_nameable %>"
+					title="<%= room_area.room.label %>"
+					href="<%= url_for room_path(:id => label_data[:room].id) %>"
+					data-remote="true"
+					class="room-link"
+					/>
+		<% end %>
+<% end %>
+<% @available_500000.each do |label, label_data| %>
+		<% label_data[:room_areas].each do |room_area| %>
+		<area shape="<%= room_area.shape %>" 
+					coords="<%= room_area.adjusted_coordinates() %>" 
+					data-roomdesc="<%= label_data[:room].label %>" 
+					data-roomgroup="<%= label_data[:data_roomgroup] %>"
+					target="<%= label_data[:room].name %>"
+					data-toggle="tooltip"
+					data-placement="right"
+					data-nameable="<%= label_data[:room].pending_or_nameable %>"
+					title="<%= room_area.room.label %>"
+					href="<%= url_for room_path(:id => label_data[:room].id) %>"
+					data-remote="true"
+					class="room-link"
+					/>
+		<% end %>
+<% end %>
+<% @named_spaces.each do |label, label_data| %>
+		<% label_data[:room_areas].each do |room_area| %>
+		<area shape="<%= room_area.shape %>" 
+					coords="<%= room_area.adjusted_coordinates() %>" 
+					data-roomdesc="<%= label_data[:room].label %>" 
+					data-roomgroup="<%= label_data[:data_roomgroup] %>"
+					target="<%= label_data[:room].name %>"
+					data-toggle="tooltip"
+					data-placement="right"
+					data-nameable="<%= label_data[:room].pending_or_nameable %>"
+					title="<%= room_area.room.label %>"
+					href="<%= url_for room_path(:id => label_data[:room].id) %>"
+					data-remote="true"
+					class="room-link"
+					/>
+		<% end %>
 <% end %>
 </map>
 
