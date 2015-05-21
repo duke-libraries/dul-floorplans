@@ -19,5 +19,5 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
-  add_breadcrumb 'Support The Libraries', 'root_path'
+  add_breadcrumb 'Naming Opportunities', 'root_path'
 end
