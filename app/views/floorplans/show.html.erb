@@ -3,33 +3,10 @@
 <div class="row" id="<%= @floorplan.name %>">
 	<div class="floorplanscontainer col-md-8 col-sm-12">
 		<!-- TODO place this in a shared partial -->
-		<div class="btn-group" role="group" aria-label="...">
-			<% if @building_list[@floorplan.building.name][:room_list].count > 0 %>
-				<div class="btn-group" role="group">
-					<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-		      <%= @floorplan.building.label %> Floors
-		      <span class="caret"></span>
-		    	</button>
-		    	<ul class="dropdown-menu" role="menu">
-					<% @building_list[@floorplan.building.name][:room_list].each do |floor| %>
-						<li><%= link_to floor.label, floorplan_path(:id => floor.id) %></li>
-					<% end %>
-					</ul>
-				</div>
-			<% end %>
-		
-		  <div class="btn-group" role="group">
-		    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-		      Library Buildings
-		      <span class="caret"></span>
-		    </button>
-		    <ul class="dropdown-menu" role="menu">
-				<% @building_list.each do |building, building_floors|%>
-					<li><a href="#"><%= building_floors[:label] %></a></li>
-				<% end %>
-		    </ul>
-		  </div>
-		</div>
+		<%= render partial: 'shared/floors_buildings_menu', locals: {
+			building_list: @building_list, active_building: @floorplan.building, active_floorplan: @floorplan
+			} 
+		%>
 		<!-- /button bar for floors and library buildings -->
 		
 		<div id="floorplans">
