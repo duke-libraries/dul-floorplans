@@ -1,5 +1,37 @@
+<% title "#{@floorplan.building.label} | #{@floorplan.label}" %>
+
 <div class="row" id="<%= @floorplan.name %>">
 	<div class="floorplanscontainer col-md-8 col-sm-12">
+		<!-- TODO place this in a shared partial -->
+		<div class="btn-group" role="group" aria-label="...">
+			<% if @building_list[@floorplan.building.name][:room_list].count > 0 %>
+				<div class="btn-group" role="group">
+					<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+		      <%= @floorplan.building.label %> Floors
+		      <span class="caret"></span>
+		    	</button>
+		    	<ul class="dropdown-menu" role="menu">
+					<% @building_list[@floorplan.building.name][:room_list].each do |floor| %>
+						<li><%= link_to floor.label, floorplan_path(:id => floor.id) %></li>
+					<% end %>
+					</ul>
+				</div>
+			<% end %>
+		
+		  <div class="btn-group" role="group">
+		    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+		      Library Buildings
+		      <span class="caret"></span>
+		    </button>
+		    <ul class="dropdown-menu" role="menu">
+				<% @building_list.each do |building, building_floors|%>
+					<li><a href="#"><%= building_floors[:label] %></a></li>
+				<% end %>
+		    </ul>
+		  </div>
+		</div>
+		<!-- /button bar for floors and library buildings -->
+		
 		<div id="floorplans">
 			<h2><%= @floorplan.building.label %> (<%= @floorplan.label%>)</h2>
 			<% if !@floorplan.sublabel.nil? && !@floorplan.sublabel.empty? %>
@@ -16,8 +48,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-md-4 col-sm-12 listcontainer">
-		
+	<div class="col-md-4 col-sm-12 listcontainer">	
 		<div id="roomlist">
 			<div class="panel panel-primary">
 				<div class="panel-heading">
@@ -85,34 +116,6 @@
 					</ul>
 				</div>
 			<% end %>
-		</div>
-		
-		<div id="buildingfloorlist">
-			<div class="panel panel-primary">
-				<div class="panel-heading">
-					<h4><%= @floorplan_building %></h4>
-				</div>
-				<% if @building_list[@floorplan.building.name][:room_list].count > 0 %>
-				<ul class="list-group">
-					<% @building_list[@floorplan.building.name][:room_list].each do |floor| %>
-					<li class="list-group-item"><%= link_to floor.label, floorplan_path(:id => floor.id) %></li>
-					<% end %>
-				</ul>
-				<% end %>
-			</div>
-		</div>
-		
-		<div id="buildinglist">
-			<div class="panel panel-primary">
-				<div class="panel-heading">
-					<h4>Library Buildings</h4>
-				</div>
-				<ul class="list-group">
-				<% @building_list.each do |building, building_floors|%>
-					<li class="list-group-item"><%= building_floors[:label] %></li>
-				<% end %>
-				</ul>
-			</div>
 		</div>
 	</div>
 </div>
