@@ -1,4 +1,5 @@
 # /lib/rooms_extra_sauce.rb
+include ActionView::Helpers::NumberHelper
 
 module RoomsExtraSauce
   class RoomsAggregate
@@ -20,8 +21,11 @@ module RoomsExtraSauce
       if !room.nameable?
         label_key = room.carrel? ? "Named Study Carrels" : room.label
       else
-        if room.label.starts_with? 'Study Carrel'
+        if room.name.include? 'study_carrel'
           label_key = 'Study Carrel'
+          if !room.dollar_amount.nil?
+            label_key = "%s ($%s)" % [label_key, number_with_delimiter(room.dollar_amount)]
+          end
         else
           label_key = room.label_for_link_element()
         end

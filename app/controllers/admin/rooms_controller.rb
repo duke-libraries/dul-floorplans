@@ -7,7 +7,7 @@ class Admin::RoomsController < AdminController
     #set_active_admin_sidebar 'Floorplan'
     @rooms = Room
       .joins(:floorplan)
-      .paginate(:page => params[:page], :per_page => 10)
+      .paginate(:page => params[:page], :per_page => 25)
       .all.order('floorplans.label, label')
   end
   

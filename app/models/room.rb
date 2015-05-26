@@ -25,6 +25,9 @@ class Room < ActiveRecord::Base
   # 
   def link_element_css_class
     s = ''
+    if self.room_mockups.size > 0
+      s = s + 'has-mockups '
+    end
     if self.pending_sale
       s = 'pending'
     else
