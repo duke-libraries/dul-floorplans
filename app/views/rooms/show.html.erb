@@ -4,8 +4,9 @@
 		<div class="col-sm-7">
 		<%= render "shared/carousel" %>
 		</div>
+		<% else %>
+		<div class="col-sm-12">
 		<% end %>
-		<div class="col-sm-5">
 			<dl class="room_info">
 				<dt>Room/Area Name</dt>
 				<dd><%= @room.label %></dd>
@@ -20,12 +21,10 @@
 				<% end %>
 				</dd>
 			</dl>
-			<% if @room_has_mockups %>
 			<hr />
 			<div>
 				<%= image_tag @room.floorplan.thumbnail_image(highlighted_rooms: [@room], render_as_nameable: false)[:image_url] %>
 			</div>
-			<% end %>
 		</div>
 	</div>
 	<% if @room_has_mockups %>
