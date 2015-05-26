@@ -15,6 +15,11 @@ $(document).ready(function() {
 		href = $(this).attr('href');
 		room_title = $(this).attr('title');
 		
+		if ($(this).hasClass('has-mockups') == false) {
+			$('#roomDetailsModal .modal-dialog').removeClass('modal-lg');
+		} else {
+			$('#roomDetailsModal .modal-dialog').addClass('modal-lg');			
+		}
 		// set the modal title prior to loading markup
 		$('#roomDetailsModalLabel').text( room_title );
 		return e.preventDefault;
