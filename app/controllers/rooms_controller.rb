@@ -7,11 +7,12 @@ class RoomsController < ApplicationController
     # this line creates @carousel_items and @carousel_div_id
     make_the_image_carousel('carousel_%s' % @room.name)
     
+    image_caption = @room.label.starts_with?('Study Carrel') ? 'Study Carrel' : @room.label
     active = true;
     @room.room_mockups.each do |mockup|
       item = {
         :image_url => mockup.image,
-        :image_caption => @room.label,
+        :image_caption => image_caption,
         :image_alt => '',
       }
       if active
