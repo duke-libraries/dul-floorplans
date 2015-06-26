@@ -19,8 +19,10 @@
 		      <span class="caret"></span>
 		    </button>
 		    <ul class="dropdown-menu" role="menu">
-				<% building_list.each do |building, building_floors|%>
-					<li class="<%= active_building.label === building_floors[:label] ? "active" : "" %>"><a href="#"><%= building_floors[:label] %></a></li>
+				<% building_list.each do |building, building_info|%>
+					<li class="<%= active_building.label === building_info[:label] ? "active" : "" %>">
+					<%= link_to building_info[:label], building_path(:id => building_info[:id]) %></a>
+					</li>
 				<% end %>
 		    </ul>
 		  </div>

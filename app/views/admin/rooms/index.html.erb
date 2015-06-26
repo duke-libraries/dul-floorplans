@@ -1,21 +1,41 @@
-<table class="table table-condensed">
+<form action="<%=admin_rooms_path %>" class="form-inline">
+	<div class="form-group">
+		<%= label_tag(:filter_building_id, 'Building') %>
+		<%= select_tag :filter_building_id, 
+									 options_from_collection_for_select(Building.all, :id, :label, @current_building_id), 
+									 :class => ['form-control', 'input-sm'], 
+									 :prompt => 'Filter by building...' %>
+	</div>
+	<div class="form-group">
+		<%= label_tag(:filter_floorplan_id, 'Floor') %>
+		<%= select_tag :filter_floorplan_id, 
+									 options_for_select(@floorplans, @current_floorplan_id), 
+									 :class => ['form-control', 'input-sm'], 
+									 :prompt => 'Filter by floor...' %>
+	</div>
+	<button type="submit" class="btn btn-default btn-sm">Filter</button>
+</form>
+<hr />
+<table class="table table-condensed table-hover">
 	<thead>
 		<tr>
 			<th>Label</th>
+			<th>Building</th>
 			<th>Floor</th>
 			<th>Actions</th>
 		</tr>
 	</thead>
 	<tbody>
 		<% @rooms.each do |room| %>
-		<tr>
-			<td width="200"><%=room.label %></td>
-			<td><%= room.floorplan.building.label %> - <%= room.floorplan.label %></td>
+		<tr class="small">
+			<td width="50%"><%=room.label %></td>
+			<td><%= room.floorplan.building.label %></td>
+			<td><%= room.floorplan.label %></td>
 			<td><%= link_to h("Edit"), edit_admin_room_path(:id => room.id), :class => ['btn','btn-default','btn-sm'] %></td>
 		</tr>
 		<% end %>
 	</tbody>
 </table>
 <nav>
-	<%= will_paginate @rooms, renderer: BootstrapPagination::Rails, :class => 'pagination pagination-sm' %>
+	<%= will_paginate @rooms, renderer: BootstrapPagination::Rails, :class => 'pagination' %>
 </nav>

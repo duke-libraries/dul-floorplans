@@ -5,7 +5,7 @@
 </ul>
 <div class="tab-content">
 	<div id="room-data" class="tab-pane fade in active">
-		<%= form_for :room, html: {class: 'form-horizontal'} do |f| %>
+		<%= form_for :room, url: admin_room_path(@room), html: {class: 'form-horizontal'}, method: :patch do |f| %>
 			<div class="form-group">
 				<%= f.label :name, {class: 'col-sm-2 control-label', for: 'roomId' } %>
 				<div class="col-sm-10">
@@ -48,6 +48,45 @@
 				<div class="col-sm-10">
 					<div class="checkbox">
 						<%= f.check_box :naming_opportunity, {class: 'roomNamingOpportunity'} %>
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<%= f.label :nameable, {class: 'col-sm-2 control-label', for: 'roomNameable' } %>
+				<div class="col-sm-10">
+					<div class="checkbox">
+						<%= f.check_box :nameable, {class: 'roomNameable'} %>
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<%= f.label :dollar_amount, {class: 'col-sm-2 control-label', for: 'roomDollarAmount' } %>
+				<div class="col-sm-10">
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="input-group input-group-sm">
+								<div class="input-group-addon">$</div>
+								<%= f.text_field :dollar_amount, {class: 'form-control input-sm', id: 'roomDollarAmount', placeholder: 'Enter Dollar Amount'} %>
+								<div class="input-group-addon">.00</div>
+							</div>
+						</div>
+					</div>
+					<p class="help-block small">The suggested dollar amount for this room (only displayed for nameable rooms, e.g. "25000", will display in dollar notation)</p>
+				</div>
+			</div>
+			<div class="form-group">
+				<%= f.label :pending_sale, {class: 'col-sm-2 control-label', for: 'roomPendingSale' } %>
+				<div class="col-sm-10">
+					<div class="checkbox">
+						<%= f.check_box :pending_sale, {class: 'roomPendingSale'} %>
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<%= f.label :carrel, {class: 'col-sm-2 control-label', for: 'roomCarrel' } %>
+				<div class="col-sm-10">
+					<div class="checkbox">
+						<%= f.check_box :carrel, {class: 'roomCarrel'} %>
 					</div>
 				</div>
 			</div>

@@ -17,7 +17,7 @@
 </div>
 <div class="container">
 	<div class="row">
-		<div class="hidden-xs hidden-sm col-md-2">
+		<div class="hidden-xs hidden-sm hidden-md col-lg-2">
 			<aside class="well well-sm">
 				<p><%= image_tag "sqfoto1.jpg", class: 'img-thumbnail' %></p>
 				<ul class="list-unstyled small front-sidebar-links">
@@ -30,12 +30,37 @@
 				<a href="<%= give_now_path %>" target="_blank" class="btn btn-success btn-block">Give Now</a>
 			</aside>			
 		</div>
-		<div class="col-xs-12 col-md-10">
+		<div class="col-xs-12 col-lg-10">
 		<%= yield %>
 		</div>
 	</div>
 </div>
 
 <%= render "shared/footer" %>
+<div id="aboutNamingOpsModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="aboutNamingOpsModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="aboutNamingOpsModalLabel">About This Site</h4>
+      </div>
+    	<div class="modal-body">
+				<p>
+					Our <strong>Naming Opportunities</strong> web site represents years of effort 
+					from our Library's own IT software development staff.
+				</p>
+				<p>Technologies Used:</p>
+				<ul>
+					<li>Ruby on Rails</li>
+					<li>Apache web server, configured with Passenger</li>
+					<li>MySQL database</li>
+					<li>ImageMapster Javascript/jQuery framework</li>
+					<li>Bootstrap UI Framework</li>
+				</ul>
+    	</div>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>

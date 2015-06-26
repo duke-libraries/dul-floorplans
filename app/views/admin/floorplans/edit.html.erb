@@ -2,6 +2,7 @@
 <ul class="nav nav-tabs floorplan-tabs">
 	<li role="presentation" class="active"><a data-toggle="tab" href="#floorplan-data">Info</a></li>
 	<li role="presentation"><a data-toggle="tab" href="#floorareas">Floor Areas</a></li>
+	<li role="presentation"><a data-toggle="tab" href="#rooms">Rooms</a></li>
 </ul>
 <div class="tab-content">
 	<div id="floorplan-data" class="tab-pane fade in active">
@@ -66,7 +67,7 @@
 				</thead>
 				<tbody class="tbodyFloorAreas">
 					<% @floorplan.floor_areas.each do |floor_area| %>
-					<%= render partial: 'floorarea_row', locals: {floor_area: floor_area} %>
+					<%= render partial: 'floorarea_row', locals: {floor_area: floor_area, floorplan: @floorplan} %>
 					<% end %>
 				</tbody>
 				<thead>
@@ -99,6 +100,32 @@
 			</table>
 			</div>
 		</div>	
+	</div>
+	<div id="rooms" class="tab-pane fade">
+		<table class="table table-condensed table-hover">
+			<thead>
+				<tr class="small">
+					<th>Name</th>
+					<th class="text-center">Naming<br />Opportunity?</th>
+					<th class="text-center">Nameable?</th>
+					<th class="text-center">Dollar Amount</th>
+					<th class="text-center">Pending?</th>
+					<th class="text-center">Carrel?</th>
+				</tr>
+			</thead>
+			<tbody>
+				<% @floorplan.rooms.each do |room| %>
+				<tr class="small">
+					<td><%= room.label %></td>
+					<td class="text-center"><%= room.naming_opportunity? ? "Y" : "N" %></td>
+					<td class="text-center"><%= room.nameable? ? "Y" : "N" %></td>
+					<td class="text-right"><%= room.nameable? ? "$ %s" % number_with_delimiter(room.dollar_amount) : "-" %></td>
+					<td class="text-center"><%= room.pending_sale? ? "Y" : "N" %></td>
+					<td class="text-center"><%= room.carrel? ? "Y" : "N" %></td>
+				</tr>
+				<% end %>
+			</tbody>
+		</table>
 	</div>
 </div>
 <!-- inline form -->

@@ -14,7 +14,8 @@
   <div class="carousel-inner" role="listbox">
   <% @carousel_items.each do |item| %>
     <div class="item<% if item.has_key? :active and item[:active] %> active<% end %>">
-      <img src="/assets/<%= item[:image_url] %>" alt="<%= item[:image_alt] %>">
+			<%= image_tag item[:image_url], alt: "#{item[:image_alt]}" %>
+      <!-- img src="/assets/<%= item[:image_url] %>" alt="<%= item[:image_alt] %>"-->
       <% if item.has_key? :image_caption %>
       <div class="carousel-caption">
         <%= item[:image_caption]%>
