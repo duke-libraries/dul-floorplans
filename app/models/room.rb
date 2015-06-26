@@ -29,10 +29,10 @@ class Room < ActiveRecord::Base
       s = s + 'has-mockups '
     end
     if self.pending_sale
-      s = 'pending'
+      s = s + ' pending'
     else
       if !self.nameable
-        s = 'non'
+        s = s +  'non'
       end
       s = s + 'nameable'
     end
@@ -45,6 +45,19 @@ class Room < ActiveRecord::Base
       s = s + " ($%s)" % number_with_delimiter(self.dollar_amount)
     end
     return s
+  end
+  
+  def tooltip_title
+    t = self.label
+    if self.nameable
+      if !self.dollar_amount.nil?
+        t = "%s ($%s)" % [t, number_with_delimiter(self.dollar_amount)]
+      end
+    end
+    if self.pending_sale
+      t = t + " -- sale pending"
+    end
+    return t
   end
   
   def self.aggregate_room(floorplan_name, nameable, room_label, dollar_amount)
@@ -93,6 +106,10 @@ class Room < ActiveRecord::Base
   end
   
   def self.aggregate_room_id(floorplan_name, nameable, room_label, dollar_amount = nil)
+    Rails.application.config.floorplan.room_label_problematic_char_dict.each do |bad, good|
+      room_label.gsub! bad, good
+    end
+    
     nameable_portion = ''
     if !nameable
       nameable_portion = '%s%s' %

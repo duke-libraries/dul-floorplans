@@ -40,6 +40,7 @@ module FloorplanMapImagery
         default_opacity = opts[:render_as_nameable] ? Rails.application.config.floorplan.room_color_opacity : 1.0
         
         room.room_areas.each do |room_area|
+          logger.debug '================| %s : coord -- %s |===================' % [room.label, room_area.coord]
           # the coord(inate)s are a string of numbers separated by ","
           # split 'em and then convert each element into a numeric value
           coords = room_area.coord.split(',')
@@ -67,6 +68,7 @@ module FloorplanMapImagery
     
     return {
       :image_url => floorplan_path,
+      :scale_factor => opts[:scale_factor],
       :width => resized_image.columns,
       :height => resized_image.rows,
     }
