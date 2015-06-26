@@ -1204,10 +1204,10 @@ perkins_fl02_lobby_west_end:
   id: 14511
   name: perkins_fl02_lobby_west_end
   room_number: 
-  label: Lobby (West End)
+  label: Roland Lobby (West End)
   floorplan_id: 6
   naming_opportunity: 1
-  nameable: 1
+  nameable: 0
   dollar_amount: 50000
   pending_sale: 0
   carrel: 0
@@ -1276,10 +1276,10 @@ rubenstein_fl02_reception:
   id: 4004
   name: rubenstein_fl02_reception
   room_number: 
-  label: Reception 
+  label: Korman Reception 
   floorplan_id: 4
   naming_opportunity: 1
-  nameable: 1
+  nameable: 0
   dollar_amount: 200000
   pending_sale: 0
   carrel: 0
@@ -2728,10 +2728,10 @@ perkins_fl03_lobby_west_end:
   id: 14541
   name: perkins_fl03_lobby_west_end
   room_number: 
-  label: Lobby (West End)
+  label: Roland Lobby (West End)
   floorplan_id: 9
   naming_opportunity: 1
-  nameable: 1
+  nameable: 0
   dollar_amount: 50000
   pending_sale: 0
   carrel: 0
@@ -4144,10 +4144,10 @@ perkins_fl04_lobby_west_end:
   id: 14561
   name: perkins_fl04_lobby_west_end
   room_number: 
-  label: Lobby (West End)
+  label: Roland Lobby (West End)
   floorplan_id: 11
   naming_opportunity: 1
-  nameable: 1
+  nameable: 0
   dollar_amount: 50000
   pending_sale: 0
   carrel: 0
@@ -4792,11 +4792,35 @@ rubenstein_fl01_foyer:
   id: 14641
   name: rubenstein_fl01_foyer
   room_number: 
-  label: Foyer
+  label: Korman Foyer
   floorplan_id: 1
   naming_opportunity: 1
-  nameable: 1
+  nameable: 0
   dollar_amount: 50000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl03_collab_space_2:
+  id: 14643
+  name: rubenstein_fl03_collab_space_2
+  room_number: 
+  label: Collaboration Space
+  floorplan_id: 7
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 200000
+  pending_sale: 0
+  carrel: 0
+
+rubenstein_fl03_collab_space_3:
+  id: 14645
+  name: rubenstein_fl03_collab_space_3
+  room_number: 
+  label: Collaboration Space
+  floorplan_id: 7
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 250000
   pending_sale: 0
   carrel: 0
 

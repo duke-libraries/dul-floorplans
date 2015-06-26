@@ -564,17 +564,17 @@
   shape: rect
   room_id: 7001
 
-31:
-  id: 31
-  coord: "468,1187,644,1302"
-  shape: rect
-  room_id: 7001
-
-41:
-  id: 41
+5155:
+  id: 5155
   coord: "653,1186,908,1302"
   shape: rect
-  room_id: 7001
+  room_id: 14645
+
+5153:
+  id: 5153
+  coord: "468,1187,644,1302"
+  shape: rect
+  room_id: 14643
 
 331:
   id: 331

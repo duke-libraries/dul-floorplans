@@ -630,8 +630,8 @@
   room_id: 5008
   room_mockup_id: 861
 
-267:
-  id: 267
+1323:
+  id: 1323
   room_id: 14511
   room_mockup_id: 861
 
@@ -655,15 +655,15 @@
   room_id: 4003
   room_mockup_id: 31
 
-1285:
-  id: 1285
-  room_id: 4004
-  room_mockup_id: 471
-
-1283:
-  id: 1283
+1319:
+  id: 1319
   room_id: 4004
   room_mockup_id: 461
+
+1321:
+  id: 1321
+  room_id: 4004
+  room_mockup_id: 471
 
 625:
   id: 625
@@ -915,8 +915,8 @@
   room_id: 8035
   room_mockup_id: 991
 
-381:
-  id: 381
+1325:
+  id: 1325
   room_id: 14541
   room_mockup_id: 991
 
@@ -930,8 +930,8 @@
   room_id: 9072
   room_mockup_id: 2651
 
-919:
-  id: 919
+1329:
+  id: 1329
   room_id: 7001
   room_mockup_id: 381
 
@@ -1110,8 +1110,8 @@
   room_id: 10034
   room_mockup_id: 1071
 
-459:
-  id: 459
+1327:
+  id: 1327
   room_id: 14561
   room_mockup_id: 1081
 
