@@ -14,25 +14,28 @@
  *= require floorplans
  *= require namingopportunities
  *= require welcome
+ *= require jquery.qtip.min
  *= require_self
  */
 @import 'bootstrap-sprockets';
 
-$brand-primary:                   #036;
+$brand-primary:                   #001A57;
 $brand-success:                   lighten(#A1B70D, 6.5%);
-$brand-info:                      lighten(#0680CD, 13.0%);
+//$brand-info:                      lighten(#0680CD, 30.0%);
+$brand-info:                      #E5EDDC;
 $brand-warning:                   lighten(#F09905, 7.5%);
 $brand-danger:                    lighten(#CC3300, 6.5%);
 
 //$link-color:                      #A1B70D;
-$link-color:                      lighten($brand-primary, 22.5%);
+$link-color:											#235F9C;
+//$link-color:                      lighten($brand-primary, 22.5%);
 
 //== NAVBAR INVERSE 
 //
 $navbar-inverse-bg:               $brand-primary;
 $navbar-inverse-link-hover-bg:    darken($brand-primary, 5.0%);
 $navbar-inverse-link-hover-color: lighten($link-color, 10.0%);
-$navbar-height:                   70px;
+$navbar-height:                   80px;
 
 @import 'bootswatch/flatly/variables';
 
@@ -48,6 +51,10 @@ $navbar-height:                   70px;
   }
 }
 
+.navbar-inverse {
+  @include gradient-vertical(#036, $brand-primary)
+}
+
 .navbar-is-fixed-top {
   .main-container {
     padding-top: 29px;
@@ -57,7 +64,7 @@ $navbar-height:                   70px;
 .navbar-header {
   .logo.navbar-btn {
     margin-bottom: 0px !important;
-    //margin-top: 0 !important;
+    margin-top: 10px !important;
   }
 }
 
@@ -137,4 +144,27 @@ $navbar-height:                   70px;
 
 .socialMediaIconsBig .rss {
   background: url(asset-path('footer_icon_sprite_2015.png')) no-repeat -120px 0;
+}
+
+#roomlist {
+	.panel-heading {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	h4, h5 {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+}
+
+.nameablehover, .nonnameablehover, .pendingsalehover {
+  text-decoration: underline !important;
+  background-color: $brand-info;
+}
+
+
+// http://coolestguidesontheplanet.com/bootstrap/modal.php
+#progressBarModal {
+  top: 50%;
+  outline: none;
 }
