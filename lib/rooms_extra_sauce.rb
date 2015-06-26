@@ -13,10 +13,7 @@ module RoomsExtraSauce
     end
     
     def process_room(room)
-      room_label = room.label
-      Rails.application.config.floorplan.room_label_problematic_char_dict.each do |bad, good|
-        room_label.gsub! bad, good
-      end
+      room_label = String.new(room.label)
 
       if !room.nameable?
         label_key = room.carrel? ? "Named Study Carrels" : room.label
