@@ -37,12 +37,3 @@ $ ->
         
         
     e.preventDefault();
-    
-  $('#diagInlineEditArea')
-    .on 'show.bs.modal', (e) ->
-      target = e.relatedTarget
-      coord = $(target).attr('data-coord')
-      shape = $(target).attr('data-shape')
-      $('#editFloorAreaShape').val(shape)
-      $('#editFloorAreaCoord').val(coord)
-    

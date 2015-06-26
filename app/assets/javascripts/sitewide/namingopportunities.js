@@ -3,25 +3,47 @@
 
 $(document).ready(function() {
 
-	// first prep the fancybox options and instantiate it (we need to use the click() method here since we're dynamically adjusting the href parameter)
+	// Prepare some event handlers for the modal popup
+	$('#roomDetailsModal').on('hidden.bs.modal', function(e) {
+	$('area[data-roomgroup]').mapster('deselect');
+		//$('.modal-body', this).html('');
+	})
+	
+	// first prep the fancybox options and instantiate it 
+	// (we need to use the click() method here since we're dynamically adjusting the href parameter)
 	$('.room-link').bind('ajax:complete', function(e, o, ajaxObj) {
 		var div = o.responseText;
-		$('#roomDetailsModal .modal-body')
-			.html( div );
-		$('#roomDetailsModal').modal('show');
+		$('#progressBarModal').modal('hide')
+
+		$('#roomDetailsModal .modal-body').html( div );
+		$('#roomDetailsModal').modal('show');		
 	});
 	
-	$('#roomlist a[data-target-area]').click(function(e) {
+	$('area.room-link[data-roomgroup], #roomlist a[data-target-area], .named-room-link a[data-target-area]').click(function(e) {
 		href = $(this).attr('href');
 		room_title = $(this).attr('title');
-		
+
 		if ($(this).hasClass('has-mockups') == false) {
 			$('#roomDetailsModal .modal-dialog').removeClass('modal-lg');
 		} else {
 			$('#roomDetailsModal .modal-dialog').addClass('modal-lg');			
 		}
+	
+		// un-hide the progress bar, then show the modal popup
+		// while the content is loading from the server
+		$('#progressBarModal .progress').removeClass('hidden').show();
+		$('#progressBarModal').modal('show');
+		
 		// set the modal title prior to loading markup
 		$('#roomDetailsModalLabel').text( room_title );
+	
+		// it doesn't appear that the data-remote attr works for <area> elements	
+		if( $(this).is('area.room-link[data-roomgroup]') ) {
+			$('#roomDetailsModal .modal-body').load( href, function() {
+				$('#progressBarModal').modal('hide')
+				$('#roomDetailsModal').modal('show');
+			});
+		}
 		return e.preventDefault;
 	});
 	
@@ -78,31 +100,22 @@ $(document).ready(function() {
 					className = 'pendingsalehover';
 				}
 			}
-			var roomListLink = $('#roomlist a[data-target-area="' + roomGroup + '"]');
+			var $roomListLink = $('#roomlist a[data-target-area="' + roomGroup + '"], .named-room-list a[data-target-area="' + roomGroup + '"]');
 			// add the class to the aLink on enter/ remove on leave
 			if (e.type == 'mouseenter') {
-				roomListLink.addClass(className);
+				$roomListLink.addClass(className);
+				//$roomListLink.mouseenter();
 			} else if (e.type == 'mouseleave') {
-				roomListLink.removeClass(className);
+				$roomListLink.removeClass(className);
+				//$roomListLink.mouseleave();
 			}
+		});
+		$(this).on('click', function(e) {
+			
 		});
 	});
 	floorplanMapsterOptions['areas'] = nonNameableAreas;
 
-	function IsImageOk(img) {
-		for (var i in img[0]) {
-			console.log(i + ' = ' + img[0][i]);
-		}
-		if (!img[0].complete) {
-			return false;
-		}	
-		if (img[0].naturalWidth === 0) {
-			return false;
-		}
-		return true;
-	}
-
-	console.log('floorplans length = ' + document.floorplans.length);
 	/*
 	$('.floorplan-map').hide().on('load', function() {
 		$(this).show({
@@ -121,14 +134,9 @@ $(document).ready(function() {
 		document.floorplans.mapster(floorplanMapsterOptions); // activate mapster options for the floorplan(s)
 		// the earlier click event was removed so the Bootstrap modal widget could 
 		// function correctly.
-		$('#roomlist a[data-target-area]').on('mouseenter mouseleave', {'imageMapJqueryObject': document.floorplans},listLinkEventListener); // prep the roomlist links for both clicking and for hovering
+		// prep the roomlist links for both clicking and for hovering
+		$('#roomlist a[data-target-area], .named-room-list a[data-target-area]').on('mouseenter mouseleave', {'imageMapJqueryObject': document.floorplans},listLinkEventListener); 
 	}
-	/*
-	if (document.floorplans.length > 0) {
-		document.floorplans.mapster(floorplanMapsterOptions); // activate mapster options for the floorplan(s)
-		$('#roomlist a[data-target-area]').on('click mouseenter mouseleave', {'imageMapJqueryObject': document.floorplans},listLinkEventListener); // prep the roomlist links for both clicking and for hovering
-	}
-	*/
 	
 	// also instantiate imagemapster on home page image
 	var buildingProfileImage = $('.libraryprofilegraphic img[usemap]');
@@ -150,26 +158,19 @@ $(document).ready(function() {
 		}
 		
 	});
-	/*
-	var buildingProfileImageMapName = buildingProfileImage.attr('usemap');
-	if (buildingProfileImageMapName && (buildingProfileImageMapName.length > 0)) {
-		buildingProfileImageMapName = buildingProfileImageMapName.replace(/#/, '');
-		// compile imageMapster options for the building-profile image...
-		buildingProfileMapsterOptions = { isSelectable: false, onClick: followAreaHref, noHrefIsMask: false };
-		$.extend(buildingProfileMapsterOptions, imageMapsterCommonSettings);
-		var buildingProfileAreas = [];
-		$('map[name="' + buildingProfileImageMapName + '"] area').each(function() {
-			var floorGroup = $(this).attr('data-roomgroup');
-			buildingProfileAreas.push({key: floorGroup, isSelectable: false});
-		});
-		buildingProfileImage.mapster(buildingProfileMapsterOptions);
-		// and make floor list links able to highlight imagemap floors on hover
-		$('.buildingfloorlist a[data-target-area]').on('hover', {'imageMapJqueryObject': buildingProfileImage}, listLinkEventListener);
-	}
-	*/
+
 	// fade in the various lists (previously hidden from view)
 	$('#roomlist, #buildingfloorlist, #buildinglist').show('blind', {direction: 'vertical'}, 600);
 	
+	$('.room-link[title!=""]', 'map').qtip({
+		position: {
+			target: 'mouse',
+			adjust: { x: 5, y: 5 }
+		},
+		style: {
+			classes: 'qtip-bootstrap qtip-shadow qtip-rounded',
+		}
+	});
 });
 
 // Functions follow below
