@@ -20,7 +20,7 @@ module BuildingList
       else
         building_room_list = floorplans_above_ground.reverse().to_a() + floorplans_below_ground       
       end
-      @building_list[building.name] = {:label => building.label, :room_list => building_room_list}
+      @building_list[building.name] = {:label => building.label, :room_list => building_room_list, :id => building.id}
     end
     return @building_list
   end

@@ -3,6 +3,7 @@ class RoomsController < ApplicationController
   
   def show
     @room = Room.find(params[:id])
+    @room.floorplan.initialize_image_info
     
     # this line creates @carousel_items and @carousel_div_id
     make_the_image_carousel('carousel_%s' % @room.name)

@@ -14,15 +14,35 @@ class Admin::FloorplansController < AdminController
   def edit
     # admin/floorplans/:id
     @floorplan = Floorplan.find(params[:id])
-    @area_shapes = [['Poly', 'poly'], ['Rect', 'rect'], ['Circle', 'circle']]
+    @area_shapes = [['Polygon', 'poly'], ['Rectangle', 'rect'], ['Circle', 'circle']]
     add_breadcrumb "%s - %s" % [@floorplan.building.label, @floorplan.label]
   end
   
   def new
     # admin/floorplans/new
     @floorplan = Floorplan.new
-    @area_shapes = [['Poly', 'poly'], ['Rect', 'rect'], ['Circle', 'circle']]
+    @area_shapes = [['Polygon', 'poly'], ['Rectangle', 'rect'], ['Circle', 'circle']]
     add_breadcrumb "New Floorplan"
+  end
+  
+  def create
+    @floorplan = Floorplan.new(floorplan_params)
+    
+    if @floorplan.save
+      redirect_to edit_admin_floorplan_url(@floorplan)
+    else
+      render 'new'
+    end
+  end
+  
+  def update
+    @floorplan = Floorplan.find(params[:id])
+    
+    if @floorplan.update(room_params)
+      redirect_to edit_admin_floorplan_url(@floorplan)
+    else
+      render 'edit'
+    end
   end
   
   def add_floor_area

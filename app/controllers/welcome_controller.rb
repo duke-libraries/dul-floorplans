@@ -12,4 +12,8 @@ class WelcomeController < ApplicationController
       @floorplan_list[building.name] = above_ground + below_ground
     end
   end
+  
+  def about
+    render layout: 'colorbox'
+  end
 end

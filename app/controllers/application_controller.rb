@@ -1,4 +1,9 @@
 class ApplicationController < ActionController::Base
+  before_filter :init
+  
+  def init
+    add_breadcrumb 'Naming Opportunities', 'root_path'
+  end
     
   # the code below, concerning breadcrumbs, comes from this source:
   # https://szeryf.wordpress.com/2008/06/13/easy-and-flexible-breadcrumbs-for-rails/
@@ -18,6 +23,4 @@ class ApplicationController < ActionController::Base
   # Prevent CSRF attacks by raising an exception.
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
-
-  add_breadcrumb 'Naming Opportunities', 'root_path'
 end

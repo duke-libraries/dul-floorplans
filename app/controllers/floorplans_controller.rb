@@ -30,6 +30,10 @@ class FloorplansController < ApplicationController
     else
       @floorplan = Floorplan.find_by(name: params[:floorplan_name])
     end
+    
+    # initialize the image 'magick'
+    @floorplan.initialize_image_info
+    
     @building_list = build_building_list()
 
     # I believe it's time to re-think how to organize the 
@@ -51,6 +55,7 @@ class FloorplansController < ApplicationController
     add_breadcrumb "%s - %s" % [@floorplan.building.label, @floorplan.label]
     @floorplan_building = @floorplan.building.label
     @building_floorplans = @floorplan.building.floorplans
+    @floorplan_default_image_info = @floorplan.default_image_info
 
   end
 end

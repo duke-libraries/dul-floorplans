@@ -1,6 +1,10 @@
 class AdminController < ApplicationController
   #layout 'admin'
-  add_breadcrumb 'Admin', '/admin'
+  before_filter :init
+  
+  def init
+    add_breadcrumb 'Administrator', '/admin'
+  end
   
   def index
     # admin#index
