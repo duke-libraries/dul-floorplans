@@ -28,12 +28,12 @@ module Floorplans
     # Config settings for floorplan (and room, roomarea, etc)
     config.floorplan = ActiveSupport::OrderedOptions.new
     config.floorplan.study_carrels_id_substring = 'study_carrels'
-    config.floorplan.room_label_problematic_char_dict = {'/' => '_',}
+    config.floorplan.room_label_problematic_char_dict = {'/' => '_', ',' => ''}
     config.floorplan.room_aggregate_room_name_delimeter = '-'
     config.floorplan.study_carrels_id_named_substring = 'named'
     config.floorplan.aggregate_room_label_space_replacement = "__"
     config.floorplan.aggregate_room_name_dollar_amount_delimeter = "___"
-    config.floorplan.default_map_max_width = 400
+    config.floorplan.default_map_max_width = 500
     config.floorplan.thumbnail_max_height = 100
     #config.floorplan.nameable_room_color = "#00cc00"
     #config.floorplan.not_nameable_room_color = "#336699"
