@@ -4,8 +4,10 @@ Rails.application.routes.draw do
   resources :floorplans
   
   resources :rooms
+	resources :buildings
 
   get 'welcome/index'
+	get 'welcome/about', :as => :about_this_site
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -13,7 +15,7 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'welcome#index'
 
-  get '/:floorplan_name' => 'floorplans#show', :as => :floorplan_by_name 
+  get '/floorplans/:floorplan_name' => 'floorplans#show', :as => :floorplan_by_name 
   
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
@@ -68,15 +70,19 @@ Rails.application.routes.draw do
 
   namespace :admin do
     get 'admin/index'
+		get 'rooms/floorplan_filter_options' => 'rooms#floorplan_filter_options'
     resources :buildings
     resources :floorplans do
       post 'add_floor_area' => 'floorplans#add_floor_area'
+			post 'update_floor_area/:floor_area_id' => 'floorplans#update_floor_area', :as => 'update_floor_area'
     end
+		resources :floor_areas
     resources :rooms do
       post 'add_room_area' => 'rooms#add_room_area'
+			post 'update_room_area' => 'rooms#update_room_area'
     end
     resources :rooms
-    resources :room_areas
+		resources :room_areas
   end
   
   ## External URL references
