@@ -2556,3 +2556,27 @@
   shape: poly
   room_id: 14623
 
+5157:
+  id: 5157
+  coord: "150,692,266,788"
+  shape: rect
+  room_id: 14647
+
+5159:
+  id: 5159
+  coord: "150,791,266,888"
+  shape: rect
+  room_id: 14649
+
+5161:
+  id: 5161
+  coord: "303,268,403,413"
+  shape: rect
+  room_id: 14651
+
+5163:
+  id: 5163
+  coord: "303,1233,403,1361"
+  shape: rect
+  room_id: 14651
+

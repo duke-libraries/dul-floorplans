@@ -1,29 +1,34 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-bostock_fl01-fl04_fish_stairwell:
+perkins_fl01-fl04_fish_stairwell:
   id: 651
-  label: bostock_fl01-fl04_fish_stairwell
+  label: perkins_fl01-fl04_fish_stairwell
   image: floorplans/roommockup/bostock_fl01-fl04_fish_stairwell.jpg
 
-bostock_fl01_amoeba_workstation:
-  id: 661
-  label: bostock_fl01_amoeba_workstation
-  image: floorplans/roommockup/bostock_fl01_amoeba_workstation_1.jpg
+bostock_fl01_meetup_Osserman:
+  id: 2931
+  label: bostock_fl01_meetup_Osserman
+  image: floorplans/roommockup/Meet Up 2.jpg
 
-bostock_fl01_diamond_lobby:
-  id: 671
-  label: bostock_fl01_diamond_lobby
-  image: floorplans/roommockup/bostock_fl01_diamond_lobby_1.jpg
+bostock_fl01_meetup_Hively:
+  id: 2933
+  label: bostock_fl01_meetup_Hively
+  image: floorplans/roommockup/Meet Up 3.jpg
 
-bostock_fl01_fischer_zernin_service_desk_01:
-  id: 681
-  label: bostock_fl01_fischer_zernin_service_desk_01
-  image: floorplans/roommockup/bostock_fl01_fischer_zernin_service_desk_01.jpg
+bostock_fl01_meetup:
+  id: 2935
+  label: bostock_fl01_meetup
+  image: floorplans/roommockup/Meet Up 4.jpg
 
-bostock_fl01_fischer_zernin_service_desk_02:
-  id: 691
-  label: bostock_fl01_fischer_zernin_service_desk_02
-  image: floorplans/roommockup/bostock_fl01_fischer_zernin_service_desk_02.jpg
+bostock_fl01_meetup_Hoy:
+  id: 2937
+  label: bostock_fl01_meetup_Hoy
+  image: floorplans/roommockup/Meet Up.jpg
+
+bostock_fl01_openlab:
+  id: 2939
+  label: bostock_fl01_openlab
+  image: floorplans/roommockup/Open Lab 2.jpg
 
 bostock_fl01_gateway_terrace_01:
   id: 701
@@ -45,50 +50,50 @@ bostock_fl01_gateway_terrace_04:
   label: bostock_fl01_gateway_terrace_04
   image: floorplans/roommockup/bostock_fl01_gateway_terrace_04.jpg
 
-bostock_fl01_hively_study_room:
-  id: 731
-  label: bostock_fl01_hively_study_room
-  image: floorplans/roommockup/bostock_fl01_hively_study_room.jpg
+bostock_fl01_openlab2:
+  id: 2941
+  label: bostock_fl01_openlab2
+  image: floorplans/roommockup/Open Lab 3.jpg
 
-bostock_fl01_hoy_study_room:
-  id: 741
-  label: bostock_fl01_hoy_study_room
-  image: floorplans/roommockup/bostock_fl01_hoy_study_room.jpg
+bostock_fl01_lounge5:
+  id: 2929
+  label: bostock_fl01_lounge5
+  image: floorplans/roommockup/Lounge.jpg
 
-bostock_fl01_jones_reading_room:
-  id: 751
-  label: bostock_fl01_jones_reading_room
-  image: floorplans/roommockup/bostock_fl01_jones_reading_room.jpg
-
-bostock_fl01_lobby_west:
+perkins_fl01_lobby_Swotes:
   id: 761
-  label: bostock_fl01_lobby_west
+  label: perkins_fl01_lobby_Swotes
   image: floorplans/roommockup/bostock_fl01_lobby_west.jpg
 
-bostock_fl01_periodical_reading_room_01:
-  id: 771
-  label: bostock_fl01_periodical_reading_room_01
-  image: floorplans/roommockup/bostock_fl01_periodical_reading_room_01.jpg
+bostock_fl01_lounge4:
+  id: 2927
+  label: bostock_fl01_lounge4
+  image: floorplans/roommockup/Lounge 5.jpg
 
-bostock_fl01_periodical_reading_room_02:
-  id: 781
-  label: bostock_fl01_periodical_reading_room_02
-  image: floorplans/roommockup/bostock_fl01_periodical_reading_room_02.jpg
+bostock_fl01_lounge2:
+  id: 2923
+  label: bostock_fl01_lounge2
+  image: floorplans/roommockup/Lounge 3.jpg
 
-bostock_fl01_study_space:
-  id: 791
-  label: bostock_fl01_study_space
-  image: floorplans/roommockup/bostock_fl01_study_space.jpg
+bostock_fl01_lounge3:
+  id: 2925
+  label: bostock_fl01_lounge3
+  image: floorplans/roommockup/Lounge 4.jpg
 
-bostock_fl01_tower_reading_room_classroom_01:
-  id: 2221
-  label: bostock_fl01_tower_reading_room_classroom_01
-  image: floorplans/roommockup/bostock_fl01_tower_reading_room_classroom_01.jpg
+bostock_fl01_lounge:
+  id: 2921
+  label: bostock_fl01_lounge
+  image: floorplans/roommockup/Lounge 2.jpg
 
-bostock_fl01_tower_reading_room_classroom_02:
-  id: 2231
-  label: bostock_fl01_tower_reading_room_classroom_02
-  image: floorplans/roommockup/bostock_fl01_tower_reading_room_classroom_02.jpg
+bostock_fl01_large_project_room2:
+  id: 2919
+  label: bostock_fl01_large_project_room2
+  image: floorplans/roommockup/Large Project Room 2 Door.jpg
+
+bostock_fl01_consultation_room:
+  id: 2917
+  label: bostock_fl01_consultation_room
+  image: floorplans/roommockup/Consultation Room.jpg
 
 bostock_fl02_beckstett_bridge_01:
   id: 801
@@ -1045,253 +1050,393 @@ perkins_study_space_north-facing_02:
   label: perkins_study_space_north-facing_02
   image: floorplans/roommockup/perkins_study_space_north-facing_02.jpg
 
-rubenstein_fl03_mockup_reading_area_01:
-  id: 2881
-  label: rubenstein_fl03_mockup_reading_area_01
-  image: floorplans/roommockup/rubenstein_fl03_mockup_reading_area_01.png
+rubenstein_fl01_entrance:
+  id: 3077
+  label: rubenstein_fl01_entrance
+  image: floorplans/roommockup/Carpenter Entrance.jpg
 
-rubenstein_fl03_mockup_reading_area_02:
-  id: 2891
-  label: rubenstein_fl03_mockup_reading_area_02
-  image: floorplans/roommockup/rubenstein_fl03_mockup_reading_area_02.png
+rubenstein_fl01_entrance2:
+  id: 3079
+  label: rubenstein_fl01_entrance2
+  image: floorplans/roommockup/Carpenter Entrance 2.jpg
 
-rubenstein_mockup_images_biddle_foyer:
-  id: 1
-  label: rubenstein_mockup_images_biddle_foyer
-  image: floorplans/roommockup/rubenstein_mockup_images_biddle_foyer.jpg
+rubenstein_fl01_consultation_wakil2:
+  id: 3075
+  label: rubenstein_fl01_consultation_wakil2
+  image: floorplans/roommockup/Wakil Consultation Room2.jpg
 
-rubenstein_mockup_images_biddle_rare_book_room_01:
-  id: 321
-  label: rubenstein_mockup_images_biddle_rare_book_room_01
-  image: floorplans/roommockup/rubenstein_mockup_images_biddle_rare_book_room_01.jpg
+rubenstein_fl01_consultation_wakil:
+  id: 3073
+  label: rubenstein_fl01_consultation_wakil
+  image: floorplans/roommockup/Wakil Consultation Room.jpg
 
-rubenstein_mockup_images_biddle_rare_book_room_02:
-  id: 331
-  label: rubenstein_mockup_images_biddle_rare_book_room_02
-  image: floorplans/roommockup/rubenstein_mockup_images_biddle_rare_book_room_02.jpg
+rubenstein_fl01_trent3:
+  id: 3071
+  label: rubenstein_fl01_trent3
+  image: floorplans/roommockup/Trent Room.jpg
 
-rubenstein_mockup_images_biddle_rare_book_room_03:
-  id: 341
-  label: rubenstein_mockup_images_biddle_rare_book_room_03
-  image: floorplans/roommockup/rubenstein_mockup_images_biddle_rare_book_room_03.jpg
+rubenstein_fl01_trent2:
+  id: 3069
+  label: rubenstein_fl01_trent2
+  image: floorplans/roommockup/Trent Room 3.jpg
 
-rubenstein_mockup_images_biddle_rare_book_room_04:
-  id: 351
-  label: rubenstein_mockup_images_biddle_rare_book_room_04
-  image: floorplans/roommockup/rubenstein_mockup_images_biddle_rare_book_room_04.jpg
+rubenstein_fl01_stone:
+  id: 3065
+  label: rubenstein_fl01_stone
+  image: floorplans/roommockup/Stone Gallery.jpg
 
-rubenstein_mockup_images_carpenter_board_room:
-  id: 21
-  label: rubenstein_mockup_images_carpenter_board_room
-  image: floorplans/roommockup/rubenstein_mockup_images_carpenter_board_room.jpg
+rubenstein_fl01_trent:
+  id: 3067
+  label: rubenstein_fl01_trent
+  image: floorplans/roommockup/Trent Room 2.jpg
 
-rubenstein_mockup_images_catering_kitchen:
-  id: 31
-  label: rubenstein_mockup_images_catering_kitchen
-  image: floorplans/roommockup/rubenstein_mockup_images_catering_kitchen.jpg
+rubenstein_fl01_lobby2:
+  id: 3063
+  label: rubenstein_fl01_lobby2
+  image: floorplans/roommockup/Sperling Lobby.jpg
 
-rubenstein_mockup_images_chappell_gallery_01:
-  id: 361
-  label: rubenstein_mockup_images_chappell_gallery_01
-  image: floorplans/roommockup/rubenstein_mockup_images_chappell_gallery_01.jpg
+rubenstein_fl01_lobby:
+  id: 3061
+  label: rubenstein_fl01_lobby
+  image: floorplans/roommockup/Sperling Lobby 2.jpg
 
-rubenstein_mockup_images_chappell_gallery_02:
-  id: 371
-  label: rubenstein_mockup_images_chappell_gallery_02
-  image: floorplans/roommockup/rubenstein_mockup_images_chappell_gallery_02.jpg
+rubenstein_fl03_collaboration_small:
+  id: 3059
+  label: rubenstein_fl03_collaboration_small
+  image: floorplans/roommockup/Small Collaboration Room.jpg
 
-rubenstein_mockup_images_conference_room:
-  id: 51
-  label: rubenstein_mockup_images_conference_room
-  image: floorplans/roommockup/rubenstein_mockup_images_conference_room.jpg
+rubenstein_fl01_reading_room3:
+  id: 3055
+  label: rubenstein_fl01_reading_room3
+  image: floorplans/roommockup/Reading Room3.jpg
 
-rubenstein_mockup_images_dig_hum_coll_wk_room:
-  id: 381
-  label: rubenstein_mockup_images_dig_hum_coll_wk_room
-  image: floorplans/roommockup/rubenstein_mockup_images_dig_hum_coll_wk_room.jpg
+rubenstein_fl01_reference:
+  id: 3057
+  label: rubenstein_fl01_reference
+  image: floorplans/roommockup/Reference Room.jpg
 
-rubenstein_mockup_images_exhibition_gallery_01:
-  id: 391
-  label: rubenstein_mockup_images_exhibition_gallery_01
-  image: floorplans/roommockup/rubenstein_mockup_images_exhibition_gallery_01.jpg
+rubenstein_fl01_reading_room2:
+  id: 3053
+  label: rubenstein_fl01_reading_room2
+  image: floorplans/roommockup/Reading Room2.jpg
 
-rubenstein_mockup_images_exhibition_gallery_02:
-  id: 401
-  label: rubenstein_mockup_images_exhibition_gallery_02
-  image: floorplans/roommockup/rubenstein_mockup_images_exhibition_gallery_02.jpg
+rubenstein_fl01_reading_room:
+  id: 3051
+  label: rubenstein_fl01_reading_room
+  image: floorplans/roommockup/Reading Room.jpg
 
-rubenstein_mockup_images_exhibition_gallery_03:
-  id: 411
-  label: rubenstein_mockup_images_exhibition_gallery_03
-  image: floorplans/roommockup/rubenstein_mockup_images_exhibition_gallery_03.jpg
+rubenstein_fl03_reading_area3:
+  id: 3049
+  label: rubenstein_fl03_reading_area3
+  image: floorplans/roommockup/Reading Area.jpg
 
-rubenstein_mockup_images_flowers_dalton_room:
-  id: 121
-  label: rubenstein_mockup_images_flowers_dalton_room
-  image: floorplans/roommockup/rubenstein_mockup_images_flowers_dalton_room.jpg
+rubenstein_fl03_reading_area:
+  id: 3045
+  label: rubenstein_fl03_reading_area
+  image: floorplans/roommockup/Reading Area 2.jpg
 
-rubenstein_mockup_images_gothic_lounge:
-  id: 131
-  label: rubenstein_mockup_images_gothic_lounge
-  image: floorplans/roommockup/rubenstein_mockup_images_gothic_lounge.jpg
+rubenstein_fl03_reading_area2:
+  id: 3047
+  label: rubenstein_fl03_reading_area2
+  image: floorplans/roommockup/Reading Area 3.jpg
 
-rubenstein_mockup_images_gothic_reading_room_01:
-  id: 431
-  label: rubenstein_mockup_images_gothic_reading_room_01
-  image: floorplans/roommockup/rubenstein_mockup_images_gothic_reading_room_01.jpg
+rubenstein_fl01_photography2:
+  id: 3043
+  label: rubenstein_fl01_photography2
+  image: floorplans/roommockup/Photography Gallery.jpg
 
-rubenstein_mockup_images_gothic_reading_room_01a:
-  id: 2861
-  label: rubenstein_mockup_images_gothic_reading_room_01a
-  image: floorplans/roommockup/rubenstein_mockup_images_gothic_reading_room_01a.jpg
+rubenstein_fl01_photography:
+  id: 3041
+  label: rubenstein_fl01_photography
+  image: floorplans/roommockup/Photography Gallery 2.jpg
 
-rubenstein_mockup_images_gothic_reading_room_02:
-  id: 441
-  label: rubenstein_mockup_images_gothic_reading_room_02
-  image: floorplans/roommockup/rubenstein_mockup_images_gothic_reading_room_02.jpg
+rubenstein_fl01_papryology2:
+  id: 3039
+  label: rubenstein_fl01_papryology2
+  image: floorplans/roommockup/Papryology and Paleography Reference Room.jpg
 
-rubenstein_mockup_images_gothic_reading_room_03:
-  id: 451
-  label: rubenstein_mockup_images_gothic_reading_room_03
-  image: floorplans/roommockup/rubenstein_mockup_images_gothic_reading_room_03.jpg
+rubenstein_fl01_papyrology:
+  id: 3037
+  label: rubenstein_fl01_papyrology
+  image: floorplans/roommockup/Papryology and Paleography Reference Room 2.jpg
 
-rubenstein_mockup_images_gothic_reading_room_04:
-  id: 551
-  label: rubenstein_mockup_images_gothic_reading_room_04
-  image: floorplans/roommockup/rubenstein_mockup_images_gothic_reading_room_04.jpg
+rubenstein_fl03_collaboration_medium:
+  id: 3035
+  label: rubenstein_fl03_collaboration_medium
+  image: floorplans/roommockup/Medium Collaboration Space.jpg
 
-rubenstein_mockup_images_gothic_reading_room_05:
-  id: 561
-  label: rubenstein_mockup_images_gothic_reading_room_05
-  image: floorplans/roommockup/rubenstein_mockup_images_gothic_reading_room_05.jpg
+rubenstein_fl03_large_collaboration2:
+  id: 3033
+  label: rubenstein_fl03_large_collaboration2
+  image: floorplans/roommockup/Large Collaboration Space.jpg
 
-rubenstein_mockup_images_gothic_reading_room_06:
-  id: 571
-  label: rubenstein_mockup_images_gothic_reading_room_06
-  image: floorplans/roommockup/rubenstein_mockup_images_gothic_reading_room_06.jpg
+rubenstein_fl02_reception:
+  id: 3029
+  label: rubenstein_fl02_reception
+  image: floorplans/roommockup/Korman Reception Area.jpg
 
-rubenstein_mockup_images_holsti_anderson_seminar_room:
-  id: 151
-  label: rubenstein_mockup_images_holsti_anderson_seminar_room
-  image: floorplans/roommockup/rubenstein_mockup_images_holsti_anderson_seminar_room.jpg
+rubenstein_fl03_large_collaboration:
+  id: 3031
+  label: rubenstein_fl03_large_collaboration
+  image: floorplans/roommockup/Large Collaboration Space 2.jpg
 
-rubenstein_mockup_images_library_administration:
-  id: 161
-  label: rubenstein_mockup_images_library_administration
-  image: floorplans/roommockup/rubenstein_mockup_images_library_administration.jpg
+rubenstein_fl01_foyer:
+  id: 3027
+  label: rubenstein_fl01_foyer
+  image: floorplans/roommockup/Korman Foyer.jpg
 
-rubenstein_mockup_images_papyrology_and_paleography:
-  id: 171
-  label: rubenstein_mockup_images_papyrology_and_paleography
-  image: floorplans/roommockup/rubenstein_mockup_images_papyrology_and_paleography.jpg
+rubenstein_fl01_holsti2:
+  id: 3025
+  label: rubenstein_fl01_holsti2
+  image: floorplans/roommockup/Holsti Assembly Room.jpg
 
-rubenstein_mockup_images_rare_book_library_classroom:
-  id: 181
-  label: rubenstein_mockup_images_rare_book_library_classroom
-  image: floorplans/roommockup/rubenstein_mockup_images_rare_book_library_classroom.jpg
+rubenstein_fl01_holsti:
+  id: 3023
+  label: rubenstein_fl01_holsti
+  image: floorplans/roommockup/Holsti Assembly Room 2.jpg
 
-rubenstein_mockup_images_reception_01:
-  id: 461
-  label: rubenstein_mockup_images_reception_01
-  image: floorplans/roommockup/rubenstein_mockup_images_reception_01.jpg
+rubenstein_fl01_consultation_harper:
+  id: 3021
+  label: rubenstein_fl01_consultation_harper
+  image: floorplans/roommockup/Harper Consultation Room.jpg
 
-rubenstein_mockup_images_reception_02:
-  id: 471
-  label: rubenstein_mockup_images_reception_02
-  image: floorplans/roommockup/rubenstein_mockup_images_reception_02.jpg
+rubenstein_fl01_seminar_room3:
+  id: 3019
+  label: rubenstein_fl01_seminar_room3
+  image: floorplans/roommockup/Harkins Seminar Room.jpg
 
-rubenstein_mockup_images_reference_room:
-  id: 201
-  label: rubenstein_mockup_images_reference_room
-  image: floorplans/roommockup/rubenstein_mockup_images_reference_room.jpg
+rubenstein_fl01_seminar_room2:
+  id: 3017
+  label: rubenstein_fl01_seminar_room2
+  image: floorplans/roommockup/Harkins Seminar Room 3.jpg
 
-rubenstein_mockup_images_research_room:
-  id: 2871
-  label: rubenstein_mockup_images_research_room
-  image: floorplans/roommockup/rubenstein_mockup_images_research_room.jpg
+rubenstein_fl01_seminar_room:
+  id: 3015
+  label: rubenstein_fl01_seminar_room
+  image: floorplans/roommockup/Harkins Seminar Room 2.jpg
 
-rubenstein_mockup_images_seminar_room_fl1:
-  id: 221
-  label: rubenstein_mockup_images_seminar_room_fl1
-  image: floorplans/roommockup/rubenstein_mockup_images_seminar_room_fl1.jpg
+rubenstein_fl02_gothic:
+  id: 3011
+  label: rubenstein_fl02_gothic
+  image: floorplans/roommockup/Gothic Reading Room 2.jpg
 
-rubenstein_mockup_images_seminar_room_fl3:
-  id: 231
-  label: rubenstein_mockup_images_seminar_room_fl3
-  image: floorplans/roommockup/rubenstein_mockup_images_seminar_room_fl3.jpg
+rubenstein_fl02_gothic2:
+  id: 3013
+  label: rubenstein_fl02_gothic2
+  image: floorplans/roommockup/Gothic Reading Room.jpg
 
-rubenstein_mockup_images_smith_ferracone_reception_area_01:
-  id: 601
-  label: rubenstein_mockup_images_smith_ferracone_reception_area_01
-  image: floorplans/roommockup/rubenstein_mockup_images_smith_ferracone_reception_area_01.jpg
+rubenstein_fl01_consultation_diamond2:
+  id: 3009
+  label: rubenstein_fl01_consultation_diamond2
+  image: floorplans/roommockup/Diamond Consultation Room2.jpg
 
-rubenstein_mockup_images_smith_ferracone_reception_area_02:
-  id: 611
-  label: rubenstein_mockup_images_smith_ferracone_reception_area_02
-  image: floorplans/roommockup/rubenstein_mockup_images_smith_ferracone_reception_area_02.jpg
+rubenstein_fl01_consultation_diamond:
+  id: 3007
+  label: rubenstein_fl01_consultation_diamond
+  image: floorplans/roommockup/Diamond Consultation Room.jpg
 
-rubenstein_mockup_images_sperling_lobby_01:
-  id: 511
-  label: rubenstein_mockup_images_sperling_lobby_01
-  image: floorplans/roommockup/rubenstein_mockup_images_sperling_lobby_01.jpg
+rubenstein_fl01_consultation_rooms:
+  id: 3005
+  label: rubenstein_fl01_consultation_rooms
+  image: floorplans/roommockup/Consultation Rooms.jpg
 
-rubenstein_mockup_images_sperling_lobby_02:
-  id: 521
-  label: rubenstein_mockup_images_sperling_lobby_02
-  image: floorplans/roommockup/rubenstein_mockup_images_sperling_lobby_02.jpg
+rubenstein_fl01_chappell2:
+  id: 3003
+  label: rubenstein_fl01_chappell2
+  image: floorplans/roommockup/Chappell Gallery.jpg
 
-rubenstein_mockup_images_study_room_01:
-  id: 261
-  label: rubenstein_mockup_images_study_room_01
-  image: floorplans/roommockup/rubenstein_mockup_images_study_room_01.jpg
+rubenstein_fl01_chappell:
+  id: 3001
+  label: rubenstein_fl01_chappell
+  image: floorplans/roommockup/Chappell Gallery 2.jpg
 
-rubenstein_mockup_images_study_room_02:
-  id: 271
-  label: rubenstein_mockup_images_study_room_02
-  image: floorplans/roommockup/rubenstein_mockup_images_study_room_02.jpg
+rubenstein_fl02_carpenter2:
+  id: 2999
+  label: rubenstein_fl02_carpenter2
+  image: floorplans/roommockup/Carpenter Board Room.jpg
 
-rubenstein_mockup_images_study_room_03:
-  id: 581
-  label: rubenstein_mockup_images_study_room_03
-  image: floorplans/roommockup/rubenstein_mockup_images_study_room_03.jpg
+rubenstein_fl02_carpenter:
+  id: 2997
+  label: rubenstein_fl02_carpenter
+  image: floorplans/roommockup/Carpenter Board Room 2.jpg
 
-rubenstein_mockup_images_trent_room:
-  id: 291
-  label: rubenstein_mockup_images_trent_room
-  image: floorplans/roommockup/rubenstein_mockup_images_trent_room.jpg
+rubenstein_fl01_biddle_suite4:
+  id: 2993
+  label: rubenstein_fl01_biddle_suite4
+  image: floorplans/roommockup/Biddle Suite.jpg
 
-rubenstein_mockup_images_university_librarian_office:
-  id: 301
-  label: rubenstein_mockup_images_university_librarian_office
-  image: floorplans/roommockup/rubenstein_mockup_images_university_librarian_office.jpg
+rubenstein_fl03_breedlove:
+  id: 2995
+  label: rubenstein_fl03_breedlove
+  image: floorplans/roommockup/Breedlove Board Room.jpg
 
-rubenstein_mockup_images_west_quad_stair_tower_01:
-  id: 531
-  label: rubenstein_mockup_images_west_quad_stair_tower_01
-  image: floorplans/roommockup/rubenstein_mockup_images_west_quad_stair_tower_01.jpg
+rubenstein_fl01_biddle_suite3:
+  id: 2991
+  label: rubenstein_fl01_biddle_suite3
+  image: floorplans/roommockup/Biddle Suite 4.jpg
 
-rubenstein_mockup_images_west_quad_stair_tower_02:
-  id: 541
-  label: rubenstein_mockup_images_west_quad_stair_tower_02
-  image: floorplans/roommockup/rubenstein_mockup_images_west_quad_stair_tower_02.jpg
+rubenstein_fl01_biddle_suite2:
+  id: 2989
+  label: rubenstein_fl01_biddle_suite2
+  image: floorplans/roommockup/Biddle Suite 3.jpg
 
-rubenstein_mockup_images_west_quad_stair_tower_03:
-  id: 591
-  label: rubenstein_mockup_images_west_quad_stair_tower_03
-  image: floorplans/roommockup/rubenstein_mockup_images_west_quad_stair_tower_03.jpg
+rubenstein_fl01_classroom:
+  id: 2985
+  label: rubenstein_fl01_classroom
+  image: floorplans/roommockup/Beckstett Classroom.jpg
 
-rubenstein_mockup_images_research_room_01:
-  id: 2893
-  label: rubenstein_mockup_images_research_room_01
-  image: floorplans/roommockup/rubenstein_mockup_images_research_room_01_1.jpg
+rubenstein_fl01_biddle_suite:
+  id: 2987
+  label: rubenstein_fl01_biddle_suite
+  image: floorplans/roommockup/Biddle Suite 2.jpg
 
-rubenstein_mockup_images_research_room_02:
-  id: 2895
-  label: rubenstein_mockup_images_research_room_02
-  image: floorplans/roommockup/rubenstein_mockup_images_research_room_02_1.jpg
+rubenstein_fl02_family_commons2:
+  id: 2983
+  label: rubenstein_fl02_family_commons2
+  image: floorplans/roommockup/Ahmadieh Family Commons.jpg
 
-rubenstein_mockup_images_research_room_03:
-  id: 2897
-  label: rubenstein_mockup_images_research_room_03
-  image: floorplans/roommockup/rubenstein_mockup_images_research_room_03_1.jpg
+rubenstein_fl02_family_commons:
+  id: 2981
+  label: rubenstein_fl02_family_commons
+  image: floorplans/roommockup/Ahmadieh Family Commons 2.jpg
+
+rubenstein_fl02_admin_suite:
+  id: 2979
+  label: rubenstein_fl02_admin_suite
+  image: floorplans/roommockup/Administrative Office Suite.jpg
+
+bostock_fl01_Data_Visualization_Lab_Door:
+  id: 2899
+  label: bostock_fl01_Data_Visualization_Lab_Door
+  image: floorplans/roommockup/Data and Visualization Lab Door.jpg
+
+bostock_fl01_Data_Visualization_Lab:
+  id: 2901
+  label: bostock_fl01_Data_Visualization_Lab
+  image: floorplans/roommockup/Data and Visualization Lab Interior 2.jpg
+
+bostock_fl01_data_visualization_lab_02:
+  id: 2903
+  label: bostock_fl01_data_visualization_lab_02
+  image: floorplans/roommockup/Data and Visualization Lab Interior.jpg
+
+bostock_fl01_data_visualization_lab_03:
+  id: 2905
+  label: bostock_fl01_data_visualization_lab_03
+  image: floorplans/roommockup/Data and Visualization Lab.jpg
+
+bostock_fl01_digtial_studio:
+  id: 2907
+  label: bostock_fl01_digtial_studio
+  image: floorplans/roommockup/Digital Studio.jpg
+
+bostock_fl01_help_desk:
+  id: 2909
+  label: bostock_fl01_help_desk
+  image: floorplans/roommockup/Help Desk.jpg
+
+bostock_fl01_Large_Project_Petrick:
+  id: 2911
+  label: bostock_fl01_Large_Project_Petrick
+  image: floorplans/roommockup/Large Project Room 6.jpg
+
+bostock_fl01_large_project_02_Bostock:
+  id: 2913
+  label: bostock_fl01_large_project_02_Bostock
+  image: floorplans/roommockup/Large Project Room 8 Interior.jpg
+
+bostock_fl01_large_project_03_Bostock:
+  id: 2915
+  label: bostock_fl01_large_project_03_Bostock
+  image: floorplans/roommockup/Large Project Room 8.jpg
+
+bostock_fl01_openlab3:
+  id: 2943
+  label: bostock_fl01_openlab3
+  image: floorplans/roommockup/Open Lab 4.jpg
+
+bostock_fl01_openlab4:
+  id: 2945
+  label: bostock_fl01_openlab4
+  image: floorplans/roommockup/Open Lab.jpg
+
+bostock_fl01_small_project1:
+  id: 2947
+  label: bostock_fl01_small_project1
+  image: floorplans/roommockup/Small Project Room 1.jpg
+
+bostock_fl01_small_project3:
+  id: 2949
+  label: bostock_fl01_small_project3
+  image: floorplans/roommockup/Small Project Room 3 Interior.jpg
+
+bostock_fl01_small_project3i:
+  id: 2951
+  label: bostock_fl01_small_project3i
+  image: floorplans/roommockup/Small Project Room 3.jpg
+
+bostock_fl01_small_project4i:
+  id: 2953
+  label: bostock_fl01_small_project4i
+  image: floorplans/roommockup/Small Project Room 4 Interior.jpg
+
+bostock_fl01_small_project4:
+  id: 2955
+  label: bostock_fl01_small_project4
+  image: floorplans/roommockup/Small Project Room 4.jpg
+
+bostock_fl01_small_project5:
+  id: 2957
+  label: bostock_fl01_small_project5
+  image: floorplans/roommockup/Small Project Room 5 Door.jpg
+
+bostock_fl01_small_project5i:
+  id: 2959
+  label: bostock_fl01_small_project5i
+  image: floorplans/roommockup/Small Project Room 5 Interior.jpg
+
+bostock_fl01_small_project5i-2:
+  id: 2961
+  label: bostock_fl01_small_project5i-2
+  image: floorplans/roommockup/Small Project Room 5.jpg
+
+bostock_fl01_small_project7i:
+  id: 2963
+  label: bostock_fl01_small_project7i
+  image: floorplans/roommockup/Small Project Room 7 Interior.jpg
+
+bostock_fl01_small_project7:
+  id: 2965
+  label: bostock_fl01_small_project7
+  image: floorplans/roommockup/Small Project Room 7.jpg
+
+bostock_fl01_small_project9i:
+  id: 2967
+  label: bostock_fl01_small_project9i
+  image: floorplans/roommockup/Small Project Room 9 Interior.jpg
+
+bostock_fl01_small_project9:
+  id: 2969
+  label: bostock_fl01_small_project9
+  image: floorplans/roommockup/Small Project Room 9.jpg
+
+bostock_fl01_consultation_room2:
+  id: 2971
+  label: bostock_fl01_consultation_room2
+  image: floorplans/roommockup/Staff and Consultation Room.jpg
+
+bostock_fl01_workshop:
+  id: 2973
+  label: bostock_fl01_workshop
+  image: floorplans/roommockup/Workshop Room Interior 2.jpg
+
+bostock_fl01_workshop2:
+  id: 2975
+  label: bostock_fl01_workshop2
+  image: floorplans/roommockup/Workshop Room Interior 3.jpg
+
+bostock_fl01_workshop3:
+  id: 2977
+  label: bostock_fl01_workshop3
+  image: floorplans/roommockup/Workshop Room Interior.jpg
 

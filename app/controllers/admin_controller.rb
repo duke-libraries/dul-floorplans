@@ -28,5 +28,6 @@ class AdminController < ApplicationController
   register_sidebar 'Overview', 'admin_path'  
   register_sidebar 'Buildings', 'admin_buildings_path'
   register_sidebar 'Floorplans', 'admin_floorplans_path'
+	register_sidebar 'Floorplan Maps', 'admin_floorplan_maps_path'
   register_sidebar 'Rooms', 'admin_rooms_path'
 end

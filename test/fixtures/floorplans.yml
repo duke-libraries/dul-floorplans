@@ -136,3 +136,19 @@ perkins_lowerlevel2_floorplan:
   building_id: 1
   floorplan_map_id: 231
 
+rubenstein_floor4_floorplan:
+  id: 43
+  name: rubenstein_floor4_floorplan
+  label: Floor 4
+  sublabel: 
+  building_id: 4
+  floorplan_map_id: 313
+
+rubenstein_floor5_floorplan:
+  id: 45
+  name: rubenstein_floor5_floorplan
+  label: Floor 5
+  sublabel: 
+  building_id: 4
+  floorplan_map_id: 315
+

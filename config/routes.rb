@@ -83,6 +83,7 @@ Rails.application.routes.draw do
     end
     resources :rooms
 		resources :room_areas
+		resources :floorplan_maps
   end
   
   ## External URL references

@@ -24,11 +24,11 @@ rubenstein_fl01_biddle_rare_book_room:
   pending_sale: 0
   carrel: 0
 
-bostock_fl01_brandaleone_center:
+bostock_fl01_brandaleone_center :
   id: 14451
-  name: bostock_fl01_brandaleone_center
+  name: bostock_fl01_brandaleone_center 
   room_number: 
-  label: Brandaleone Lab for Data and Visualization Services
+  label: Brandaleone Lab for Data and Visualization Services 
   floorplan_id: 2
   naming_opportunity: 1
   nameable: 0
@@ -360,20 +360,8 @@ perkins_fl01_von_der_heyden_pavilion:
   pending_sale: 0
   carrel: 0
 
-bostock_fl01_osserman_team_room:
-  id: 14211
-  name: bostock_fl01_osserman_team_room
-  room_number: 
-  label: Eric Osserman Meet-Up
-  floorplan_id: 2
-  naming_opportunity: 1
-  nameable: 0
-  dollar_amount: 25000
-  pending_sale: 0
-  carrel: 0
-
 bostock_fl01_hoy_team_room:
-  id: 14191
+  id: 14211
   name: bostock_fl01_hoy_team_room
   room_number: 
   label: Franklin and Margaret Hoy Meet-Up
@@ -384,11 +372,23 @@ bostock_fl01_hoy_team_room:
   pending_sale: 0
   carrel: 0
 
-bostock_fl01_hively_team_room:
-  id: 14221
-  name: bostock_fl01_hively_team_room
+bostock_fl01_osserman_meetup:
+  id: 14191
+  name: bostock_fl01_osserman_meetup
   room_number: 
-  label: Steven and Marsha Hively Meet-Up
+  label: Eric Osserman Meet-Up
+  floorplan_id: 2
+  naming_opportunity: 1
+  nameable: 0
+  dollar_amount: 25000
+  pending_sale: 0
+  carrel: 0
+
+bostock_fl01_meetup_hively:
+  id: 14221
+  name: bostock_fl01_meetup_hively
+  room_number: 
+  label: Steven and Marsha Hively Meet-Up  
   floorplan_id: 2
   naming_opportunity: 1
   nameable: 0
@@ -408,11 +408,11 @@ rubenstein_fl01_lg_study_room:
   pending_sale: 0
   carrel: 0
 
-rubenstein_fl01_rare_book_library_classroom:
+rubenstein_fl01_beckstett_classroom:
   id: 1008
-  name: rubenstein_fl01_rare_book_library_classroom
+  name: rubenstein_fl01_beckstett_classroom
   room_number: 
-  label: Doug and Elise Beckstett Rare Book Library Classroom
+  label: Doug and Elise Beckstett Classroom 
   floorplan_id: 1
   naming_opportunity: 1
   nameable: 0
@@ -456,9 +456,9 @@ lilly_fl01_few_reading_room:
   pending_sale: 0
   carrel: 0
 
-bostock_fl01_jones_open_lab:
+bostock_fl01_open_lab :
   id: 14181
-  name: bostock_fl01_jones_open_lab
+  name: bostock_fl01_open_lab 
   room_number: 
   label: Richard and Patricia Jones Open Lab
   floorplan_id: 2
@@ -508,7 +508,7 @@ perkins_fl01_head_of_circulation_office:
   id: 3013
   name: perkins_fl01_head_of_circulation_office
   room_number: 
-  label: Access and Delivery Services Head Office
+  label: Access and Delivery Services Head Office 
   floorplan_id: 3
   naming_opportunity: 1
   nameable: 1
@@ -576,14 +576,14 @@ bostock_fl01_small_project_room_02:
   pending_sale: 0
   carrel: 0
 
-bostock_fl01_small_project_room_03:
+bostock_fl01_small_project_room_savitt:
   id: 14061
-  name: bostock_fl01_small_project_room_03
+  name: bostock_fl01_small_project_room_savitt
   room_number: 
-  label: Small Project Room
+  label: Savitt Family Small Project Room 
   floorplan_id: 2
   naming_opportunity: 1
-  nameable: 1
+  nameable: 0
   dollar_amount: 50000
   pending_sale: 0
   carrel: 0
@@ -592,10 +592,10 @@ bostock_fl01_large_project_room_03:
   id: 14141
   name: bostock_fl01_large_project_room_03
   room_number: 
-  label: Large Project Room
+  label: Savitt Family Large Project Room
   floorplan_id: 2
   naming_opportunity: 1
-  nameable: 1
+  nameable: 0
   dollar_amount: 100000
   pending_sale: 0
   carrel: 0
@@ -652,10 +652,10 @@ perkins_fl01_reference_reading_area:
   id: 3015
   name: perkins_fl01_reference_reading_area
   room_number: 
-  label: Reference Reading Area
+  label: Rob Moxley Reference Reading Area 
   floorplan_id: 3
   naming_opportunity: 1
-  nameable: 1
+  nameable: 0
   dollar_amount: 150000
   pending_sale: 0
   carrel: 0
@@ -772,17 +772,17 @@ rubenstein_fl01_west_quad_stair_tower:
   id: 1014
   name: rubenstein_fl01_west_quad_stair_tower
   room_number: 
-  label: West Quad Stair Tower
+  label: Leona B. Carpenter Entrance
   floorplan_id: 1
   naming_opportunity: 1
-  nameable: 1
+  nameable: 0
   dollar_amount: 750000
   pending_sale: 0
   carrel: 0
 
-rubenstein_fl01_exhibition_gallery:
+rubenstein_fl01_photography_gallery:
   id: 1015
-  name: rubenstein_fl01_exhibition_gallery
+  name: rubenstein_fl01_photography_gallery
   room_number: 
   label: Photography Gallery
   floorplan_id: 1
@@ -1020,11 +1020,11 @@ rubenstein_fl02_univ_librarian_office:
   pending_sale: 0
   carrel: 0
 
-rubenstein_fl02_gothic_lounge:
+rubenstein_fl02_ahmadieh_family_commons:
   id: 4001
-  name: rubenstein_fl02_gothic_lounge
+  name: rubenstein_fl02_ahmadieh_family_commons
   room_number: 
-  label: Gothic Lounge
+  label: Ahmadieh Family Commons
   floorplan_id: 4
   naming_opportunity: 1
   nameable: 0
@@ -1276,7 +1276,7 @@ rubenstein_fl02_reception:
   id: 4004
   name: rubenstein_fl02_reception
   room_number: 
-  label: Korman Reception 
+  label: Bradley and Pamela Korman Reception Area
   floorplan_id: 4
   naming_opportunity: 1
   nameable: 0
@@ -1324,7 +1324,7 @@ rubenstein_fl02_library_admin:
   id: 4005
   name: rubenstein_fl02_library_admin
   room_number: 
-  label: Library Administration
+  label: Library Administrative Suite
   floorplan_id: 4
   naming_opportunity: 1
   nameable: 1
@@ -2682,19 +2682,19 @@ rubenstein_fl03_reading_area_03:
   room_number: 
   label: Reading Area
   floorplan_id: 7
-  naming_opportunity: 0
+  naming_opportunity: 1
   nameable: 1
   dollar_amount: 25000
   pending_sale: 0
   carrel: 0
 
-rubenstein_fl03_reading_area_04:
+rubenstein_fl03_reading_area_04 :
   id: 14331
-  name: rubenstein_fl03_reading_area_04
+  name: rubenstein_fl03_reading_area_04 
   room_number: 
   label: Reading Area
   floorplan_id: 7
-  naming_opportunity: 0
+  naming_opportunity: 1
   nameable: 1
   dollar_amount: 25000
   pending_sale: 0
@@ -2760,15 +2760,15 @@ perkins_fl03_study_space:
   pending_sale: 0
   carrel: 0
 
-rubenstein_fl03_collab_space:
+rubenstein_fl03_collaboration_small:
   id: 7001
-  name: rubenstein_fl03_collab_space
+  name: rubenstein_fl03_collaboration_small
   room_number: 
-  label: Collaboration Space
+  label: Small Collaboration Space
   floorplan_id: 7
   naming_opportunity: 1
   nameable: 1
-  dollar_amount: 150000
+  dollar_amount: 100000
   pending_sale: 0
   carrel: 0
 
@@ -4528,7 +4528,7 @@ perkins_ll01_prak1_study_room:
   id: 13007
   name: perkins_ll01_prak1_study_room
   room_number: 
-  label: Barbara and Michael Dugan Group Study Room
+  label: Barbara and Michael Dugan Group Study Room 
   floorplan_id: 13
   naming_opportunity: 1
   nameable: 0
@@ -4636,10 +4636,10 @@ perkins_ll01_sm_classroom:
   id: 13015
   name: perkins_ll01_sm_classroom
   room_number: 
-  label: Rob Moxley Classroom
+  label: Classroom
   floorplan_id: 13
   naming_opportunity: 1
-  nameable: 0
+  nameable: 1
   dollar_amount: 100000
   pending_sale: 0
   carrel: 0
@@ -4648,7 +4648,7 @@ perkins_ll01_med_classroom:
   id: 13016
   name: perkins_ll01_med_classroom
   room_number: 
-  label: Classroom
+  label: Classroom 
   floorplan_id: 13
   naming_opportunity: 1
   nameable: 1
@@ -4792,7 +4792,7 @@ rubenstein_fl01_foyer:
   id: 14641
   name: rubenstein_fl01_foyer
   room_number: 
-  label: Korman Foyer
+  label: Bradley and Pamela Korman Foyer
   floorplan_id: 1
   naming_opportunity: 1
   nameable: 0
@@ -4800,11 +4800,11 @@ rubenstein_fl01_foyer:
   pending_sale: 0
   carrel: 0
 
-rubenstein_fl03_collab_space_2:
+rubenstein_fl03_collaboration_medium:
   id: 14643
-  name: rubenstein_fl03_collab_space_2
+  name: rubenstein_fl03_collaboration_medium
   room_number: 
-  label: Collaboration Space
+  label: Medium Collaboration Space
   floorplan_id: 7
   naming_opportunity: 1
   nameable: 1
@@ -4812,15 +4812,51 @@ rubenstein_fl03_collab_space_2:
   pending_sale: 0
   carrel: 0
 
-rubenstein_fl03_collab_space_3:
+rubenstein_fl03_collaboration_large:
   id: 14645
-  name: rubenstein_fl03_collab_space_3
+  name: rubenstein_fl03_collaboration_large
   room_number: 
-  label: Collaboration Space
+  label: Large Collaboration Space
   floorplan_id: 7
   naming_opportunity: 1
   nameable: 1
   dollar_amount: 250000
+  pending_sale: 0
+  carrel: 0
+
+r1_staff_meeting_room_01:
+  id: 14647
+  name: r1_staff_meeting_room_01
+  room_number: 
+  label: Staff Meeting Room 1
+  floorplan_id: 1
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 25000
+  pending_sale: 0
+  carrel: 0
+
+r1_staff_meeting_room_02:
+  id: 14649
+  name: r1_staff_meeting_room_02
+  room_number: 
+  label: Staff Meeting Room 2
+  floorplan_id: 1
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 25000
+  pending_sale: 0
+  carrel: 0
+
+rub_fl3_reading_area:
+  id: 14651
+  name: rub_fl3_reading_area
+  room_number: 
+  label: Reading Area
+  floorplan_id: 7
+  naming_opportunity: 1
+  nameable: 1
+  dollar_amount: 25000
   pending_sale: 0
   carrel: 0
 

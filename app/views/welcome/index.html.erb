@@ -29,7 +29,16 @@
 		<!--div class="panel-heading libraryprofile"><strong><%= building.label %></strong></div-->
 		<div class="panel-body">
 			<div class="row librarylevelslist<%= building.name %>">
-				<div class="col-md-4 col-sm-12">
+				<div class="libraryprofilegraphic col-md-8 col-md-push-4 col-sm-12 col-xs-12 text-center">
+				<%= image_tag "dul-libraries-profile-google-earth-#{building.name}-ground-level-#{building.image_width}x#{building.image_height}.jpg", 
+											height: building.image_height,
+											width: "100%",
+											alt: "Profile of the #{building.label}",
+											class: "img-responsive", 
+											usemap: "#libraryprofilemap" + building.name
+											%>
+				</div>
+				<div class="col-md-4 col-md-pull-8 col-sm-12 col-xs-12">
 					<% if building.floorplans.size > 0 %>
 					<div class="buildingfloorlist list-group">
 						<a href="#" class="list-group-item active">
@@ -47,15 +56,6 @@
 						<% end %>
 					</div>
 					<% end %>
-				</div>
-				<div class="libraryprofilegraphic col-md-8 col-sm-12 hidden-xs hidden-sm text-center">
-				<%= image_tag "dul-libraries-profile-google-earth-#{building.name}-ground-level-#{building.image_width}x#{building.image_height}.jpg", 
-											height: building.image_height,
-											width: "100%",
-											alt: "Profile of the #{building.label}",
-											class: "img-responsive", 
-											usemap: "#libraryprofilemap" + building.name
-											%>
 				</div>
 				<!--div class="col-sm-12 floorlistoutercontainer">
 				</div-->

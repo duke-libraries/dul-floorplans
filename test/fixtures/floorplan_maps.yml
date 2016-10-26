@@ -1,88 +1,97 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-# django.floorplans_floorplanmap
 bostock_floor_1_full_size:
   id: 241
-  label: "bostock_floor_1_full_size"
-  image_url: "floorplans/floorplanmap/Bostock_Floor_1_complete_4-14_1.png"
-  
+  label: bostock_floor_1_full_size
+  image_url: floorplans/floorplanmap/Bostock_Floor_1_complete_4-14_1.png
+
 bostock_floor_2_full_size:
   id: 251
-  label: "bostock_floor_2_full_size"
-  image_url: "floorplans/floorplanmap/bostock_floor_2_full_size.png"
-  
+  label: bostock_floor_2_full_size
+  image_url: floorplans/floorplanmap/bostock_floor_2_full_size.png
+
 bostock_floor_3_full_size:
   id: 261
-  label: "bostock_floor_3_full_size"
-  image_url: "floorplans/floorplanmap/bostock_floor_3_full_size.png"
-  
+  label: bostock_floor_3_full_size
+  image_url: floorplans/floorplanmap/bostock_floor_3_full_size.png
+
 bostock_floor_4_full_size:
   id: 271
-  label: "bostock_floor_4_full_size"
-  image_url: "floorplans/floorplanmap/bostock_floor_4_full_size.png"
-  
+  label: bostock_floor_4_full_size
+  image_url: floorplans/floorplanmap/bostock_floor_4_full_size.png
+
 bostock_lower_level_1_full_size:
   id: 281
-  label: "bostock_lower_level_1_full_size"
-  image_url: "floorplans/floorplanmap/bostock_lower_level_1_full_size.png"
-  
+  label: bostock_lower_level_1_full_size
+  image_url: floorplans/floorplanmap/bostock_lower_level_1_full_size.png
+
 lilly_floor_1_full_size:
   id: 301
-  label: "lilly_floor_1_full_size"
-  image_url: "floorplans/floorplanmap/lilly_floor_1_full_size.png"
-  
+  label: lilly_floor_1_full_size
+  image_url: floorplans/floorplanmap/lilly_floor_1_full_size.png
+
 lilly_floor_2_full_size:
   id: 311
-  label: "lilly_floor_2_full_size"
-  image_url: "floorplans/floorplanmap/lilly_floor_2_full_size.png"
-  
+  label: lilly_floor_2_full_size
+  image_url: floorplans/floorplanmap/lilly_floor_2_full_size.png
+
 lilly_lower_level_1_full_size:
   id: 291
-  label: "lilly_lower_level_1_full_size"
-  image_url: "floorplans/floorplanmap/lilly_lower_level_1_full_size.png"
-  
-perkins_floor_1_full_size-:
+  label: lilly_lower_level_1_full_size
+  image_url: floorplans/floorplanmap/lilly_lower_level_1_full_size.png
+
+perkins_floor_1_full_size:
   id: 181
-  label: "perkins_floor_1_full_size"
-  image_url: "floorplans/floorplanmap/perkins_floor_1_full_size_1.png"
-  
+  label: perkins_floor_1_full_size
+  image_url: floorplans/floorplanmap/perkins_floor_1_full_size_1.png
+
 perkins_floor_2_full_size:
   id: 191
-  label: "perkins_floor_2_full_size"
-  image_url: "floorplans/floorplanmap/perkins_floor_2_full_size.png"
-  
+  label: perkins_floor_2_full_size
+  image_url: floorplans/floorplanmap/perkins_floor_2_full_size.png
+
 perkins_floor_3_full_size:
   id: 201
-  label: "perkins_floor_3_full_size"
-  image_url: "floorplans/floorplanmap/perkins_floor_3_full_size.png"
-  
+  label: perkins_floor_3_full_size
+  image_url: floorplans/floorplanmap/perkins_floor_3_full_size.png
+
 perkins_floor_4_full_size:
   id: 211
-  label: "perkins_floor_4_full_size"
-  image_url: "floorplans/floorplanmap/perkins_floor_4_full_size.png"
-  
+  label: perkins_floor_4_full_size
+  image_url: floorplans/floorplanmap/perkins_floor_4_full_size.png
+
 perkins_lower_level_1_full_size:
   id: 221
-  label: "perkins_lower_level_1_full_size"
-  image_url: "floorplans/floorplanmap/perkins_lower_level_1_full_size.png"
-  
+  label: perkins_lower_level_1_full_size
+  image_url: floorplans/floorplanmap/perkins_lower_level_1_full_size.png
+
 perkins_lower_level_2_full_size:
   id: 231
-  label: "perkins_lower_level_2_full_size"
-  image_url: "floorplans/floorplanmap/perkins_lower_level_2_full_size.png"
-  
+  label: perkins_lower_level_2_full_size
+  image_url: floorplans/floorplanmap/perkins_lower_level_2_full_size.png
+
 rubenstein_floor_1_full_size:
   id: 21
-  label: "rubenstein_floor_1_full_size"
-  image_url: "floorplans/floorplanmap/rubenstein_floor_1_full_size_v2.png"
-  
+  label: rubenstein_floor_1_full_size
+  image_url: floorplans/floorplanmap/rubenstein_floor_1_full_size_v2.png
+
 rubenstein_floor_2_full_size:
   id: 81
-  label: "rubenstein_floor_2_full_size"
-  image_url: "floorplans/floorplanmap/rubenstein_floor_2_full_size.png"
-  
+  label: rubenstein_floor_2_full_size
+  image_url: floorplans/floorplanmap/rubenstein_floor_2_full_size.png
+
 rubenstein_floor_3_full_size:
   id: 141
-  label: "rubenstein_floor_3_full_size"
-  image_url: "floorplans/floorplanmap/rubenstein_floor_3_full_size.png"
+  label: rubenstein_floor_3_full_size
+  image_url: floorplans/floorplanmap/rubenstein_floor_3_full_size.png
+
+rubenstein_floor_4_full_size:
+  id: 313
+  label: rubenstein_floor_4_full_size
+  image_url: floorplans/floorplanmap/Rubenstein_FL4_master.png
+
+rubenstein_floor_5_full_size:
+  id: 315
+  label: rubenstein_floor_5_full_size
+  image_url: floorplans/floorplanmap/Rubenstein_FL5_master.png
 
